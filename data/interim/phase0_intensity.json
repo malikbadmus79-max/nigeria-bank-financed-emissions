@@ -1,0 +1,69 @@
+[
+ {
+  "doc_type": "intensity_source",
+  "symbol": "",
+  "bank": "",
+  "year": "",
+  "source_key": "unfccc_btr1",
+  "url": "https://unfccc.int/sites/default/files/resource/Nigeria%20BTR1%20.pdf",
+  "checked_utc": "2026-11-03T13:47:45Z",
+  "download_attempts": "ok (local copy)",
+  "local_path": "data/raw/intensity/Nigeria_BTR1.pdf",
+  "file_size_bytes": 3125927,
+  "sha256": "c6f1f9b25bd5032ab8f4cad0f055c8d028a218316d4853ffbe5f0d5292bdf3b8",
+  "n_pages": 134
+ },
+ {
+  "doc_type": "intensity_source",
+  "symbol": "",
+  "bank": "",
+  "year": "",
+  "source_key": "unfccc_btr1_nid",
+  "url": "https://unfccc.int/sites/default/files/resource/Nigeria%20BTR1%20NID%202024.pdf",
+  "checked_utc": "2026-11-03T13:47:47Z",
+  "download_attempts": "ok",
+  "local_path": "data/raw/intensity/Nigeria_BTR1_NID_2024.pdf",
+  "file_size_bytes": 21001704,
+  "sha256": "689830c95871a407d9a8177851c425ce174d9aa7e9f83615926d874deb6d1fe6",
+  "n_pages": 265
+ },
+ {
+  "doc_type": "intensity_source",
+  "symbol": "",
+  "bank": "",
+  "year": "",
+  "source_key": "nbs_rebased_gdp",
+  "url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/147/download/1256",
+  "checked_utc": "2026-11-03T13:55:41Z",
+  "download_attempts": "ok (local copy)",
+  "local_path": "data/raw/intensity/nbs_microdata_147_1256.pdf",
+  "file_size_bytes": 655244,
+  "sha256": "a2b9b0fd0bfcedb83beee43a2f5ec1466084d2d6af1b56817f3b3a1a5c9f3d24",
+  "n_pages": 15
+ },
+ {
+  "doc_type": "intensity_source",
+  "symbol": "",
+  "bank": "",
+  "year": "",
+  "source_key": "climate_watch_api",
+  "url": "https://www.climatewatchdata.org/api/v1/data/historical_emissions",
+  "checked_utc": "2026-11-03T13:55:42Z",
+  "download_attempts": "ok",
+  "coverage": "{\"Climate Watch\": {\"rows\": 57, \"first_year\": 1990, \"last_year\": 2023, \"sectors\": [\"Agriculture\", \"Building\", \"Bunker Fuels\", \"Electricity/Heat\", \"Energy\", \"Fugitive Emissions\", \"Industrial Processes\", \"Land Use, Land-Use Change and Forestry\", \"Manufacturing/Construction\", \"Other Fuel Combustion\", \"Total excluding LULUCF\", \"Total including LULUCF\", \"Transportation\", \"Waste\"]}, \"PIK\": {\"rows\": 24, \"first_year\": 1850, \"last_year\": 2024, \"sectors\": [\"Agriculture\", \"Energy\", \"Industrial Processes and Product Use\", \"Other\", \"Total excluding LULUCF\", \"Waste\"]}, \"UNFCCC_AI\": {\"rows\": 0, \"first_year\": null, \"last_year\": null, \"sectors\": []}, \"UNFCCC_NAI\": {\"rows\": 25, \"first_year\": 1994, \"last_year\": 2000, \"sectors\": [\"Agriculture\", \"Energy\", \"Industrial Processes\", \"Land-Use Change and Forestry\", \"Total GHG emissions excluding LULUCF/LUCF\", \"Total GHG emissions including LULUCF/LUCF\", \"Waste\"]}, \"GCP\": {\"rows\": 6, \"first_year\": 1960, \"last_year\": 2024, \"sectors\": [\"Cement\", \"Coal\", \"Gas\", \"Gas flaring\", \"Oil\", \"Total fossil fuels and cement\"]}, \"US\": {\"rows\": 0, \"first_year\": null, \"last_year\": null, \"sectors\": []}}"
+ },
+ {
+  "doc_type": "intensity_source",
+  "symbol": "",
+  "bank": "",
+  "year": "",
+  "source_key": "pcaf_database_sheet",
+  "url": "https://carbonaccountingfinancials.com/files/database/PCAF-2025Database-2Pager-R2.pdf",
+  "checked_utc": "2026-11-03T13:56:10Z",
+  "download_attempts": "ok (local copy)",
+  "local_path": "data/raw/intensity/PCAF-2025Database-2Pager-R2.pdf",
+  "file_size_bytes": 204932,
+  "sha256": "0359ce8c9dc70b9cd91ebbd9e0340b26a404a770687f974b8a3f23061ae5682b",
+  "n_pages": 2
+ }
+]

@@ -1,0 +1,447 @@
+[
+ {
+  "symbol": "ACCESSCORP",
+  "year": 2023,
+  "page": 233,
+  "units": "millions of naira",
+  "basis": "gross loans and advances to customers, group",
+  "csv": "data/interim/extraction_test_ACCESSCORP_2023.csv",
+  "n_sector_rows": 24,
+  "notes": [],
+  "text_chars_on_page": 1849,
+  "checks": [
+   {
+    "column": "group_2023",
+    "sum_of_sectors": 8194215.0,
+    "table_total": 8194213.0,
+    "sum_equals_table_total": false,
+    "difference": 2.0,
+    "total_found_on_other_pages": [
+     {
+      "page": 358,
+      "context": "7,221,608 / Less allowance for expected credit loss (127,143) / 7,094,465 / Loans and advances to customers (Individual and corporate entities and other organisations) 8,194,213"
+     }
+    ]
+   },
+   {
+    "column": "group_2022",
+    "sum_of_sectors": 5199750.0,
+    "table_total": 5199752.0,
+    "sum_equals_table_total": false,
+    "difference": -2.0,
+    "total_found_on_other_pages": []
+   }
+  ],
+  "camelot_stream": {
+   "ok": true,
+   "n_tables": 2,
+   "shapes": [
+    [
+     8,
+     2
+    ],
+    [
+     28,
+     5
+    ]
+   ],
+   "largest_table_head": [
+    [
+     "5.1.2",
+     "Gross loans and advances to customers per sector is as analysed follows:",
+     "",
+     "",
+     ""
+    ],
+    [
+     "In millions of Naira",
+     "Group",
+     "Group",
+     "Company",
+     "Group"
+    ],
+    [
+     "",
+     "December",
+     "December",
+     "December",
+     "December"
+    ],
+    [
+     "",
+     "2023",
+     "2022",
+     "2023",
+     "2022"
+    ],
+    [
+     "Agriculture",
+     "96,308",
+     "57,578",
+     "-",
+     "-"
+    ],
+    [
+     "Construction",
+     "659,880",
+     "388,368",
+     "-",
+     "-"
+    ],
+    [
+     "Education",
+     "7,827",
+     "2,082",
+     "-",
+     "-"
+    ],
+    [
+     "Finance and insurance",
+     "171,034",
+     "146,689",
+     "-",
+     "-"
+    ]
+   ]
+  }
+ },
+ {
+  "symbol": "ZENITHBANK",
+  "year": 2023,
+  "page": 84,
+  "units": "millions of naira",
+  "basis": "gross loans, impairment allowance and carrying amount, group and bank, 31 Dec 2023",
+  "csv": "data/interim/extraction_test_ZENITHBANK_2023.csv",
+  "n_sector_rows": 12,
+  "notes": [],
+  "text_chars_on_page": 2451,
+  "checks": [
+   {
+    "column": "group_gross",
+    "sum_of_sectors": 7055447.0,
+    "table_total": 7055447.0,
+    "sum_equals_table_total": true,
+    "difference": 0.0,
+    "total_found_on_other_pages": [
+     {
+      "page": 73,
+      "context": "fixed and floating assets / 2,533,204 2,270,506 2,203,420 1,928,631 / Unsecured 4,058,365 - 3,876,153 - / Total Gross amount 7,055,447 5,494,698 6,412,979 2,064,506"
+     },
+     {
+      "page": 83,
+      "context": "North East Nigeria 167,680 (7,356) 160,324 167,680 (7,356) 160,324 / Rest of Africa 309,739 (9,790) 299,949 - - - / Outside Africa 152,094 (2,836) 149,258 - - - / 7,055,447 (498,977) 6,556,470 6,412,979 (484,183) 5,928,796"
+     },
+     {
+      "page": 86,
+      "context": "12 months ECL 3,522,061 348,801 443,581 4,314,443 / Lifetime ECL not credit impaired 1,556,619 658,239 215,799 2,430,657 / Lifetime ECL credit impaired 212,856 91,663 5,827 310,347 / Gross loans and advances 5,291,536 1,098,703 665,208 7,055,447"
+     },
+     {
+      "page": 97,
+      "context": "movements / 3,766 325 (1,420) 2,671 (1,049) 354 540 (155) / Closing balance 47,128 170,812 281,041 498,981 29,500 35,370 45,390 110,260 / Gross amount 4,314,443 2,430,657 310,347 7,055,447 3,139,107 905,393 79,465 4,123,965"
+     },
+     {
+      "page": 171,
+      "context": "Overdraft 1,098,703 450,649 1,032,834 427,453 / Term Loans 5,291,536 2,982,808 4,714,937 2,720,843 / On Lending Facilities 665,208 690,509 665,208 690,509 / Gross loans and advances to customers 7,055,447 4,123,966 6,412,979 3,838,805"
+     }
+    ]
+   },
+   {
+    "column": "group_impairment",
+    "sum_of_sectors": -498977.0,
+    "table_total": -498977.0,
+    "sum_equals_table_total": true,
+    "difference": 0.0,
+    "total_found_on_other_pages": [
+     {
+      "page": 73,
+      "context": "2,533,204 2,270,506 2,203,420 1,928,631 / Unsecured 4,058,365 - 3,876,153 - / Total Gross amount 7,055,447 5,494,698 6,412,979 2,064,506 / ECL Allowance (498,977) - (484,183) -"
+     },
+     {
+      "page": 83,
+      "context": "North East Nigeria 167,680 (7,356) 160,324 167,680 (7,356) 160,324 / Rest of Africa 309,739 (9,790) 299,949 - - - / Outside Africa 152,094 (2,836) 149,258 - - - / 7,055,447 (498,977) 6,556,470 6,412,979 (484,183) 5,928,796"
+     },
+     {
+      "page": 86,
+      "context": "12 - months ECL 36,667 4,825 5,855 47,347 - - / Lifetime ECL not credit impaired 98,041 45,879 27,160 171,080 / Lifetime ECL credit impaired 201,712 74,554 4,285 280,550 / Total allowances for impairment 336,420 125,258 37,299 498,977"
+     },
+     {
+      "page": 171,
+      "context": "Term Loans 5,291,536 2,982,808 4,714,937 2,720,843 / On Lending Facilities 665,208 690,509 665,208 690,509 / Gross loans and advances to customers 7,055,447 4,123,966 6,412,979 3,838,805 / Less: ECL Allowance (see note 3.2.18) (498,977) (110,261) (484,183) (103,129)"
+     }
+    ]
+   },
+   {
+    "column": "group_carrying",
+    "sum_of_sectors": 6556470.0,
+    "table_total": 6556470.0,
+    "sum_equals_table_total": true,
+    "difference": 0.0,
+    "total_found_on_other_pages": [
+     {
+      "page": 41,
+      "context": "Assets pledged as collateral 17 308,638 254,663 255,061 254,565 / Due from other banks 18 1,834,314 1,302,811 1,691,722 1,132,796 / Derivative assets 19 534,739 49,874 507,942 48,851 / Loans and advances 20 6,556,470 4,013,705 5,928,796 3,735,676"
+     },
+     {
+      "page": 73,
+      "context": "Unsecured 4,058,365 - 3,876,153 - / Total Gross amount 7,055,447 5,494,698 6,412,979 2,064,506 / ECL Allowance (498,977) - (484,183) - / Net carrying amount 6,556,470 5,494,698 5,928,796 2,064,506"
+     },
+     {
+      "page": 81,
+      "context": "- Treasury bills 1,986,667 1,780,360 / - Investment in securities 1,521,682 970,157 / - Assets pledged as collateral 308,638 255,061 / - Loans and advances to customers 6,556,470 5,928,796"
+     },
+     {
+      "page": 83,
+      "context": "North East Nigeria 167,680 (7,356) 160,324 167,680 (7,356) 160,324 / Rest of Africa 309,739 (9,790) 299,949 - - - / Outside Africa 152,094 (2,836) 149,258 - - - / 7,055,447 (498,977) 6,556,470 6,412,979 (484,183) 5,928,796"
+     },
+     {
+      "page": 86,
+      "context": "Lifetime ECL not credit impaired 98,041 45,879 27,160 171,080 / Lifetime ECL credit impaired 201,712 74,554 4,285 280,550 / Total allowances for impairment 336,420 125,258 37,299 498,977 / Net loans and advances 4,955,116 973,445 627,909 6,556,470"
+     },
+     {
+      "page": 118,
+      "context": "Derivative Asset -Non Hedging / Instrument / 19 72,363 72,363 - 29,822 29,822 - / Loans and advances 20 6,556,470 - 6,556,470 4,013,705 - 4,013,705"
+     },
+     {
+      "page": 120,
+      "context": "Derivative assets-non hedging / instruments / 45,640 24,643 2,005 20 55 72,363 / Loans and advances to customers 2,950,511 3,186,826 53,878 181,007 184,248 6,556,470"
+     },
+     {
+      "page": 128,
+      "context": "Due from other banks 18 1,834,314 262,729 1,571,585 / Derivative Asset - Hedging Instrument 42 462,376 - 462,376 / Derivative Asset -Non Hedging Instrument 42 72,363 - 72,363 / Loans and advances to customers 20 6,556,470 2,078,232 4,478,238"
+     },
+     {
+      "page": 139,
+      "context": "Treasury bills 16 - 2,736,273 2,736,273 - 2,246,540 2,246,540 / Assets pledged as collateral 17 308,638 - 308,638 254,662 - 254,662 / Due from other banks 18 354,150 1,480,164 1,834,314 115,315 1,187,496 1,302,811 / Loans and advances 20 - 6,556,470 6,556,470 1,770 4,011,935 4,013,705"
+     },
+     {
+      "page": 140,
+      "context": "Treasury bills 16 727,947 360,019 590,643 1,197,269 - 2,875,878 2,736,273 / Assets pledged as collateral 17 6,785 1,015 17,269 105,741 401,200 532,009 308,638 / Due from other banks 18 1,694,780 123,941 13,353 5,891 - 1,837,965 1,834,314 / Loans and advances to customers 20 1,190,084 808,188 1,400,5"
+     }
+    ]
+   },
+   {
+    "column": "bank_gross",
+    "sum_of_sectors": 6412979.0,
+    "table_total": 6412979.0,
+    "sum_equals_table_total": true,
+    "difference": 0.0,
+    "total_found_on_other_pages": [
+     {
+      "page": 73,
+      "context": "fixed and floating assets / 2,533,204 2,270,506 2,203,420 1,928,631 / Unsecured 4,058,365 - 3,876,153 - / Total Gross amount 7,055,447 5,494,698 6,412,979 2,064,506"
+     },
+     {
+      "page": 75,
+      "context": "Equities 1,788 4,789 2,622 9,199 / Cash Collateral, lien over fixed and floating assets 1,372,755 180,759 375,117 1,928,631 / Grand total: Fair value of collateral 1,457,997 213,586 392,923 2,064,506 / Grand total: Gross loans 4,714,937 1,032,834 665,208 6,412,979"
+     },
+     {
+      "page": 83,
+      "context": "North East Nigeria 167,680 (7,356) 160,324 167,680 (7,356) 160,324 / Rest of Africa 309,739 (9,790) 299,949 - - - / Outside Africa 152,094 (2,836) 149,258 - - - / 7,055,447 (498,977) 6,556,470 6,412,979 (484,183) 5,928,796"
+     },
+     {
+      "page": 87,
+      "context": "12 months ECL 2,952,899 284,365 443,582 3,680,846 / Lifetime ECL not credit impaired 1,549,326 658,190 215,799 2,423,315 / Lifetime ECL credit impaired 212,712 90,279 5,827 308,818 / Gross loans and advances 4,714,937 1,032,834 665,208 6,412,979"
+     },
+     {
+      "page": 102,
+      "context": "movements / - - - - / Closing balance 34,738 170,709 278,736 484,183 25,269 34,341 43,520 103,130 / Gross amount 3,680,845 2,423,315 308,819 6,412,979 2,862,479 899,746 76,580 3,838,805"
+     },
+     {
+      "page": 114,
+      "context": "Loans and advances / to customers at / amortised cost / 3,680,845 2,423,315 308,819 6,412,979 34,738 170,709 278,736 484,183 0.01 0.07 0.90 7.55"
+     },
+     {
+      "page": 156,
+      "context": "respond to 10% decrease and increase in macro-variables. / 31 December 2023 / In millions of Naira 10% increase No change 10% decrease / Gross loans balance 6,412,979 6,412,979 6,412,979"
+     },
+     {
+      "page": 171,
+      "context": "Overdraft 1,098,703 450,649 1,032,834 427,453 / Term Loans 5,291,536 2,982,808 4,714,937 2,720,843 / On Lending Facilities 665,208 690,509 665,208 690,509 / Gross loans and advances to customers 7,055,447 4,123,966 6,412,979 3,838,805"
+     }
+    ]
+   },
+   {
+    "column": "bank_impairment",
+    "sum_of_sectors": -484183.0,
+    "table_total": -484183.0,
+    "sum_equals_table_total": true,
+    "difference": 0.0,
+    "total_found_on_other_pages": [
+     {
+      "page": 73,
+      "context": "2,533,204 2,270,506 2,203,420 1,928,631 / Unsecured 4,058,365 - 3,876,153 - / Total Gross amount 7,055,447 5,494,698 6,412,979 2,064,506 / ECL Allowance (498,977) - (484,183) -"
+     },
+     {
+      "page": 75,
+      "context": "Cash Collateral, lien over fixed and floating assets 1,372,755 180,759 375,117 1,928,631 / Grand total: Fair value of collateral 1,457,997 213,586 392,923 2,064,506 / Grand total: Gross loans 4,714,937 1,032,834 665,208 6,412,979 / Grand total: ECL Allowance (326,300) (120,584) (37,299) (484,183)"
+     },
+     {
+      "page": 83,
+      "context": "North East Nigeria 167,680 (7,356) 160,324 167,680 (7,356) 160,324 / Rest of Africa 309,739 (9,790) 299,949 - - - / Outside Africa 152,094 (2,836) 149,258 - - - / 7,055,447 (498,977) 6,556,470 6,412,979 (484,183) 5,928,796"
+     },
+     {
+      "page": 87,
+      "context": "12 - months ECL (26,960) (1,924) (5,855) (34,739) - - / Lifetime ECL not credit impaired (97,680) (45,871) (27,159) (170,710) / Lifetime ECL credit impaired (201,660) (72,789) (4,285) (278,734) / Total allowances for impairment (326,300) (120,584) (37,299) (484,183)"
+     },
+     {
+      "page": 102,
+      "context": "Foreign exchange and other / movements / - - - - / Closing balance 34,738 170,709 278,736 484,183 25,269 34,341 43,520 103,130"
+     },
+     {
+      "page": 114,
+      "context": "Loans and advances / to customers at / amortised cost / 3,680,845 2,423,315 308,819 6,412,979 34,738 170,709 278,736 484,183 0.01 0.07 0.90 7.55"
+     },
+     {
+      "page": 156,
+      "context": "31 December 2023 / In millions of Naira 10% increase No change 10% decrease / Gross loans balance 6,412,979 6,412,979 6,412,979 / Loss allowance 459,318 484,183 504,464"
+     },
+     {
+      "page": 171,
+      "context": "Term Loans 5,291,536 2,982,808 4,714,937 2,720,843 / On Lending Facilities 665,208 690,509 665,208 690,509 / Gross loans and advances to customers 7,055,447 4,123,966 6,412,979 3,838,805 / Less: ECL Allowance (see note 3.2.18) (498,977) (110,261) (484,183) (103,129)"
+     },
+     {
+      "page": 205,
+      "context": "12 months ECL credit 34,739 25,268 / Life time ECL not impaired 170,708 34,341 / Life time ECL credit impaired 278,736 43,518 / (b) 484,183 103,127"
+     }
+    ]
+   },
+   {
+    "column": "bank_carrying",
+    "sum_of_sectors": 5928796.0,
+    "table_total": 5928796.0,
+    "sum_equals_table_total": true,
+    "difference": 0.0,
+    "total_found_on_other_pages": [
+     {
+      "page": 41,
+      "context": "Assets pledged as collateral 17 308,638 254,663 255,061 254,565 / Due from other banks 18 1,834,314 1,302,811 1,691,722 1,132,796 / Derivative assets 19 534,739 49,874 507,942 48,851 / Loans and advances 20 6,556,470 4,013,705 5,928,796 3,735,676"
+     },
+     {
+      "page": 73,
+      "context": "Unsecured 4,058,365 - 3,876,153 - / Total Gross amount 7,055,447 5,494,698 6,412,979 2,064,506 / ECL Allowance (498,977) - (484,183) - / Net carrying amount 6,556,470 5,494,698 5,928,796 2,064,506"
+     },
+     {
+      "page": 75,
+      "context": "Grand total: Fair value of collateral 1,457,997 213,586 392,923 2,064,506 / Grand total: Gross loans 4,714,937 1,032,834 665,208 6,412,979 / Grand total: ECL Allowance (326,300) (120,584) (37,299) (484,183) / Grand total: Net amount 4,388,637 912,250 627,909 5,928,796"
+     },
+     {
+      "page": 81,
+      "context": "- Treasury bills 1,986,667 1,780,360 / - Investment in securities 1,521,682 970,157 / - Assets pledged as collateral 308,638 255,061 / - Loans and advances to customers 6,556,470 5,928,796"
+     },
+     {
+      "page": 83,
+      "context": "North East Nigeria 167,680 (7,356) 160,324 167,680 (7,356) 160,324 / Rest of Africa 309,739 (9,790) 299,949 - - - / Outside Africa 152,094 (2,836) 149,258 - - - / 7,055,447 (498,977) 6,556,470 6,412,979 (484,183) 5,928,796"
+     },
+     {
+      "page": 87,
+      "context": "Lifetime ECL not credit impaired (97,680) (45,871) (27,159) (170,710) / Lifetime ECL credit impaired (201,660) (72,789) (4,285) (278,734) / Total allowances for impairment (326,300) (120,584) (37,299) (484,183) / Net loans and advances 4,388,637 912,250 627,909 5,928,796"
+     },
+     {
+      "page": 118,
+      "context": "Derivative Asset -Non Hedging / Instrument / 19 45,566 45,566 - 28,799 28,799 - / Loans and advances 20 5,928,796 - 5,928,796 3,735,676 - 3,735,676"
+     },
+     {
+      "page": 122,
+      "context": "Derivative assets-non hedging / instruments / 45,565 - - 1 - 45,566 / Loans and advances to customers 2,950,400 2,885,201 2,743 88,369 2,083 5,928,796"
+     },
+     {
+      "page": 131,
+      "context": "Due from other banks 18 1,691,722 - 1,691,722 / Derivative Asset - Hedging Instrument 19 462,376 - 462,376 / Derivative Asset -Non Hedging Instrument 19 45,566 - 45,566 / Loans and advances to customers 20 5,928,796 1,407,917 4,520,879"
+     },
+     {
+      "page": 139,
+      "context": "Treasury bills 16 - 2,529,966 2,529,966 - 2,206,669 2,206,669 / Assets pledged as collateral 17 255,061 - 255,061 254,564 - 254,564 / Due from other banks 18 291,279 1,400,443 1,691,722 115,315 1,017,481 1,132,796 / Loans and advances 20 - 5,928,796 5,928,796 - 3,735,676 3,735,676"
+     }
+    ]
+   }
+  ],
+  "camelot_stream": {
+   "ok": true,
+   "n_tables": 2,
+   "shapes": [
+    [
+     18,
+     7
+    ],
+    [
+     16,
+     7
+    ]
+   ],
+   "largest_table_head": [
+    [
+     "31 December 2023",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "In millions of Naira",
+     "",
+     "Group",
+     "",
+     "",
+     "Bank",
+     ""
+    ],
+    [
+     "",
+     "",
+     "Loans and advances to customers",
+     "",
+     "",
+     "Loans and advances to customers",
+     ""
+    ],
+    [
+     "",
+     "Gross",
+     "Impairment",
+     "Carrying",
+     "Gross loans",
+     "Impairment",
+     "Carrying"
+    ],
+    [
+     "",
+     "loans",
+     "allowance",
+     "amount",
+     "",
+     "allowance",
+     "amount"
+    ],
+    [
+     "Agriculture",
+     "337,124",
+     "(6,566)",
+     "330,558",
+     "328,984",
+     "(6,243)",
+     "322,741"
+    ],
+    [
+     "Oil and gas",
+     "2,111,589",
+     "(175,455)",
+     "1,936,134",
+     "2,109,033",
+     "(175,343)",
+     "1,933,690"
+    ],
+    [
+     "Consumer Credit",
+     "148,642",
+     "(28,439)",
+     "120,203",
+     "126,491",
+     "(27,604)",
+     "98,887"
+    ]
+   ]
+  }
+ }
+]

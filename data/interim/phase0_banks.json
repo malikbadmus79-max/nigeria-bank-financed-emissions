@@ -1,0 +1,152 @@
+{
+ "checked_utc": "2026-11-03T13:29:22Z",
+ "directory_file": "data/raw/ngx/ngx_company_directory_2026-11-03.json",
+ "directory_sha256": "29de5132b6b7f095c18f51d92083f72ef582b2cfce0949be254998c43ecfa1db",
+ "directory_records": 151,
+ "banking_subsector_not_in_registry": [],
+ "banks": [
+  {
+   "symbol": "ACCESSCORP",
+   "name_in_registry": "Access Holdings Plc",
+   "listed_on_ngx_directory": true,
+   "ngx_company_name": "ACCESS HOLDINGS PLC",
+   "ngx_subsector": "Other Financial Institutions",
+   "ngx_board": "Premium Board",
+   "ngx_date_listed": "2022-03-28",
+   "ngx_nature_of_business": "PROVISION OF BANKING AND OTHER FINANCIAL SERVICES TO CORPORATE AND INDIVIDUAL CUSTOMERS",
+   "ngx_website": "theaccesscorporation.com"
+  },
+  {
+   "symbol": "ZENITHBANK",
+   "name_in_registry": "Zenith Bank Plc",
+   "listed_on_ngx_directory": true,
+   "ngx_company_name": "ZENITH BANK PLC",
+   "ngx_subsector": "Banking",
+   "ngx_board": "Premium Board",
+   "ngx_date_listed": "2004-10-21",
+   "ngx_nature_of_business": "Commercial Banking",
+   "ngx_website": "www.zenithbank.com | SWIFT:ZEIBNGLA"
+  },
+  {
+   "symbol": "GTCO",
+   "name_in_registry": "Guaranty Trust Holding Company Plc",
+   "listed_on_ngx_directory": true,
+   "ngx_company_name": "GUARANTY TRUST HOLDING COMPANY PLC",
+   "ngx_subsector": "Banking",
+   "ngx_board": "Main Board",
+   "ngx_date_listed": "2021-06-24",
+   "ngx_nature_of_business": "FINANCIAL HOLDING COMPANY",
+   "ngx_website": ""
+  },
+  {
+   "symbol": "UBA",
+   "name_in_registry": "United Bank for Africa Plc",
+   "listed_on_ngx_directory": true,
+   "ngx_company_name": "UNITED BANK FOR AFRICA PLC",
+   "ngx_subsector": "Banking",
+   "ngx_board": "Premium Board",
+   "ngx_date_listed": "1970-03-31",
+   "ngx_nature_of_business": "Commercial Banking",
+   "ngx_website": "www.ubagroup.com"
+  },
+  {
+   "symbol": "FIRSTHOLDCO",
+   "name_in_registry": "First HoldCo Plc",
+   "listed_on_ngx_directory": true,
+   "ngx_company_name": "FIRST HOLDCO PLC",
+   "ngx_subsector": "Other Financial Institutions",
+   "ngx_board": "Premium Board",
+   "ngx_date_listed": "2012-11-26",
+   "ngx_nature_of_business": "Provision of Banking and Other Financial Services to corporate and Individual customers",
+   "ngx_website": "http://www.first-holdco.com"
+  },
+  {
+   "symbol": "FIDELITYBK",
+   "name_in_registry": "Fidelity Bank Plc",
+   "listed_on_ngx_directory": true,
+   "ngx_company_name": "FIDELITY BANK PLC",
+   "ngx_subsector": "Banking",
+   "ngx_board": "Main Board",
+   "ngx_date_listed": "2005-05-17",
+   "ngx_nature_of_business": "Commercial Banking",
+   "ngx_website": "www.fidelitybank.ng"
+  },
+  {
+   "symbol": "FCMB",
+   "name_in_registry": "FCMB Group Plc",
+   "listed_on_ngx_directory": true,
+   "ngx_company_name": "FCMB GROUP PLC.",
+   "ngx_subsector": "Other Financial Institutions",
+   "ngx_board": "Main Board",
+   "ngx_date_listed": "2013-06-21",
+   "ngx_nature_of_business": "Provision of banking and other financial services to corporate and individual customers",
+   "ngx_website": "www.fcmb.com"
+  },
+  {
+   "symbol": "STANBIC",
+   "name_in_registry": "Stanbic IBTC Holdings Plc",
+   "listed_on_ngx_directory": true,
+   "ngx_company_name": "STANBIC IBTC  HOLDINGS PLC",
+   "ngx_subsector": "Other Financial Institutions",
+   "ngx_board": "Main Board",
+   "ngx_date_listed": "2012-11-23",
+   "ngx_nature_of_business": "Financial Services",
+   "ngx_website": "www.stanbicibtc.com"
+  },
+  {
+   "symbol": "STERLINGNG",
+   "name_in_registry": "Sterling Financial Holdings Company Plc",
+   "listed_on_ngx_directory": true,
+   "ngx_company_name": "STERLING FINANCIAL HOLDINGS COMPANY PLC",
+   "ngx_subsector": "Banking",
+   "ngx_board": "Main Board",
+   "ngx_date_listed": "2023-04-06",
+   "ngx_nature_of_business": "FINANCIAL HOLDING COMPANY",
+   "ngx_website": "www.sterling.ng"
+  },
+  {
+   "symbol": "WEMABANK",
+   "name_in_registry": "Wema Bank Plc",
+   "listed_on_ngx_directory": true,
+   "ngx_company_name": "WEMA BANK PLC.",
+   "ngx_subsector": "Banking",
+   "ngx_board": "Main Board",
+   "ngx_date_listed": "",
+   "ngx_nature_of_business": "Commercial Banking",
+   "ngx_website": "www.wemabank.com"
+  },
+  {
+   "symbol": "UNITYBNK",
+   "name_in_registry": "Unity Bank Plc",
+   "listed_on_ngx_directory": true,
+   "ngx_company_name": "UNITY BANK PLC",
+   "ngx_subsector": "Banking",
+   "ngx_board": "Main Board",
+   "ngx_date_listed": "",
+   "ngx_nature_of_business": "Commercial Banking",
+   "ngx_website": "www.unitybankng.com"
+  },
+  {
+   "symbol": "JAIZBANK",
+   "name_in_registry": "Jaiz Bank Plc",
+   "listed_on_ngx_directory": true,
+   "ngx_company_name": "JAIZ BANK PLC",
+   "ngx_subsector": "Banking",
+   "ngx_board": "NON-INTEREST FINANCE BOARD",
+   "ngx_date_listed": "",
+   "ngx_nature_of_business": "BANKING",
+   "ngx_website": "www.jaizbankplc.com"
+  },
+  {
+   "symbol": "ETI",
+   "name_in_registry": "Ecobank Transnational Incorporated",
+   "listed_on_ngx_directory": true,
+   "ngx_company_name": "ECOBANK TRANSNATIONAL INCORPORATED",
+   "ngx_subsector": "Banking",
+   "ngx_board": "Main Board",
+   "ngx_date_listed": "2006-09-11",
+   "ngx_nature_of_business": "Provision of Banking and Financial Services through its subsidiaries and affiliates",
+   "ngx_website": "www.ecobank.com"
+  }
+ ]
+}

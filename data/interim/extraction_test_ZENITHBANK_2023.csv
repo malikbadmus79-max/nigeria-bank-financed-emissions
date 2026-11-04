@@ -1,0 +1,13 @@
+symbol,year,page,sector,group_gross,group_impairment,group_carrying,bank_gross,bank_impairment,bank_carrying,units
+ZENITHBANK,2023,84,Agriculture,337124.0,-6566.0,330558.0,328984.0,-6243.0,322741.0,millions of naira
+ZENITHBANK,2023,84,Oil and gas,2111589.0,-175455.0,1936134.0,2109033.0,-175343.0,1933690.0,millions of naira
+ZENITHBANK,2023,84,Consumer Credit,148642.0,-28439.0,120203.0,126491.0,-27604.0,98887.0,millions of naira
+ZENITHBANK,2023,84,Manufacturing,1598503.0,-157354.0,1441149.0,1520684.0,-154544.0,1366140.0,millions of naira
+ZENITHBANK,2023,84,Real estate and construction,258090.0,-14077.0,244013.0,198922.0,-12173.0,186749.0,millions of naira
+ZENITHBANK,2023,84,Finance and insurance,153750.0,-2608.0,151142.0,43032.0,-339.0,42693.0,millions of naira
+ZENITHBANK,2023,84,Government,875619.0,-30322.0,845297.0,785577.0,-29535.0,756042.0,millions of naira
+ZENITHBANK,2023,84,Power,124580.0,-9389.0,115191.0,124580.0,-9389.0,115191.0,millions of naira
+ZENITHBANK,2023,84,Transportation,150809.0,-18448.0,132361.0,129314.0,-17617.0,111697.0,millions of naira
+ZENITHBANK,2023,84,Communication,108612.0,-461.0,108151.0,100876.0,-218.0,100658.0,millions of naira
+ZENITHBANK,2023,84,Education,31547.0,-521.0,31026.0,26455.0,-316.0,26139.0,millions of naira
+ZENITHBANK,2023,84,General Commerce,1156582.0,-55337.0,1101245.0,919031.0,-50862.0,868169.0,millions of naira

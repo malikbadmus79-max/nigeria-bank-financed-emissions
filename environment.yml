@@ -1,0 +1,16 @@
+name: nigeria-bank-emissions
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - pdfplumber
+  - camelot-py
+  - pypdf
+  - requests
+  - openpyxl
+  - matplotlib
+  - statsmodels
+  - pytest
+  - pip

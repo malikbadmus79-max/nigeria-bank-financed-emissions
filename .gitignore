@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.env
+*.log
+
+# Large / copyrighted source files (record URLs and SHA-256 in the source log instead)
+*.pdf
+*.zip
+
+# Raw data: keep only the README
+data/raw/*
+!data/raw/README.md
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
