@@ -1,0 +1,80 @@
+bank,year,levels,source_file,pdf_page,status,detail
+ACCESSCORP,2020,group/gross;bank/gross,data/raw/annual_reports/ACCESSCORP_2020_ir.pdf,230,ok,
+ACCESSCORP,2021,group/gross;bank/gross,data/raw/annual_reports/ACCESSCORP_2021_ir.pdf,219,ok,
+ACCESSCORP,2022,group/gross,data/raw/annual_reports/ACCESSCORP_2022_ir.pdf,224,ok,
+ACCESSCORP,2023,group/gross,data/raw/annual_reports/ACCESSCORP_2023_ir.pdf,233,ok,
+ACCESSCORP,2024,group/gross,data/raw/annual_reports/ACCESSCORP_2024_ir.pdf,209,ok,
+ACCESSCORP,2025,group/gross,data/raw/annual_reports/ACCESSCORP_2025_ir.pdf,199,ok_flagged,"group/gross: rows sum 13,445,227 vs total 13,694,446 (diff -249,219, 22 rows) -- printed inconsistency: PDF p. 199: the table omits the 'Oil And Gas - downstream' row printed in every other year; the 22 printed rows sum to 249,219 below the printed total 13,694,446. The 2024 comparative column is short by 403,684, which equals the downstream row in the FY2024 report (403,683, PDF p. 209), so the gap is the omitted row"
+ZENITHBANK,2020,group/gross;group/carrying;bank/gross;bank/carrying,data/raw/annual_reports/ZENITHBANK_2020_ngx.pdf,80,ok,
+ZENITHBANK,2021,group/gross;group/carrying;bank/gross;bank/carrying,data/raw/annual_reports/ZENITHBANK_2021_ngx.pdf,79,ok,
+ZENITHBANK,2022,group/gross;group/carrying;bank/gross;bank/carrying,data/raw/annual_reports/ZENITHBANK_2022_ngx.pdf,82,ok_flagged,"group/carrying: rows sum 4,013,713 vs total 4,013,705 (diff 8, 12 rows) -- printed inconsistency: PDF p. 82: the printed Group total row is internally inconsistent: gross 4,123,974 less impairment 110,261 is 4,013,713, but the carrying total is printed 4,013,705; the 12 carrying rows sum to 4,013,713 (each row's gross less impairment equals its carrying amount within 1)"
+ZENITHBANK,2023,group/gross;group/carrying;bank/gross;bank/carrying,data/raw/annual_reports/ZENITHBANK_2023_ngx.pdf,84,ok,
+ZENITHBANK,2024,group/gross;group/carrying;bank/gross;bank/carrying,data/raw/annual_reports/ZENITHBANK_2024_ngx.pdf,83,ok,
+ZENITHBANK,2025,group/gross;group/carrying;bank/gross;bank/carrying,data/raw/annual_reports/ZENITHBANK_2025_ngx.pdf,155,ok,
+GTCO,2020,group/gross,data/raw/annual_reports/GTCO_2020_ir.pdf,130,ok,loans rows summed: - Loans to individuals; - Loans to non-individuals | printed total = sum of the Total column over those rows
+GTCO,2021,group/gross,data/raw/annual_reports/GTCO_2021_ir.pdf,135,ok,loans rows summed: - Loans to individuals; - Loans to non-individuals | printed total = sum of the Total column over those rows
+GTCO,2022,group/gross,data/raw/annual_reports/GTCO_2022_ir.pdf,135,ok,loans rows summed: - Loans to individuals; - Loans to non-individuals | printed total = sum of the Total column over those rows
+GTCO,2023,group/gross,data/raw/annual_reports/GTCO_2023_ir.pdf,139,ok,loans rows summed: - Loans to individuals; - Loans to non-individuals | printed total = sum of the Total column over those rows
+GTCO,2024,group/gross,data/raw/annual_reports/GTCO_2024_ir.pdf,174,ok,loans rows summed: - Loans to individuals; - Loans to non-individuals | printed total = sum of the Total column over those rows
+GTCO,2025,group/gross,data/raw/annual_reports/GTCO_2025_ir.pdf,171,ok,loans rows summed: - Loans to individuals; - Loans to non-individuals | printed total = sum of the Total column over those rows
+GTCO,2020,bank/gross,data/raw/annual_reports/GTCO_2020_ir.pdf,134,ok,loans rows summed: - Loans to individuals; - Loans to non-individuals | printed total = sum of the Total column over those rows
+UBA,2020,group/carrying,data/raw/annual_reports/UBA_2020_ngx.pdf,56,ok,loans rows summed: - Overdrafts; - Term loans; - Overdrafts; - Term loans; - Others | printed total = sum of the Total column over those rows
+UBA,2021,group/carrying,data/raw/annual_reports/UBA_2021_ngx.pdf,56,ok,loans rows summed: - Overdrafts; - Term loans; - Overdrafts; - Term loans; - Others | printed total = sum of the Total column over those rows
+UBA,2022,group/carrying,data/raw/annual_reports/UBA_2022_ngx.pdf,63,ok_flagged,"group/carrying: rows sum 3,137,001 vs total 3,136,879 (diff 122, 12 rows) -- printed inconsistency: PDF p. 63: the Group 'Corporates - Others' row prints 11,012 (General Commerce) and blank cells elsewhere against a printed row total of 10,891 (difference 121; the Bank table on p. 64 prints a (121) cell that the Group table omits); text layer matches the rendered page | loans rows summed: - Overdrafts; - Term loans; - Overdrafts; - Term loans; - Others | printed total = sum of the Total column over those rows"
+UBA,2023,group/carrying,data/raw/annual_reports/UBA_2023_ngx.pdf,70,ok,loans rows summed: - Overdrafts; - Term loans; - Overdrafts; - Term loans; - Others | printed total = sum of the Total column over those rows
+UBA,2024,group/carrying,data/raw/annual_reports/UBA_2024_ngx.pdf,70,ok_flagged,"group/carrying: rows sum 7,251,118 vs total 6,954,545 (diff 296,573, 12 rows) -- printed inconsistency: PDF p. 70: the Group 'Corporates - Term loans' row prints sector cells summing to 5,664,102 against a printed row total of 5,367,529 (difference 296,573); text layer matches the rendered page | loans rows summed: - Overdrafts; - Term loans; - Overdrafts; - Term loans; - Others | printed total = sum of the Total column over those rows"
+UBA,2025,group/carrying,data/raw/annual_reports/UBA_2025_ngx.pdf,83,ok,loans rows summed: - Overdrafts; - Term loans; - Overdrafts; - Term loans; - Others | printed total = sum of the Total column over those rows
+UBA,2020,bank/carrying,data/raw/annual_reports/UBA_2020_ngx.pdf,57,ok,loans rows summed: - Overdrafts; - Term loans; - Overdrafts; - Term loans; - Others | printed total = sum of the Total column over those rows
+UBA,2021,bank/carrying,data/raw/annual_reports/UBA_2021_ngx.pdf,57,ok,loans rows summed: - Overdrafts; - Term loans; - Overdrafts; - Term loans; - Others | printed total = sum of the Total column over those rows
+UBA,2022,bank/carrying,data/raw/annual_reports/UBA_2022_ngx.pdf,64,ok,loans rows summed: - Overdrafts; - Term loans; - Overdrafts; - Term loans; - Others | printed total = sum of the Total column over those rows
+UBA,2023,bank/carrying,data/raw/annual_reports/UBA_2023_ngx.pdf,71,ok,loans rows summed: - Overdrafts; - Term loans; - Overdrafts; - Term loans; - Others | printed total = sum of the Total column over those rows
+UBA,2024,bank/carrying,data/raw/annual_reports/UBA_2024_ngx.pdf,71,ok,loans rows summed: - Overdrafts; - Term loans; - Overdrafts; - Term loans; - Others | printed total = sum of the Total column over those rows
+UBA,2025,bank/carrying,data/raw/annual_reports/UBA_2025_ngx.pdf,84,ok,loans rows summed: - Overdrafts; - Term loans; - Overdrafts; - Term loans; - Others | printed total = sum of the Total column over those rows
+FIRSTHOLDCO,2020,group/carrying,data/raw/annual_reports/FIRSTHOLDCO_2020_ngx.pdf,87,ok,"retail portfolio: 13 rows, total 176,413 | corporate portfolio: 13 rows, total 2,040,857"
+FIRSTHOLDCO,2021,group/carrying,data/raw/annual_reports/FIRSTHOLDCO_2021_ngx.pdf,88,ok,"retail portfolio: 13 rows, total 222,005 | corporate portfolio: 13 rows, total 2,659,911"
+FIRSTHOLDCO,2022,group/carrying,data/raw/annual_reports/FIRSTHOLDCO_2022_ngx.pdf,79,ok,"retail portfolio: 13 rows, total 266,549 | corporate portfolio: 13 rows, total 3,662,660"
+FIRSTHOLDCO,2023,group/carrying,data/raw/annual_reports/FIRSTHOLDCO_2023_ngx.pdf,90,ok,"retail portfolio: 13 rows, total 395,001 | corporate portfolio: 13 rows, total 6,238,832"
+FIRSTHOLDCO,2024,group/carrying,data/raw/annual_reports/FIRSTHOLDCO_2024_ngx.pdf,104,ok,"retail portfolio: 14 rows, total 502,946 | corporate portfolio: 15 rows, total 8,760,007"
+FIRSTHOLDCO,2025,group/carrying,data/raw/annual_reports/FIRSTHOLDCO_2025_ir.pdf,193,ok,"retail portfolio: 14 rows, total 487,907 | corporate portfolio: 15 rows, total 8,740,890"
+FIDELITYBK,2020,bank/gross,data/raw/annual_reports/FIDELITYBK_2020_ir.pdf,175,ok,
+FIDELITYBK,2021,bank/gross,data/raw/annual_reports/FIDELITYBK_2021_ir.pdf,91,ok,
+FIDELITYBK,2022,bank/gross,data/raw/annual_reports/FIDELITYBK_2022_ir.pdf,180,ok,
+FIDELITYBK,2023,group/gross,data/raw/annual_reports/FIDELITYBK_2023_ir.pdf,191,ok,
+FIDELITYBK,2024,group/gross,data/raw/annual_reports/FIDELITYBK_2024_ir.pdf,192,ok,
+FIDELITYBK,2025,group/gross,data/raw/annual_reports/FIDELITYBK_2025_ir.pdf,192,ok,
+FIDELITYBK,2023,bank/gross,data/raw/annual_reports/FIDELITYBK_2023_ir.pdf,192,ok,
+FIDELITYBK,2024,bank/gross,data/raw/annual_reports/FIDELITYBK_2024_ir.pdf,194,ok,
+FIDELITYBK,2025,bank/gross,data/raw/annual_reports/FIDELITYBK_2025_ir.pdf,194,ok,
+FCMB,2020,group/gross,data/raw/annual_reports/FCMB_2020_ngx.pdf,77,ok,
+FCMB,2021,group/gross,data/raw/annual_reports/FCMB_2021_ngx.pdf,76,ok,
+FCMB,2022,group/gross,data/raw/annual_reports/FCMB_2022_ngx.pdf,63,ok,
+FCMB,2023,group/gross,data/raw/annual_reports/FCMB_2023_ngx.pdf,70,ok,
+FCMB,2024,group/gross,data/raw/annual_reports/FCMB_2024_ngx.pdf,79,ok,
+FCMB,2025,group/gross,data/raw/annual_reports/FCMB_2025_ngx.pdf,83,ok,
+STANBIC,2020,group/carrying,data/raw/annual_reports/STANBIC_2020_ngx.pdf,142,ok,
+STANBIC,2021,group/carrying,data/raw/annual_reports/STANBIC_2021_ngx.pdf,143,ok,
+STANBIC,2022,group/carrying,data/raw/annual_reports/STANBIC_2022_ngx.pdf,142,ok,
+STANBIC,2023,group/carrying,data/raw/annual_reports/STANBIC_2023_ngx.pdf,158,ok,
+STANBIC,2024,group/carrying,data/raw/annual_reports/STANBIC_2024_ngx.pdf,158,ok,
+STANBIC,2025,group/carrying,data/raw/annual_reports/STANBIC_2025_ngx.pdf,171,ok,
+STERLINGNG,2020,group/not_stated;bank/not_stated,data/raw/annual_reports/STERLINGNG_2020_ngx.pdf,87,ok,
+STERLINGNG,2021,group/not_stated;bank/not_stated,data/raw/annual_reports/STERLINGNG_2021_ngx.pdf,83,ok,
+STERLINGNG,2022,group/not_stated;bank/not_stated,data/raw/annual_reports/STERLINGNG_2022_ir.pdf,186,ok,
+STERLINGNG,2023,group/not_stated,data/raw/annual_reports/STERLINGNG_2023_ir.pdf,203,ok,
+STERLINGNG,2024,group/not_stated,data/raw/annual_reports/STERLINGNG_2024_ir.pdf,234,ok,
+STERLINGNG,2025,group/not_stated,data/raw/annual_reports/STERLINGNG_2025_ir.pdf,175,ok,
+WEMABANK,2020,group/gross;group/carrying;bank/gross;bank/carrying,data/raw/annual_reports/WEMABANK_2020_ngx.pdf,91,ok,
+WEMABANK,2021,group/gross;group/carrying;bank/gross;bank/carrying,data/raw/annual_reports/WEMABANK_2021_ngx.pdf,162,ok,
+WEMABANK,2022,group/gross;group/carrying;bank/gross;bank/carrying,data/raw/annual_reports/WEMABANK_2022_ngx.pdf,152,ok,
+WEMABANK,2023,group/gross;group/carrying;bank/gross;bank/carrying,data/raw/annual_reports/WEMABANK_2023_ngx.pdf,156,ok_flagged,"group/carrying: rows sum 801,469,441 vs total 801,103,117 (diff 366,324, 19 rows) -- printed inconsistency: PDF p. 156: the GENERAL row prints a carrying amount of 105,200,312 although its gross loans (111,868,986) less impairment (7,034,996) are 104,833,990; the 366,322 excess explains the 366,324 gap between the carrying rows and the printed carrying total 801,103,117 (gross and impairment columns reconcile). Same figures in the Group and Bank columns | bank/carrying: rows sum 801,469,441 vs total 801,103,117 (diff 366,324, 19 rows) -- printed inconsistency: PDF p. 156: the GENERAL row prints a carrying amount of 105,200,312 although its gross loans (111,868,986) less impairment (7,034,996"
+WEMABANK,2024,group/gross;group/carrying;bank/gross;bank/carrying,data/raw/annual_reports/WEMABANK_2024_ngx.pdf,152,ok,
+WEMABANK,2025,group/gross;group/carrying;bank/gross;bank/carrying,data/raw/annual_reports/WEMABANK_2025_ngx.pdf,201,ok_flagged,"group/carrying: rows sum 1,730,753,889 vs total 1,737,932,376 (diff -7,178,487, 18 rows) -- printed inconsistency: PDF p. 201: the Group carrying amount of 'Administrative and support service activities' is printed clipped as '7,178,47' (checked on the rendered page); the cell is left empty, so the carrying rows fall short of the printed total by that cell. Group gross and impairment, and the Bank columns, are complete | unreadable printed figure '7,178,47' in row 'ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES' left empty"
+UNITYBNK,2020,bank/gross;bank/carrying,data/raw/annual_reports/UNITYBNK_2020_ngx.pdf,51,ok,
+UNITYBNK,2021,bank/gross;bank/carrying,data/raw/annual_reports/UNITYBNK_2021_ngx.pdf,50,ok,
+UNITYBNK,2022,bank/gross;bank/carrying,data/raw/annual_reports/UNITYBNK_2022_ngx.pdf,52,ok,
+UNITYBNK,2023,bank/gross;bank/carrying,data/raw/annual_reports/UNITYBNK_2023_ngx.pdf,54,ok_flagged,"bank/carrying: rows sum 357,156,543 vs total 357,157,776 (diff -1,233, 12 rows) -- printed inconsistency: PDF p. 54: every row's gross less expected credit loss equals its net amount (within 1), but the printed ECL total 4,656,292 is the column sum without the Transportation ECL of 1,233 (full sum 4,657,526), so the printed net total 357,157,776 exceeds the net rows by 1,233; gross rows reconcile"
+JAIZBANK,2020,bank/not_stated,data/raw/annual_reports/JAIZBANK_2020_ngx.pdf,52,ok,
+JAIZBANK,2021,bank/not_stated,data/raw/annual_reports/JAIZBANK_2021_ngx.pdf,78,ok,
+JAIZBANK,2022,bank/not_stated,data/raw/annual_reports/JAIZBANK_2022_ngx.pdf,98,ok,
+JAIZBANK,2023,bank/not_stated,data/raw/annual_reports/JAIZBANK_2023_ngx.pdf,120,ok,
+JAIZBANK,2025,bank/not_stated,data/raw/annual_reports/JAIZBANK_2025_ngx.pdf,114,ok,
