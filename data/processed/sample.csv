@@ -1,0 +1,79 @@
+bank,year,status,reason,main_level,main_basis,main_level_entity,units_applied,n_categories,main_total_naira,sensitivity_tables,deviation,source_file,pdf_page
+ACCESSCORP,2020,included,,group,gross,group (consolidated),thousands of naira,24.0,3367161264000.0,bank/gross,,data/raw/annual_reports/ACCESSCORP_2020_ir.pdf,230.0
+ACCESSCORP,2021,included,,group,gross,group (consolidated),thousands of naira,24.0,4311263927000.0,bank/gross,,data/raw/annual_reports/ACCESSCORP_2021_ir.pdf,219.0
+ACCESSCORP,2022,included,,group,gross,group (consolidated),millions of naira,24.0,5199750000000.0,,,data/raw/annual_reports/ACCESSCORP_2022_ir.pdf,224.0
+ACCESSCORP,2023,included,,group,gross,group (consolidated),millions of naira,24.0,8194215000000.0,,,data/raw/annual_reports/ACCESSCORP_2023_ir.pdf,233.0
+ACCESSCORP,2024,included (flagged),"no gross loans figure equal to the sector total found elsewhere in the report; the total exceeds net loans in the statement of financial position (11,487,710, p. 146) by 278,382, consistent with an ECL allowance",group,gross,group (consolidated),millions of naira,24.0,11766091000000.0,,,data/raw/annual_reports/ACCESSCORP_2024_ir.pdf,209.0
+ACCESSCORP,2025,included (flagged) (deviation),"PDF p. 199: the table omits the 'Oil And Gas - downstream' row printed in every other year; the 22 printed rows sum to 249,219 below the printed total 13,694,446. The 2024 comparative column is short by 403,684, which equals the downstream row in the FY2024 report (403,683, PDF p. 209), so the gap is the omitted row | no gross loans figure equal to the printed sector total found elsewhere in the report; the total exceeds net loans in the statement of financial position (13,341,190, p. 141) by 353,256",group,gross,group (consolidated),millions of naira,23.0,13694446000000.0,,"residual row: the printed total less the printed sector rows (249,219 million naira, the omitted 'Oil And Gas - downstream' row) is carried as 'unallocated (printed total residual)' (author decision 2026-11-04)",data/raw/annual_reports/ACCESSCORP_2025_ir.pdf,199.0
+ZENITHBANK,2020,included,,group,gross,group (consolidated),millions of naira,12.0,2919342000000.0,bank/carrying;bank/gross;group/carrying,,data/raw/annual_reports/ZENITHBANK_2020_ngx.pdf,80.0
+ZENITHBANK,2021,included,,group,gross,group (consolidated),millions of naira,12.0,3501878000000.0,bank/carrying;bank/gross;group/carrying,,data/raw/annual_reports/ZENITHBANK_2021_ngx.pdf,79.0
+ZENITHBANK,2022,included (flagged),"sector gross total 4,123,974 vs loans-note gross 4,123,966 (p. 72): 8 above, the same excess as in the carrying rows (see the ZENITHBANK 2022 printed-inconsistency note)",group,gross,group (consolidated),millions of naira,12.0,4123975000000.0,bank/carrying;bank/gross;group/carrying,,data/raw/annual_reports/ZENITHBANK_2022_ngx.pdf,82.0
+ZENITHBANK,2023,included,,group,gross,group (consolidated),millions of naira,12.0,7055447000000.0,bank/carrying;bank/gross;group/carrying,,data/raw/annual_reports/ZENITHBANK_2023_ngx.pdf,84.0
+ZENITHBANK,2024,included,,group,gross,group (consolidated),millions of naira,12.0,10993816000000.0,bank/carrying;bank/gross;group/carrying,,data/raw/annual_reports/ZENITHBANK_2024_ngx.pdf,83.0
+ZENITHBANK,2025,included,,group,gross,group (consolidated),millions of naira,12.0,11063867000000.0,bank/carrying;bank/gross;group/carrying,,data/raw/annual_reports/ZENITHBANK_2025_ngx.pdf,155.0
+GTCO,2020,included,,group,carrying,group (consolidated),thousands of naira,11.0,1662731699000.0,bank/carrying,,data/raw/annual_reports/GTCO_2020_ir.pdf,130.0
+GTCO,2021,included,,group,carrying,group (consolidated),thousands of naira,11.0,1802587381000.0,,,data/raw/annual_reports/GTCO_2021_ir.pdf,135.0
+GTCO,2022,included,,group,carrying,group (consolidated),thousands of naira,11.0,1885798639000.0,,,data/raw/annual_reports/GTCO_2022_ir.pdf,135.0
+GTCO,2023,included,,group,carrying,group (consolidated),thousands of naira,11.0,2480183368000.0,,,data/raw/annual_reports/GTCO_2023_ir.pdf,139.0
+GTCO,2024,included,,group,carrying,group (consolidated),thousands of naira,11.0,2785664040000.0,,,data/raw/annual_reports/GTCO_2024_ir.pdf,174.0
+GTCO,2025,included,,group,carrying,group (consolidated),thousands of naira,11.0,3132215466000.0,,,data/raw/annual_reports/GTCO_2025_ir.pdf,171.0
+UBA,2020,included,,group,carrying,group (consolidated),millions of naira,12.0,2554973000000.0,bank/carrying,,data/raw/annual_reports/UBA_2020_ngx.pdf,56.0
+UBA,2021,included,,group,carrying,group (consolidated),millions of naira,12.0,2680666000000.0,bank/carrying,,data/raw/annual_reports/UBA_2021_ngx.pdf,56.0
+UBA,2022,included (flagged),"PDF p. 63: the Group 'Corporates - Others' row prints 11,012 (General Commerce) and blank cells elsewhere against a printed row total of 10,891 (difference 121; the Bank table on p. 64 prints a (121) cell that the Group table omits); text layer matches the rendered page",group,carrying,group (consolidated),millions of naira,12.0,3137001000000.0,bank/carrying,,data/raw/annual_reports/UBA_2022_ngx.pdf,63.0
+UBA,2023,included,,group,carrying,group (consolidated),millions of naira,12.0,5228848000000.0,bank/carrying,,data/raw/annual_reports/UBA_2023_ngx.pdf,70.0
+UBA,2024,included (flagged),"PDF p. 70: the Group 'Corporates - Term loans' row prints sector cells summing to 5,664,102 against a printed row total of 5,367,529 (difference 296,573); text layer matches the rendered page",group,carrying,group (consolidated),millions of naira,12.0,7251118000000.0,bank/carrying,,data/raw/annual_reports/UBA_2024_ngx.pdf,70.0
+UBA,2025,included,,group,carrying,group (consolidated),millions of naira,12.0,7022396000000.0,bank/carrying,,data/raw/annual_reports/UBA_2025_ngx.pdf,83.0
+FIRSTHOLDCO,2020,included,,group,carrying,group (consolidated),millions of naira,13.0,2217270000000.0,,,data/raw/annual_reports/FIRSTHOLDCO_2020_ngx.pdf,87.0
+FIRSTHOLDCO,2021,included,,group,carrying,group (consolidated),millions of naira,13.0,2881917000000.0,,,data/raw/annual_reports/FIRSTHOLDCO_2021_ngx.pdf,88.0
+FIRSTHOLDCO,2022,included,,group,gross,group (consolidated),millions of naira,13.0,3929212000000.0,,,data/raw/annual_reports/FIRSTHOLDCO_2022_ngx.pdf,79.0
+FIRSTHOLDCO,2023,included,,group,gross,group (consolidated),millions of naira,13.0,6633833000000.0,,,data/raw/annual_reports/FIRSTHOLDCO_2023_ngx.pdf,90.0
+FIRSTHOLDCO,2024,included,,group,gross,group (consolidated),millions of naira,15.0,9262953000000.0,,,data/raw/annual_reports/FIRSTHOLDCO_2024_ngx.pdf,104.0
+FIRSTHOLDCO,2025,included,,group,gross,group (consolidated),millions of naira,15.0,9228797000000.0,,,data/raw/annual_reports/FIRSTHOLDCO_2025_ir.pdf,193.0
+FIDELITYBK,2020,included (deviation),,bank,gross,Fidelity Bank Plc,millions of naira,16.0,1393624000000.0,,"bank level: the FY2020-FY2022 filings print one sector table, for Fidelity Bank Plc; Group tables are printed from FY2023, so the main specification (group where printed, plan section 3) changes level in 2023",data/raw/annual_reports/FIDELITYBK_2020_ir.pdf,175.0
+FIDELITYBK,2021,included (deviation),,bank,gross,Fidelity Bank Plc,millions of naira,17.0,1732543000000.0,,"bank level: the FY2020-FY2022 filings print one sector table, for Fidelity Bank Plc; Group tables are printed from FY2023, so the main specification (group where printed, plan section 3) changes level in 2023",data/raw/annual_reports/FIDELITYBK_2021_ir.pdf,91.0
+FIDELITYBK,2022,included (deviation),,bank,gross,Fidelity Bank Plc,millions of naira,17.0,2196761000000.0,,"bank level: the FY2020-FY2022 filings print one sector table, for Fidelity Bank Plc; Group tables are printed from FY2023, so the main specification (group where printed, plan section 3) changes level in 2023",data/raw/annual_reports/FIDELITYBK_2022_ir.pdf,180.0
+FIDELITYBK,2023,included (flagged),"no Group gross figure equal to the sector total found in the FY2023 report (Group net 3,092,419, p. 145); the FY2024 report prints FY2023 Group gross loans as 3,236,389 (43 above)",group,gross,group (consolidated),millions of naira,17.0,3236346000000.0,bank/gross,,data/raw/annual_reports/FIDELITYBK_2023_ir.pdf,191.0
+FIDELITYBK,2024,included,,group,gross,group (consolidated),millions of naira,17.0,4582712000000.0,bank/gross,,data/raw/annual_reports/FIDELITYBK_2024_ir.pdf,192.0
+FIDELITYBK,2025,included,,group,gross,group (consolidated),millions of naira,17.0,4500454000000.0,bank/gross,,data/raw/annual_reports/FIDELITYBK_2025_ir.pdf,192.0
+FCMB,2020,included,,group,gross,group (consolidated),thousands of naira,20.0,869283265000.0,,,data/raw/annual_reports/FCMB_2020_ngx.pdf,77.0
+FCMB,2021,included,,group,gross,group (consolidated),thousands of naira,20.0,1113157620000.0,,,data/raw/annual_reports/FCMB_2021_ngx.pdf,76.0
+FCMB,2022,included,,group,gross,group (consolidated),thousands of naira,21.0,1246739645000.0,,,data/raw/annual_reports/FCMB_2022_ngx.pdf,63.0
+FCMB,2023,included,,group,gross,group (consolidated),thousands of naira,21.0,1929584201000.0,,,data/raw/annual_reports/FCMB_2023_ngx.pdf,70.0
+FCMB,2024,included,,group,gross,group (consolidated),thousands of naira,21.0,2485078216000.0,,,data/raw/annual_reports/FCMB_2024_ngx.pdf,79.0
+FCMB,2025,included,,group,gross,group (consolidated),thousands of naira,21.0,2475470182000.0,,,data/raw/annual_reports/FCMB_2025_ngx.pdf,83.0
+STANBIC,2020,included,,group,gross,group (consolidated),millions of naira,14.0,655292000000.0,,,data/raw/annual_reports/STANBIC_2020_ngx.pdf,142.0
+STANBIC,2021,included,,group,gross,group (consolidated),millions of naira,14.0,946259000000.0,,,data/raw/annual_reports/STANBIC_2021_ngx.pdf,143.0
+STANBIC,2022,included,,group,gross,group (consolidated),millions of naira,14.0,1238194000000.0,,,data/raw/annual_reports/STANBIC_2022_ngx.pdf,142.0
+STANBIC,2023,included (deviation),,group,gross,group (consolidated),millions of naira,12.0,2091137000000.0,,"source: the FY2024 report's 2023 comparative (p. 159) replaces the FY2023 sector table (p. 158), whose labels from 'Hotels, restaurants and tourism' down are one row out of step with the figures and whose loans column totals twice the loan book (author decision 2026-11-04; plan section 3 does not use comparatives)",data/raw/annual_reports/STANBIC_2024_ngx.pdf,159.0
+STANBIC,2024,included,,group,gross,group (consolidated),millions of naira,14.0,2470693000000.0,,,data/raw/annual_reports/STANBIC_2024_ngx.pdf,158.0
+STANBIC,2025,included (flagged),"sector total 2,459,736 vs loans-note gross 2,460,336 (p. 91): 600 unexplained",group,gross,group (consolidated),millions of naira,14.0,2459736000000.0,,,data/raw/annual_reports/STANBIC_2025_ngx.pdf,171.0
+STERLINGNG,2020,included,,group,gross,group (consolidated),millions of naira,15.0,613359000000.0,bank/gross,,data/raw/annual_reports/STERLINGNG_2020_ngx.pdf,87.0
+STERLINGNG,2021,included,,group,gross,group (consolidated),millions of naira,15.0,726080000000.0,bank/gross,,data/raw/annual_reports/STERLINGNG_2021_ngx.pdf,83.0
+STERLINGNG,2022,included,,group,gross,group (consolidated),millions of naira,15.0,758183000000.0,bank/gross,,data/raw/annual_reports/STERLINGNG_2022_ir.pdf,186.0
+STERLINGNG,2023,included,,group,gross,group (consolidated),millions of naira,15.0,926466000000.0,,,data/raw/annual_reports/STERLINGNG_2023_ir.pdf,203.0
+STERLINGNG,2024,included,,group,gross,group (consolidated),millions of naira,15.0,1141444000000.0,,,data/raw/annual_reports/STERLINGNG_2024_ir.pdf,234.0
+STERLINGNG,2025,included,,group,gross,group (consolidated),millions of naira,15.0,1468632000000.0,,,data/raw/annual_reports/STERLINGNG_2025_ir.pdf,175.0
+WEMABANK,2020,included,,group,gross,group (consolidated),thousands of naira,19.0,375039659000.0,bank/carrying;bank/gross;group/carrying,,data/raw/annual_reports/WEMABANK_2020_ngx.pdf,91.0
+WEMABANK,2021,included,,group,gross,group (consolidated),thousands of naira,19.0,435551970000.0,bank/carrying;bank/gross;group/carrying,,data/raw/annual_reports/WEMABANK_2021_ngx.pdf,162.0
+WEMABANK,2022,included,,group,gross,group (consolidated),thousands of naira,19.0,539372012000.0,bank/carrying;bank/gross;group/carrying,,data/raw/annual_reports/WEMABANK_2022_ngx.pdf,152.0
+WEMABANK,2023,included,,group,gross,group (consolidated),thousands of naira,19.0,825606566000.0,bank/carrying;bank/gross;group/carrying,,data/raw/annual_reports/WEMABANK_2023_ngx.pdf,156.0
+WEMABANK,2024,included,,group,gross,group (consolidated),thousands of naira,19.0,1237023252000.0,bank/carrying;bank/gross;group/carrying,,data/raw/annual_reports/WEMABANK_2024_ngx.pdf,152.0
+WEMABANK,2025,included,,group,gross,group (consolidated),thousands of naira,19.0,1796319860000.0,bank/carrying;bank/gross;group/carrying,,data/raw/annual_reports/WEMABANK_2025_ngx.pdf,201.0
+UNITYBNK,2020,included,,bank,gross,Unity Bank Plc (reporting entity; no group table),thousands of naira,13.0,206205543000.0,bank/carrying,,data/raw/annual_reports/UNITYBNK_2020_ngx.pdf,51.0
+UNITYBNK,2021,included,,bank,gross,Unity Bank Plc (reporting entity; no group table),thousands of naira,14.0,272468902000.0,bank/carrying,,data/raw/annual_reports/UNITYBNK_2021_ngx.pdf,50.0
+UNITYBNK,2022,included,,bank,gross,Unity Bank Plc (reporting entity; no group table),thousands of naira,12.0,292968646000.0,bank/carrying,,data/raw/annual_reports/UNITYBNK_2022_ngx.pdf,52.0
+UNITYBNK,2023,included,,bank,gross,Unity Bank Plc (reporting entity; no group table),thousands of naira,12.0,361814068000.0,bank/carrying,,data/raw/annual_reports/UNITYBNK_2023_ngx.pdf,54.0
+UNITYBNK,2024,excluded,not available: no audited statements on NGX after FY2023 (plan section 2),,,,,,,,,,
+UNITYBNK,2025,excluded,not available: no audited statements on NGX after FY2023 (plan section 2),,,,,,,,,,
+JAIZBANK,2020,included,,bank,gross,Jaiz Bank Plc (reporting entity; no group table),thousands of naira,13.0,77272708000.0,,,data/raw/annual_reports/JAIZBANK_2020_ngx.pdf,52.0
+JAIZBANK,2021,included,,bank,gross,Jaiz Bank Plc (reporting entity; no group table),thousands of naira,13.0,124185610000.0,,,data/raw/annual_reports/JAIZBANK_2021_ngx.pdf,78.0
+JAIZBANK,2022,included,,bank,gross,Jaiz Bank Plc (reporting entity; no group table),thousands of naira,13.0,151709227000.0,,,data/raw/annual_reports/JAIZBANK_2022_ngx.pdf,98.0
+JAIZBANK,2023,included (flagged),"sector total 223,075,649 vs staging total 223,075,150 (p. 110): 499 unexplained",bank,gross,Jaiz Bank Plc (reporting entity; no group table),thousands of naira,13.0,223075649000.0,,,data/raw/annual_reports/JAIZBANK_2023_ngx.pdf,120.0
+JAIZBANK,2024,included,,bank,gross,Jaiz Bank Plc (reporting entity; no group table),thousands of naira,13.0,289311931000.0,,,data/raw/annual_reports/JAIZBANK_2024_ngx.pdf,122.0
+JAIZBANK,2025,included,,bank,gross,Jaiz Bank Plc (reporting entity; no group table),thousands of naira,13.0,329475188000.0,,,data/raw/annual_reports/JAIZBANK_2025_ngx.pdf,114.0
+ETI,2020,excluded,excluded: no credit-concentration-by-sector note in any NGX filing 2020-2025 (plan section 2),,,,,,,,,,
+ETI,2021,excluded,excluded: no credit-concentration-by-sector note in any NGX filing 2020-2025 (plan section 2),,,,,,,,,,
+ETI,2022,excluded,excluded: no credit-concentration-by-sector note in any NGX filing 2020-2025 (plan section 2),,,,,,,,,,
+ETI,2023,excluded,excluded: no credit-concentration-by-sector note in any NGX filing 2020-2025 (plan section 2),,,,,,,,,,
+ETI,2024,excluded,excluded: no credit-concentration-by-sector note in any NGX filing 2020-2025 (plan section 2),,,,,,,,,,
+ETI,2025,excluded,excluded: no credit-concentration-by-sector note in any NGX filing 2020-2025 (plan section 2),,,,,,,,,,

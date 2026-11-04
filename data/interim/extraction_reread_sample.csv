@@ -1,0 +1,276 @@
+bank,year,level,basis,printed_category,amount_printed,printed_cells,pdf_page,table,complete_table,result,detail
+ACCESSCORP,2020,bank,gross,Food manufacturing,103153650.0,"103,153,650",230,ACCESSCORP|2020|bank|gross,False,pass,value follows its row label in the second-engine text
+ACCESSCORP,2020,group,gross,Agriculture,46604769.0,"46,604,769",230,ACCESSCORP|2020|group|gross,False,pass,value follows its row label in the second-engine text
+ACCESSCORP,2020,group,gross,Construction,281672508.0,"281,672,508",230,ACCESSCORP|2020|group|gross,False,pass,value follows its row label in the second-engine text
+ACCESSCORP,2020,group,gross,Oil And Gas - upstream,228927446.0,"228,927,446",230,ACCESSCORP|2020|group|gross,False,pass,value follows its row label in the second-engine text
+ACCESSCORP,2021,bank,gross,Cement,97838048.0,"97,838,048",219,ACCESSCORP|2021|bank|gross,False,pass,value follows its row label in the second-engine text
+ACCESSCORP,2021,group,gross,Education,5319802.0,"5,319,802",219,ACCESSCORP|2021|group|gross,False,pass,value follows its row label in the second-engine text
+ACCESSCORP,2022,group,gross,Agriculture,57578.0,"57,578",224,ACCESSCORP|2022|group|gross,True,pass,value follows its row label in the second-engine text
+ACCESSCORP,2022,group,gross,Construction,388368.0,"388,368",224,ACCESSCORP|2022|group|gross,True,pass,value follows its row label in the second-engine text
+ACCESSCORP,2022,group,gross,Education,2082.0,"2,082",224,ACCESSCORP|2022|group|gross,True,pass,value follows its row label in the second-engine text
+ACCESSCORP,2022,group,gross,Finance and insurance,146689.0,"146,689",224,ACCESSCORP|2022|group|gross,True,pass,value follows its row label in the second-engine text
+ACCESSCORP,2022,group,gross,General,387965.0,"387,965",224,ACCESSCORP|2022|group|gross,True,pass,value follows its row label in the second-engine text
+ACCESSCORP,2022,group,gross,General commerce,687600.0,"687,600",224,ACCESSCORP|2022|group|gross,True,pass,value follows its row label in the second-engine text
+ACCESSCORP,2022,group,gross,Government,498493.0,"498,493",224,ACCESSCORP|2022|group|gross,True,pass,value follows its row label in the second-engine text
+ACCESSCORP,2022,group,gross,Information And communication,249350.0,"249,350",224,ACCESSCORP|2022|group|gross,True,pass,value follows its row label in the second-engine text
+ACCESSCORP,2022,group,gross,Other manufacturing (Industries),241682.0,"241,682",224,ACCESSCORP|2022|group|gross,True,pass,value follows its row label in the second-engine text
+ACCESSCORP,2022,group,gross,Basic metal Products,5100.0,"5,100",224,ACCESSCORP|2022|group|gross,True,pass,value follows its row label in the second-engine text
+ACCESSCORP,2022,group,gross,Cement,151930.0,"151,930",224,ACCESSCORP|2022|group|gross,True,pass,value follows its row label in the second-engine text
+ACCESSCORP,2022,group,gross,Conglomerate,106685.0,"106,685",224,ACCESSCORP|2022|group|gross,True,pass,value follows its row label in the second-engine text
+ACCESSCORP,2022,group,gross,Flourmills And bakeries,12130.0,"12,130",224,ACCESSCORP|2022|group|gross,True,pass,value follows its row label in the second-engine text
+ACCESSCORP,2022,group,gross,Food manufacturing,243975.0,"243,975",224,ACCESSCORP|2022|group|gross,True,pass,value follows its row label in the second-engine text
+ACCESSCORP,2022,group,gross,Steel rolling mills,108790.0,"108,790",224,ACCESSCORP|2022|group|gross,True,pass,value follows its row label in the second-engine text
+ACCESSCORP,2022,group,gross,Oil And Gas - downstream,274678.0,"274,678",224,ACCESSCORP|2022|group|gross,True,pass,value follows its row label in the second-engine text
+ACCESSCORP,2022,group,gross,Oil And Gas - services,644592.0,"644,592",224,ACCESSCORP|2022|group|gross,True,pass,value follows its row label in the second-engine text
+ACCESSCORP,2022,group,gross,Oil And Gas - upstream,277713.0,"277,713",224,ACCESSCORP|2022|group|gross,True,pass,value follows its row label in the second-engine text
+ACCESSCORP,2022,group,gross,Crude oil refining,47428.0,"47,428",224,ACCESSCORP|2022|group|gross,True,pass,value follows its row label in the second-engine text
+ACCESSCORP,2022,group,gross,Real estate activities,273074.0,"273,074",224,ACCESSCORP|2022|group|gross,True,pass,value follows its row label in the second-engine text
+ACCESSCORP,2022,group,gross,Transportation and storage,192583.0,"192,583",224,ACCESSCORP|2022|group|gross,True,pass,value follows its row label in the second-engine text
+ACCESSCORP,2022,group,gross,Power and energy,47101.0,"47,101",224,ACCESSCORP|2022|group|gross,True,pass,value follows its row label in the second-engine text
+ACCESSCORP,2022,group,gross,"Professional, scientific and technical activities",8322.0,"8,322",224,ACCESSCORP|2022|group|gross,True,pass,value follows its row label in the second-engine text
+ACCESSCORP,2022,group,gross,Others,145842.0,"145,842",224,ACCESSCORP|2022|group|gross,True,pass,value follows its row label in the second-engine text
+ACCESSCORP,2024,group,gross,Government,766002.0,"766,002",209,ACCESSCORP|2024|group|gross,False,pass,value follows its row label in the second-engine text
+FCMB,2021,group,gross,Professional services,3982152.0,"3,982,152",76,FCMB|2021|group|gross,False,pass,value follows its row label in the second-engine text
+FCMB,2022,group,gross,General - Others,14759625.0,"14,759,625",63,FCMB|2022|group|gross,False,pass,value follows its row label in the second-engine text
+FCMB,2025,group,gross,Administrative and Support Services,2870124.0,"2,870,124",83,FCMB|2025|group|gross,True,pass,value follows its row label in the second-engine text
+FCMB,2025,group,gross,Agriculture,254055945.0,"254,055,945",83,FCMB|2025|group|gross,True,pass,value follows its row label in the second-engine text
+FCMB,2025,group,gross,Commerce,217176369.0,"217,176,369",83,FCMB|2025|group|gross,True,pass,value follows its row label in the second-engine text
+FCMB,2025,group,gross,Construction,5273656.0,"5,273,656",83,FCMB|2025|group|gross,True,pass,value follows its row label in the second-engine text
+FCMB,2025,group,gross,Education,4193472.0,"4,193,472",83,FCMB|2025|group|gross,True,pass,value follows its row label in the second-engine text
+FCMB,2025,group,gross,Finance and Insurance,364157563.0,"364,157,563",83,FCMB|2025|group|gross,True,pass,value follows its row label in the second-engine text
+FCMB,2025,group,gross,General - Others,14358796.0,"14,358,796",83,FCMB|2025|group|gross,True,pass,value follows its row label in the second-engine text
+FCMB,2025,group,gross,Government,126147835.0,"126,147,835",83,FCMB|2025|group|gross,True,pass,value follows its row label in the second-engine text
+FCMB,2025,group,gross,Healthcare,4230160.0,"4,230,160",83,FCMB|2025|group|gross,True,pass,value follows its row label in the second-engine text
+FCMB,2025,group,gross,Hospitality,78599791.0,"78,599,791",83,FCMB|2025|group|gross,True,pass,value follows its row label in the second-engine text
+FCMB,2025,group,gross,Individual,394859780.0,"394,859,780",83,FCMB|2025|group|gross,True,pass,value follows its row label in the second-engine text
+FCMB,2025,group,gross,Information and Communication,1115372.0,"1,115,372",83,FCMB|2025|group|gross,True,pass,value follows its row label in the second-engine text
+FCMB,2025,group,gross,Manufacturing,300075159.0,"300,075,159",83,FCMB|2025|group|gross,True,pass,value follows its row label in the second-engine text
+FCMB,2025,group,gross,Oil and Gas - Downstream,175961750.0,"175,961,750",83,FCMB|2025|group|gross,True,pass,value follows its row label in the second-engine text
+FCMB,2025,group,gross,Oil and Gas - Services,139205956.0,"139,205,956",83,FCMB|2025|group|gross,True,pass,value follows its row label in the second-engine text
+FCMB,2025,group,gross,Oil and Gas - Upstream,264344190.0,"264,344,190",83,FCMB|2025|group|gross,True,pass,value follows its row label in the second-engine text
+FCMB,2025,group,gross,Power and Energy,64613671.0,"64,613,671",83,FCMB|2025|group|gross,True,pass,value follows its row label in the second-engine text
+FCMB,2025,group,gross,Professional Services,5332440.0,"5,332,440",83,FCMB|2025|group|gross,True,pass,value follows its row label in the second-engine text
+FCMB,2025,group,gross,Real Estate,34757663.0,"34,757,663",83,FCMB|2025|group|gross,True,pass,value follows its row label in the second-engine text
+FCMB,2025,group,gross,Transportation,16975973.0,"16,975,973",83,FCMB|2025|group|gross,True,pass,value follows its row label in the second-engine text
+FCMB,2025,group,gross,"Water Supply; Sewage, Waste Management and Remediation Activities",7164517.0,"7,164,517",83,FCMB|2025|group|gross,True,pass,value follows its row label in the second-engine text
+FIDELITYBK,2020,bank,gross,Agriculture,46167.0,"46,167",175,FIDELITYBK|2020|bank|gross,False,pass,value follows its row label in the second-engine text
+FIDELITYBK,2020,bank,gross,Education,8404.0,"8,404",175,FIDELITYBK|2020|bank|gross,False,pass,value follows its row label in the second-engine text
+FIDELITYBK,2023,bank,gross,Construction,108803.0,"108,803",192,FIDELITYBK|2023|bank|gross,False,pass,value follows its row label in the second-engine text
+FIDELITYBK,2023,group,gross,Other,369856.0,"369,856",191,FIDELITYBK|2023|group|gross,False,pass,value follows its row label in the second-engine text
+FIDELITYBK,2024,group,gross,Agriculture,225099.0,"225,099",192,FIDELITYBK|2024|group|gross,True,pass,value follows its row label in the second-engine text
+FIDELITYBK,2024,group,gross,Oil and gas,1991749.0,"1,991,749",192,FIDELITYBK|2024|group|gross,True,pass,value follows its row label in the second-engine text
+FIDELITYBK,2024,group,gross,Consumer credit,86549.0,"86,549",192,FIDELITYBK|2024|group|gross,True,pass,value follows its row label in the second-engine text
+FIDELITYBK,2024,group,gross,Manufacturing,328129.0,"328,129",192,FIDELITYBK|2024|group|gross,True,pass,value follows its row label in the second-engine text
+FIDELITYBK,2024,group,gross,Mining and Quarrying,19737.0,"19,737",192,FIDELITYBK|2024|group|gross,True,pass,value follows its row label in the second-engine text
+FIDELITYBK,2024,group,gross,Mortgage,0.0,0,192,FIDELITYBK|2024|group|gross,True,pass (zero),printed as a dash or zero; not checkable by text search
+FIDELITYBK,2024,group,gross,Real estate,52413.0,"52,413",192,FIDELITYBK|2024|group|gross,True,pass,value follows its row label in the second-engine text
+FIDELITYBK,2024,group,gross,Construction,131728.0,"131,728",192,FIDELITYBK|2024|group|gross,True,pass,value follows its row label in the second-engine text
+FIDELITYBK,2024,group,gross,Finance and insurance,14431.0,"14,431",192,FIDELITYBK|2024|group|gross,True,pass,value follows its row label in the second-engine text
+FIDELITYBK,2024,group,gross,Government,222409.0,"222,409",192,FIDELITYBK|2024|group|gross,True,pass,value follows its row label in the second-engine text
+FIDELITYBK,2024,group,gross,Power,335753.0,"335,753",192,FIDELITYBK|2024|group|gross,True,pass,value follows its row label in the second-engine text
+FIDELITYBK,2024,group,gross,Other public utilities,0.0,0,192,FIDELITYBK|2024|group|gross,True,pass (zero),printed as a dash or zero; not checkable by text search
+FIDELITYBK,2024,group,gross,Transportation,557834.0,"557,834",192,FIDELITYBK|2024|group|gross,True,pass,value follows its row label in the second-engine text
+FIDELITYBK,2024,group,gross,Communication,62341.0,"62,341",192,FIDELITYBK|2024|group|gross,True,pass,value follows its row label in the second-engine text
+FIDELITYBK,2024,group,gross,Education,10468.0,"10,468",192,FIDELITYBK|2024|group|gross,True,pass,value follows its row label in the second-engine text
+FIDELITYBK,2024,group,gross,Central Bank balance (restricted ),0.0,0,192,FIDELITYBK|2024|group|gross,True,pass (zero),printed as a dash or zero; not checkable by text search
+FIDELITYBK,2024,group,gross,Other,544072.0,"544,072",192,FIDELITYBK|2024|group|gross,True,pass,value follows its row label in the second-engine text
+FIDELITYBK,2025,bank,gross,Agriculture,183380.0,"183,380",194,FIDELITYBK|2025|bank|gross,False,pass,value follows its row label in the second-engine text
+FIDELITYBK,2025,bank,gross,Manufacturing,303725.0,"303,725",194,FIDELITYBK|2025|bank|gross,False,pass,value follows its row label in the second-engine text
+FIDELITYBK,2025,group,gross,Consumer credit,98272.0,"98,272",192,FIDELITYBK|2025|group|gross,False,pass,value follows its row label in the second-engine text
+FIDELITYBK,2025,group,gross,Real estate,80040.0,"80,040",192,FIDELITYBK|2025|group|gross,False,pass,value follows its row label in the second-engine text
+FIRSTHOLDCO,2020,group,carrying,Oil and gas,696917.0,"540 + 696,377",87,FIRSTHOLDCO|2020|group|carrying,False,pass,2/2 component cells found on the page
+FIRSTHOLDCO,2021,group,carrying,Retail services,139448.0,"41,226 + 98,222",88,FIRSTHOLDCO|2021|group|carrying,False,pass,2/2 component cells found on the page
+FIRSTHOLDCO,2023,group,carrying,Agriculture,180894.0,"1,075 + 179,819",90,FIRSTHOLDCO|2023|group|carrying,False,pass,2/2 component cells found on the page
+FIRSTHOLDCO,2025,group,carrying,Agriculture,254047.0,"655 + 253,392",193,FIRSTHOLDCO|2025|group|carrying,True,pass,2/2 component cells found on the page
+FIRSTHOLDCO,2025,group,carrying,Oil and gas,3195007.0,"900 + 3,194,107",193,FIRSTHOLDCO|2025|group|carrying,True,pass,2/2 component cells found on the page
+FIRSTHOLDCO,2025,group,carrying,Consumer credit,165268.0,"158,960 + 6,308",193,FIRSTHOLDCO|2025|group|carrying,True,pass,2/2 component cells found on the page
+FIRSTHOLDCO,2025,group,carrying,Manufacturing,867680.0,"284 + 867,396",193,FIRSTHOLDCO|2025|group|carrying,True,pass,2/2 component cells found on the page
+FIRSTHOLDCO,2025,group,carrying,Real estate,280688.0,"271,919 + 8,769",193,FIRSTHOLDCO|2025|group|carrying,True,pass,2/2 component cells found on the page
+FIRSTHOLDCO,2025,group,carrying,Construction,420833.0,"347 + 420,486",193,FIRSTHOLDCO|2025|group|carrying,True,pass,2/2 component cells found on the page
+FIRSTHOLDCO,2025,group,carrying,Finance and insurance,396114.0,"1,446 + 394,668",193,FIRSTHOLDCO|2025|group|carrying,True,pass,2/2 component cells found on the page
+FIRSTHOLDCO,2025,group,carrying,Transportation,116242.0,"20 + 116,222",193,FIRSTHOLDCO|2025|group|carrying,True,pass,2/2 component cells found on the page
+FIRSTHOLDCO,2025,group,carrying,Communication,566327.0,"193 + 566,134",193,FIRSTHOLDCO|2025|group|carrying,True,pass,2/2 component cells found on the page
+FIRSTHOLDCO,2025,group,carrying,General commerce,536890.0,"1,755 + 535,135",193,FIRSTHOLDCO|2025|group|carrying,True,pass,2/2 component cells found on the page
+FIRSTHOLDCO,2025,group,carrying,Utilities,802476.0,"0 + 802,476",193,FIRSTHOLDCO|2025|group|carrying,True,pass,1/1 component cells found on the page
+FIRSTHOLDCO,2025,group,carrying,Retail services,817408.0,"51,428 + 765,980",193,FIRSTHOLDCO|2025|group|carrying,True,pass,2/2 component cells found on the page
+FIRSTHOLDCO,2025,group,carrying,Education,0.0,0 + 0,193,FIRSTHOLDCO|2025|group|carrying,True,pass (zero),printed as a dash or zero; not checkable by text search
+FIRSTHOLDCO,2025,group,carrying,Public sector,809817.0,"0 + 809,817",193,FIRSTHOLDCO|2025|group|carrying,True,pass,1/1 component cells found on the page
+FIRSTHOLDCO,2025,group,carrying,Mining,0.0,0,193,FIRSTHOLDCO|2025|group|carrying,True,pass (zero),printed as a dash or zero; not checkable by text search
+GTCO,2020,bank,gross,Agriculture,14354045.0,"0 + 14,354,045",134,GTCO|2020|bank|gross,True,pass,1/1 component cells found on the page
+GTCO,2020,bank,gross,Capital market & Financial institution,52060650.0,"0 + 52,060,650",134,GTCO|2020|bank|gross,True,pass,1/1 component cells found on the page
+GTCO,2020,bank,gross,Construction/ Real estate,28343542.0,"0 + 28,343,542",134,GTCO|2020|bank|gross,True,pass,1/1 component cells found on the page
+GTCO,2020,bank,gross,Education,7292897.0,"0 + 7,292,897",134,GTCO|2020|bank|gross,True,pass,1/1 component cells found on the page
+GTCO,2020,bank,gross,General Commerce,33609389.0,"0 + 33,609,389",134,GTCO|2020|bank|gross,True,pass,1/1 component cells found on the page
+GTCO,2020,bank,gross,Government,80648285.0,"0 + 80,648,285",134,GTCO|2020|bank|gross,True,pass,1/1 component cells found on the page
+GTCO,2020,bank,gross,Manufacturing,267048563.0,"0 + 267,048,563",134,GTCO|2020|bank|gross,True,pass,1/1 component cells found on the page
+GTCO,2020,bank,gross,Oil & gas,637544041.0,"0 + 637,544,041",134,GTCO|2020|bank|gross,True,pass,1/1 component cells found on the page
+GTCO,2020,bank,gross,Info.Telecoms & Transport,102911375.0,"0 + 102,911,375",134,GTCO|2020|bank|gross,True,pass,1/1 component cells found on the page
+GTCO,2020,bank,gross,Individual,150507037.0,"150,507,037 + 0",134,GTCO|2020|bank|gross,True,pass,1/1 component cells found on the page
+GTCO,2020,bank,gross,Others,36257910.0,"0 + 36,257,910",134,GTCO|2020|bank|gross,True,pass,1/1 component cells found on the page
+GTCO,2022,group,gross,General Commerce,98912087.0,"0 + 98,912,087",135,GTCO|2022|group|gross,False,pass,1/1 component cells found on the page
+GTCO,2023,group,gross,General Commerce,168044322.0,"0 + 168,044,322",139,GTCO|2023|group|gross,False,pass,1/1 component cells found on the page
+JAIZBANK,2020,bank,not_stated,General,10731571.0,"10,731,571",52,JAIZBANK|2020|bank|not_stated,True,pass,value follows its row label in the second-engine text
+JAIZBANK,2020,bank,not_stated,Oil&gas,12595776.0,"12,595,776",52,JAIZBANK|2020|bank|not_stated,True,pass,value follows its row label in the second-engine text
+JAIZBANK,2020,bank,not_stated,Realestateactivities,12394631.0,"12,394,631",52,JAIZBANK|2020|bank|not_stated,True,pass,value follows its row label in the second-engine text
+JAIZBANK,2020,bank,not_stated,Generalcommerce,16977873.0,"16,977,873",52,JAIZBANK|2020|bank|not_stated,True,pass,value follows its row label in the second-engine text
+JAIZBANK,2020,bank,not_stated,Agriculture,12818514.0,"12,818,514",52,JAIZBANK|2020|bank|not_stated,True,pass,value follows its row label in the second-engine text
+JAIZBANK,2020,bank,not_stated,Construction,3875997.0,"3,875,997",52,JAIZBANK|2020|bank|not_stated,True,pass,value follows its row label in the second-engine text
+JAIZBANK,2020,bank,not_stated,Manufacturing,3476873.0,"3,476,873",52,JAIZBANK|2020|bank|not_stated,True,pass,value follows its row label in the second-engine text
+JAIZBANK,2020,bank,not_stated,Education,2215943.0,"2,215,943",52,JAIZBANK|2020|bank|not_stated,True,pass,value follows its row label in the second-engine text
+JAIZBANK,2020,bank,not_stated,Informationandcommunication,377289.0,"377,289",52,JAIZBANK|2020|bank|not_stated,True,pass,value follows its row label in the second-engine text
+JAIZBANK,2020,bank,not_stated,Recreation,31742.0,"31,742",52,JAIZBANK|2020|bank|not_stated,True,pass,value follows its row label in the second-engine text
+JAIZBANK,2020,bank,not_stated,Humanhealthandsocialworkactivities,652520.0,"652,520",52,JAIZBANK|2020|bank|not_stated,True,pass,value follows its row label in the second-engine text
+JAIZBANK,2020,bank,not_stated,Transportationandstorage,603815.0,"603,815",52,JAIZBANK|2020|bank|not_stated,True,pass,value follows its row label in the second-engine text
+JAIZBANK,2020,bank,not_stated,MiningAndQuarrying,520164.0,"520,164",52,JAIZBANK|2020|bank|not_stated,True,pass,value follows its row label in the second-engine text
+JAIZBANK,2021,bank,not_stated,Generalcommerce,26274591.0,"26,274,591",78,JAIZBANK|2021|bank|not_stated,False,pass,value follows its row label in the second-engine text
+JAIZBANK,2021,bank,not_stated,Informationandcommunication,2804635.0,"2,804,635",78,JAIZBANK|2021|bank|not_stated,False,pass,value follows its row label in the second-engine text
+JAIZBANK,2022,bank,not_stated,General commerce,29807729.0,"29,807,729",98,JAIZBANK|2022|bank|not_stated,False,pass,value follows its row label in the second-engine text
+JAIZBANK,2022,bank,not_stated,Human health and social work activities,1021280.0,"1,021,280",98,JAIZBANK|2022|bank|not_stated,False,pass,value follows its row label in the second-engine text
+STANBIC,2022,group,carrying,Business services,44105.0,"44,105",142,STANBIC|2022|group|carrying,False,pass,value follows its row label in the second-engine text
+STANBIC,2024,group,carrying,Agriculture,154786.0,"154,786",158,STANBIC|2024|group|carrying,True,pass,value follows its row label in the second-engine text
+STANBIC,2024,group,carrying,Business services,43769.0,"43,769",158,STANBIC|2024|group|carrying,True,pass,value follows its row label in the second-engine text
+STANBIC,2024,group,carrying,Communication,250085.0,"250,085",158,STANBIC|2024|group|carrying,True,pass,value follows its row label in the second-engine text
+STANBIC,2024,group,carrying,"Community, social & personal services",0.0,0,158,STANBIC|2024|group|carrying,True,pass (zero),printed as a dash or zero; not checkable by text search
+STANBIC,2024,group,carrying,Construction and real estate,126622.0,"126,622",158,STANBIC|2024|group|carrying,True,pass,value follows its row label in the second-engine text
+STANBIC,2024,group,carrying,Electricity,5641.0,"5,641",158,STANBIC|2024|group|carrying,True,pass,value follows its row label in the second-engine text
+STANBIC,2024,group,carrying,insurance,6643.0,"6,643",158,STANBIC|2024|group|carrying,True,pass,value follows its row label in the second-engine text
+STANBIC,2024,group,carrying,Government (including Central Bank),68658.0,"68,658",158,STANBIC|2024|group|carrying,True,pass,value follows its row label in the second-engine text
+STANBIC,2024,group,carrying,"Hotels, restaurants and tourism",253.0,253,158,STANBIC|2024|group|carrying,True,pass,value follows its row label in the second-engine text
+STANBIC,2024,group,carrying,Manufacturing,667451.0,"667,451",158,STANBIC|2024|group|carrying,True,pass,value follows its row label in the second-engine text
+STANBIC,2024,group,carrying,Mining,687507.0,"687,507",158,STANBIC|2024|group|carrying,True,pass,value follows its row label in the second-engine text
+STANBIC,2024,group,carrying,Private households,201855.0,"201,855",158,STANBIC|2024|group|carrying,True,pass,value follows its row label in the second-engine text
+STANBIC,2024,group,carrying,"Transport, storage and distribution",61066.0,"61,066",158,STANBIC|2024|group|carrying,True,pass,value follows its row label in the second-engine text
+STANBIC,2024,group,carrying,Wholesale & retail trade,196357.0,"196,357",158,STANBIC|2024|group|carrying,True,pass,value follows its row label in the second-engine text
+STANBIC,2025,group,carrying,Manufacturing,548055.0,"548,055",171,STANBIC|2025|group|carrying,False,pass,value follows its row label in the second-engine text
+STERLINGNG,2020,bank,not_stated,Manufacturing,7166.0,"7,166",87,STERLINGNG|2020|bank|not_stated,False,pass,value follows its row label in the second-engine text
+STERLINGNG,2020,group,not_stated,Agriculture,55471.0,"55,471",87,STERLINGNG|2020|group|not_stated,True,pass,value follows its row label in the second-engine text
+STERLINGNG,2020,group,not_stated,Communication,16493.0,"16,493",87,STERLINGNG|2020|group|not_stated,True,pass,value follows its row label in the second-engine text
+STERLINGNG,2020,group,not_stated,Consumer,36692.0,"36,692",87,STERLINGNG|2020|group|not_stated,True,pass,value follows its row label in the second-engine text
+STERLINGNG,2020,group,not_stated,Education,1551.0,"1,551",87,STERLINGNG|2020|group|not_stated,True,pass,value follows its row label in the second-engine text
+STERLINGNG,2020,group,not_stated,Finance and insurance,26724.0,"26,724",87,STERLINGNG|2020|group|not_stated,True,pass,value follows its row label in the second-engine text
+STERLINGNG,2020,group,not_stated,Government,84277.0,"84,277",87,STERLINGNG|2020|group|not_stated,True,pass,value follows its row label in the second-engine text
+STERLINGNG,2020,group,not_stated,Manufacturing,7166.0,"7,166",87,STERLINGNG|2020|group|not_stated,True,pass,value follows its row label in the second-engine text
+STERLINGNG,2020,group,not_stated,Mining & quarrying,1.0,1,87,STERLINGNG|2020|group|not_stated,True,pass,value follows its row label in the second-engine text
+STERLINGNG,2020,group,not_stated,Mortgage,3526.0,"3,526",87,STERLINGNG|2020|group|not_stated,True,pass,value follows its row label in the second-engine text
+STERLINGNG,2020,group,not_stated,Oil and gas,200774.0,"200,774",87,STERLINGNG|2020|group|not_stated,True,pass,value follows its row label in the second-engine text
+STERLINGNG,2020,group,not_stated,Others,29431.0,"29,431",87,STERLINGNG|2020|group|not_stated,True,pass,value follows its row label in the second-engine text
+STERLINGNG,2020,group,not_stated,Power,26386.0,"26,386",87,STERLINGNG|2020|group|not_stated,True,pass,value follows its row label in the second-engine text
+STERLINGNG,2020,group,not_stated,Real estate & construction,81596.0,"81,596",87,STERLINGNG|2020|group|not_stated,True,pass,value follows its row label in the second-engine text
+STERLINGNG,2020,group,not_stated,Transportation,20419.0,"20,419",87,STERLINGNG|2020|group|not_stated,True,pass,value follows its row label in the second-engine text
+STERLINGNG,2020,group,not_stated,Non-interest banking,22852.0,"22,852",87,STERLINGNG|2020|group|not_stated,True,pass,value follows its row label in the second-engine text
+STERLINGNG,2022,group,not_stated,Education,4840.0,"4,840",186,STERLINGNG|2022|group|not_stated,False,pass,value follows its row label in the second-engine text
+STERLINGNG,2025,group,not_stated,Communication,29160.0,"29,160",175,STERLINGNG|2025|group|not_stated,False,pass,value follows its row label in the second-engine text
+UBA,2020,bank,carrying,Oil and Gas,372960.0,"0 + 0 + 126,920 + 246,040 + 0",57,UBA|2020|bank|carrying,False,pass,2/2 component cells found on the page
+UBA,2020,group,carrying,General,205472.0,"19,890 + 161,184 + 1,378 + 23,020 + 0",56,UBA|2020|group|carrying,False,pass,4/4 component cells found on the page
+UBA,2021,bank,carrying,Finance and Insurance,156346.0,"0 + 0 + 16,341 + 140,005 + 0",57,UBA|2021|bank|carrying,False,pass,2/2 component cells found on the page
+UBA,2021,bank,carrying,Manufacturing,352539.0,"0 + 0 + 34,672 + 317,867",57,UBA|2021|bank|carrying,False,pass,2/2 component cells found on the page
+UBA,2022,bank,carrying,Manufacturing,229817.0,"0 + 0 + 45,753 + 184,064 + 0",64,UBA|2022|bank|carrying,False,pass,2/2 component cells found on the page
+UBA,2022,group,carrying,Agriculture,85766.0,"0 + 0 + 37,758 + 48,008 + 0",63,UBA|2022|group|carrying,True,pass,2/2 component cells found on the page
+UBA,2022,group,carrying,Construction and Real Estate,154686.0,"0 + 0 + 26,811 + 127,875 + 0",63,UBA|2022|group|carrying,True,pass,2/2 component cells found on the page
+UBA,2022,group,carrying,Education,11769.0,"0 + 0 + 1,219 + 10,550 + 0",63,UBA|2022|group|carrying,True,pass,2/2 component cells found on the page
+UBA,2022,group,carrying,Finance and Insurance,162388.0,"0 + 0 + 22,177 + 140,211 + 0",63,UBA|2022|group|carrying,True,pass,2/2 component cells found on the page
+UBA,2022,group,carrying,General,660892.0,"15,468 + 267,384 + 0 + 378,040 + 0",63,UBA|2022|group|carrying,True,pass,3/3 component cells found on the page
+UBA,2022,group,carrying,General Commerce,337991.0,"0 + 0 + 135,242 + 191,737 + 11,012",63,UBA|2022|group|carrying,True,pass,3/3 component cells found on the page
+UBA,2022,group,carrying,Governments,397279.0,"0 + 0 + 137,466 + 259,813 + 0",63,UBA|2022|group|carrying,True,pass,2/2 component cells found on the page
+UBA,2022,group,carrying,Information and Communication,172356.0,"0 + 0 + 57,089 + 115,267 + 0",63,UBA|2022|group|carrying,True,pass,2/2 component cells found on the page
+UBA,2022,group,carrying,Manufacturing,468587.0,"0 + 0 + 201,364 + 267,223",63,UBA|2022|group|carrying,True,pass,2/2 component cells found on the page
+UBA,2022,group,carrying,Oil and Gas,511347.0,"0 + 0 + 153,811 + 357,536 + 0",63,UBA|2022|group|carrying,True,pass,2/2 component cells found on the page
+UBA,2022,group,carrying,Power and Energy,155081.0,"0 + 0 + 25,468 + 129,613 + 0",63,UBA|2022|group|carrying,True,pass,2/2 component cells found on the page
+UBA,2022,group,carrying,Transportation and Storage,18859.0,"0 + 0 + 5,428 + 13,431",63,UBA|2022|group|carrying,True,pass,2/2 component cells found on the page
+UBA,2024,bank,carrying,Finance and Insurance,600482.0,"0 + 0 + 101,708 + 498,774 + 0",71,UBA|2024|bank|carrying,False,pass,2/2 component cells found on the page
+UBA,2024,bank,carrying,General Commerce,652527.0,"0 + 0 + 19,810 + 626,796 + 5,921",71,UBA|2024|bank|carrying,False,pass,3/3 component cells found on the page
+UBA,2024,bank,carrying,Governments,310138.0,"0 + 0 + 7,254 + 302,884 + 0",71,UBA|2024|bank|carrying,False,pass,2/2 component cells found on the page
+UBA,2024,group,carrying,Education,17310.0,"0 + 0 + 9,255 + 8,055 + 0",70,UBA|2024|group|carrying,False,pass,2/2 component cells found on the page
+UBA,2024,group,carrying,General,913003.0,"67,203 + 505,573 + 16,350 + 323,877 + 0",70,UBA|2024|group|carrying,False,pass,4/4 component cells found on the page
+UBA,2025,bank,carrying,Education,1383.0,0 + 0 + 732 + 651 + 0,84,UBA|2025|bank|carrying,False,pass,2/2 component cells found on the page
+UBA,2025,group,carrying,Governments,1028422.0,"0 + 0 + 40,685 + 987,737 + 0",83,UBA|2025|group|carrying,False,pass,2/2 component cells found on the page
+UNITYBNK,2020,bank,carrying,Government,10611239.0,"10,611,239",51,UNITYBNK|2020|bank|carrying,False,pass,value follows its row label in the second-engine text
+UNITYBNK,2020,bank,carrying,Transportation,46090.0,"46,090",51,UNITYBNK|2020|bank|carrying,False,pass,value follows its row label in the second-engine text
+UNITYBNK,2020,bank,gross,Power and Energy,134885.0,"134,885",51,UNITYBNK|2020|bank|gross,False,pass,value follows its row label in the second-engine text
+UNITYBNK,2021,bank,carrying,Agriculture,243582036.0,"243,582,036",50,UNITYBNK|2021|bank|carrying,False,pass,value follows its row label in the second-engine text
+UNITYBNK,2021,bank,carrying,Power and Energy,221100.0,"221,100",50,UNITYBNK|2021|bank|carrying,False,pass,value follows its row label in the second-engine text
+UNITYBNK,2021,bank,carrying,Professional Services,61926.0,"61,926",50,UNITYBNK|2021|bank|carrying,False,pass,value follows its row label in the second-engine text
+UNITYBNK,2021,bank,gross,Agriculture,246609438.0,"246,609,438",50,UNITYBNK|2021|bank|gross,False,pass,value follows its row label in the second-engine text
+UNITYBNK,2022,bank,carrying,Education,1405945.0,"1,405,945",52,UNITYBNK|2022|bank|carrying,False,pass,value follows its row label in the second-engine text
+UNITYBNK,2022,bank,gross,Construction,1036214.0,"1,036,214",52,UNITYBNK|2022|bank|gross,False,pass,value follows its row label in the second-engine text
+UNITYBNK,2022,bank,gross,Oil and Gas,1038107.0,"1,038,107",52,UNITYBNK|2022|bank|gross,False,pass,value follows its row label in the second-engine text
+UNITYBNK,2023,bank,carrying,Agriculture,329223315.0,"329,223,315",54,UNITYBNK|2023|bank|carrying,True,pass,value follows its row label in the second-engine text
+UNITYBNK,2023,bank,carrying,Construction,697541.0,"697,541",54,UNITYBNK|2023|bank|carrying,True,pass,value follows its row label in the second-engine text
+UNITYBNK,2023,bank,carrying,Education,849981.0,"849,981",54,UNITYBNK|2023|bank|carrying,True,pass,value follows its row label in the second-engine text
+UNITYBNK,2023,bank,carrying,Finance and Insurance,424099.0,"424,099",54,UNITYBNK|2023|bank|carrying,True,pass,value follows its row label in the second-engine text
+UNITYBNK,2023,bank,carrying,General,8066832.0,"8,066,832",54,UNITYBNK|2023|bank|carrying,True,pass,value follows its row label in the second-engine text
+UNITYBNK,2023,bank,carrying,General Commerce,15239.0,"15,239",54,UNITYBNK|2023|bank|carrying,True,pass,value follows its row label in the second-engine text
+UNITYBNK,2023,bank,carrying,Government,10187389.0,"10,187,389",54,UNITYBNK|2023|bank|carrying,True,pass,value follows its row label in the second-engine text
+UNITYBNK,2023,bank,carrying,Manufacturing,6261035.0,"6,261,035",54,UNITYBNK|2023|bank|carrying,True,pass,value follows its row label in the second-engine text
+UNITYBNK,2023,bank,carrying,Oil and Gas,1348823.0,"1,348,823",54,UNITYBNK|2023|bank|carrying,True,pass,value follows its row label in the second-engine text
+UNITYBNK,2023,bank,carrying,Power and Energy,40471.0,"40,471",54,UNITYBNK|2023|bank|carrying,True,pass,value follows its row label in the second-engine text
+UNITYBNK,2023,bank,carrying,Professional Services,39703.0,"39,703",54,UNITYBNK|2023|bank|carrying,True,pass,value follows its row label in the second-engine text
+UNITYBNK,2023,bank,carrying,Transportation,2115.0,"2,115",54,UNITYBNK|2023|bank|carrying,True,pass,value follows its row label in the second-engine text
+WEMABANK,2020,group,carrying,GENERAL,44876235.0,"44,876,235",91,WEMABANK|2020|group|carrying,False,pass,value follows its row label in the second-engine text
+WEMABANK,2020,group,carrying,"WATER SUPPLY; SEWAGE,WASTE MGT AND REMEDIAL",654237.0,"654,237",91,WEMABANK|2020|group|carrying,False,pass,value follows its row label in the second-engine text
+WEMABANK,2021,bank,carrying,ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES,913991.0,"913,991",162,WEMABANK|2021|bank|carrying,True,pass,value follows its row label in the second-engine text
+WEMABANK,2021,bank,carrying,"AGRICULTURE, FORESTRY AND FISHING",20362239.0,"20,362,239",162,WEMABANK|2021|bank|carrying,True,pass,value follows its row label in the second-engine text
+WEMABANK,2021,bank,carrying,"ARTS, ENTERTAINMENT AND RECREATION",1459417.0,"1,459,417",162,WEMABANK|2021|bank|carrying,True,pass,value follows its row label in the second-engine text
+WEMABANK,2021,bank,carrying,CAPITAL MARKET,89099.0,"89,099",162,WEMABANK|2021|bank|carrying,True,pass,value follows its row label in the second-engine text
+WEMABANK,2021,bank,carrying,CONSTRUCTION,41682798.0,"41,682,798",162,WEMABANK|2021|bank|carrying,True,pass,value follows its row label in the second-engine text
+WEMABANK,2021,bank,carrying,EDUCATION,5615698.0,"5,615,698",162,WEMABANK|2021|bank|carrying,True,pass,value follows its row label in the second-engine text
+WEMABANK,2021,bank,carrying,FINANCE AND INSURANCE,10393807.0,"10,393,807",162,WEMABANK|2021|bank|carrying,True,pass,value follows its row label in the second-engine text
+WEMABANK,2021,bank,carrying,GENERAL,71112046.0,"71,112,046",162,WEMABANK|2021|bank|carrying,True,pass,value follows its row label in the second-engine text
+WEMABANK,2021,bank,carrying,GENERAL COMMERCE,71662653.0,"71,662,653",162,WEMABANK|2021|bank|carrying,True,pass,value follows its row label in the second-engine text
+WEMABANK,2021,bank,carrying,GOVERNMENT,26128106.0,"26,128,106",162,WEMABANK|2021|bank|carrying,True,pass,value follows its row label in the second-engine text
+WEMABANK,2021,bank,carrying,HUMAN HEALTH AND SOCIAL WORK ACTIVITIES,5567709.0,"5,567,709",162,WEMABANK|2021|bank|carrying,True,pass,value follows its row label in the second-engine text
+WEMABANK,2021,bank,carrying,INFORMATION AND COMMUNICATION,2338147.0,"2,338,147",162,WEMABANK|2021|bank|carrying,True,pass,value follows its row label in the second-engine text
+WEMABANK,2021,bank,carrying,MANUFACTURING,46681722.0,"46,681,722",162,WEMABANK|2021|bank|carrying,True,pass,value follows its row label in the second-engine text
+WEMABANK,2021,bank,carrying,OIL AND GAS,55822808.0,"55,822,808",162,WEMABANK|2021|bank|carrying,True,pass,value follows its row label in the second-engine text
+WEMABANK,2021,bank,carrying,POWER AND ENERGY,6574177.0,"6,574,177",162,WEMABANK|2021|bank|carrying,True,pass,value follows its row label in the second-engine text
+WEMABANK,2021,bank,carrying,"PROFESSIONAL, SCIENTIFIC AND TECHNICAL ACTIVITIES",12529629.0,"12,529,629",162,WEMABANK|2021|bank|carrying,True,pass,value follows its row label in the second-engine text
+WEMABANK,2021,bank,carrying,REAL ESTATE ACTIVITIES,14648189.0,"14,648,189",162,WEMABANK|2021|bank|carrying,True,pass,value follows its row label in the second-engine text
+WEMABANK,2021,bank,carrying,TRANSPORTATION AND STORAGE,24529584.0,"24,529,584",162,WEMABANK|2021|bank|carrying,True,pass,value follows its row label in the second-engine text
+WEMABANK,2021,bank,carrying,"WATER SUPPLY; SEWAGE, WASTE MGT AND REMEDIAL",752483.0,"752,483",162,WEMABANK|2021|bank|carrying,True,pass,value follows its row label in the second-engine text
+WEMABANK,2021,bank,gross,"WATER SUPPLY; SEWAGE, WASTE MGT AND REMEDIAL",753355.0,"753,355",162,WEMABANK|2021|bank|gross,False,pass,value follows its row label in the second-engine text
+WEMABANK,2021,group,gross,EDUCATION,5706614.0,"5,706,614",162,WEMABANK|2021|group|gross,False,pass,value follows its row label in the second-engine text
+WEMABANK,2022,bank,gross,CAPITALMARKET,100813.0,"100,813",152,WEMABANK|2022|bank|gross,False,pass,value follows its row label in the second-engine text
+WEMABANK,2022,group,carrying,EDUCATION,4865703.0,"4,865,703",152,WEMABANK|2022|group|carrying,False,pass,value follows its row label in the second-engine text
+WEMABANK,2023,bank,carrying,GENERAL COMMERCE,128046078.0,"128,046,078",156,WEMABANK|2023|bank|carrying,False,pass,value follows its row label in the second-engine text
+WEMABANK,2023,bank,carrying,POWER AND ENERGY,20199784.0,"20,199,784",156,WEMABANK|2023|bank|carrying,False,pass,value follows its row label in the second-engine text
+WEMABANK,2023,bank,carrying,REAL ESTATE ACTIVITIES,30122812.0,"30,122,812",156,WEMABANK|2023|bank|carrying,False,pass,value follows its row label in the second-engine text
+WEMABANK,2023,bank,gross,GENERAL COMMERCE,135452129.0,"135,452,129",156,WEMABANK|2023|bank|gross,False,pass,value follows its row label in the second-engine text
+WEMABANK,2023,bank,gross,TRANSPORTATION AND STORAGE,55501886.0,"55,501,886",156,WEMABANK|2023|bank|gross,False,pass,value follows its row label in the second-engine text
+WEMABANK,2023,group,gross,EDUCATION,5931497.0,"5,931,497",156,WEMABANK|2023|group|gross,False,pass,value follows its row label in the second-engine text
+WEMABANK,2024,bank,gross,"AGRICULTURE, FORESTRY AND FISHING",56646040.0,"56,646,040",152,WEMABANK|2024|bank|gross,False,pass,value follows its row label in the second-engine text
+WEMABANK,2024,group,carrying,TRANSPORTATION AND STORAGE,122219559.0,"122,219,559",152,WEMABANK|2024|group|carrying,False,pass,value follows its row label in the second-engine text
+WEMABANK,2024,group,gross,ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES,4077356.0,"4,077,356",152,WEMABANK|2024|group|gross,False,pass,value follows its row label in the second-engine text
+WEMABANK,2024,group,gross,"PROFESSIONAL, SCIENTIFIC AND TECHNICAL ACTIVITIES",41570333.0,"41,570,333",152,WEMABANK|2024|group|gross,False,pass,value follows its row label in the second-engine text
+WEMABANK,2024,group,gross,REAL ESTATE ACTIVITIES,30248553.0,"30,248,553",152,WEMABANK|2024|group|gross,False,pass,value follows its row label in the second-engine text
+WEMABANK,2025,group,carrying,EDUCATION,8374989.0,"8,374,989",201,WEMABANK|2025|group|carrying,False,pass,value follows its row label in the second-engine text
+WEMABANK,2025,group,gross,"ARTS, ENTERTAINMENT AND RECREATION",997980.0,"997,980",201,WEMABANK|2025|group|gross,False,pass,value follows its row label in the second-engine text
+WEMABANK,2025,group,gross,CONSTRUCTION,76902700.0,"76,902,700",201,WEMABANK|2025|group|gross,False,pass,value follows its row label in the second-engine text
+WEMABANK,2025,group,gross,GENERAL COMMERCE,298651820.0,"298,651,820",201,WEMABANK|2025|group|gross,False,pass,value follows its row label in the second-engine text
+ZENITHBANK,2020,bank,carrying,Government,416576.0,"416,576",80,ZENITHBANK|2020|bank|carrying,False,pass,value follows its row label in the second-engine text
+ZENITHBANK,2020,group,gross,Power,72633.0,"72,633",80,ZENITHBANK|2020|group|gross,False,pass,value follows its row label in the second-engine text
+ZENITHBANK,2021,bank,carrying,Power,61824.0,"61,824",79,ZENITHBANK|2021|bank|carrying,False,pass,value follows its row label in the second-engine text
+ZENITHBANK,2021,bank,carrying,Transportation,161698.0,"161,698",79,ZENITHBANK|2021|bank|carrying,False,pass,value follows its row label in the second-engine text
+ZENITHBANK,2021,bank,carrying,General Commerce,367512.0,"367,512",79,ZENITHBANK|2021|bank|carrying,False,pass,value follows its row label in the second-engine text
+ZENITHBANK,2021,group,carrying,Agriculture,218306.0,"218,306",79,ZENITHBANK|2021|group|carrying,False,pass,value follows its row label in the second-engine text
+ZENITHBANK,2021,group,gross,Oil and gas,782412.0,"782,412",79,ZENITHBANK|2021|group|gross,False,pass,value follows its row label in the second-engine text
+ZENITHBANK,2022,bank,carrying,Real estate and construction,131317.0,"131,317",82,ZENITHBANK|2022|bank|carrying,False,pass,value follows its row label in the second-engine text
+ZENITHBANK,2022,bank,gross,Manufacturing,1190640.0,"1,190,640",82,ZENITHBANK|2022|bank|gross,False,pass,value follows its row label in the second-engine text
+ZENITHBANK,2022,group,carrying,Transportation,113570.0,"113,570",82,ZENITHBANK|2022|group|carrying,False,pass,value follows its row label in the second-engine text
+ZENITHBANK,2023,bank,carrying,Oil and gas,1933690.0,"1,933,690",84,ZENITHBANK|2023|bank|carrying,False,pass,value follows its row label in the second-engine text
+ZENITHBANK,2023,bank,carrying,Education,26139.0,"26,139",84,ZENITHBANK|2023|bank|carrying,False,pass,value follows its row label in the second-engine text
+ZENITHBANK,2023,bank,carrying,General Commerce,868169.0,"868,169",84,ZENITHBANK|2023|bank|carrying,False,pass,value follows its row label in the second-engine text
+ZENITHBANK,2023,group,carrying,Consumer Credit,120203.0,"120,203",84,ZENITHBANK|2023|group|carrying,False,pass,value follows its row label in the second-engine text
+ZENITHBANK,2023,group,gross,Real estate and construction,258090.0,"258,090",84,ZENITHBANK|2023|group|gross,False,pass,value follows its row label in the second-engine text
+ZENITHBANK,2024,group,gross,Agriculture,335680.0,"335,680",83,ZENITHBANK|2024|group|gross,False,pass,value follows its row label in the second-engine text
+ZENITHBANK,2025,group,gross,Agriculture,543443.0,"543,443",155,ZENITHBANK|2025|group|gross,True,pass,value follows its row label in the second-engine text
+ZENITHBANK,2025,group,gross,Oil and gas,2594989.0,"2,594,989",155,ZENITHBANK|2025|group|gross,True,pass,value follows its row label in the second-engine text
+ZENITHBANK,2025,group,gross,Consumer Credit,179732.0,"179,732",155,ZENITHBANK|2025|group|gross,True,pass,value follows its row label in the second-engine text
+ZENITHBANK,2025,group,gross,Manufacturing,1464500.0,"1,464,500",155,ZENITHBANK|2025|group|gross,True,pass,value follows its row label in the second-engine text
+ZENITHBANK,2025,group,gross,Real estate and construction,463014.0,"463,014",155,ZENITHBANK|2025|group|gross,True,pass,value follows its row label in the second-engine text
+ZENITHBANK,2025,group,gross,Finance and insurance,524840.0,"524,840",155,ZENITHBANK|2025|group|gross,True,pass,value follows its row label in the second-engine text
+ZENITHBANK,2025,group,gross,Government,1235969.0,"1,235,969",155,ZENITHBANK|2025|group|gross,True,pass,value follows its row label in the second-engine text
+ZENITHBANK,2025,group,gross,Power,290051.0,"290,051",155,ZENITHBANK|2025|group|gross,True,pass,value follows its row label in the second-engine text
+ZENITHBANK,2025,group,gross,Transportation,168238.0,"168,238",155,ZENITHBANK|2025|group|gross,True,pass,value follows its row label in the second-engine text
+ZENITHBANK,2025,group,gross,Communication,329730.0,"329,730",155,ZENITHBANK|2025|group|gross,True,pass,value follows its row label in the second-engine text
+ZENITHBANK,2025,group,gross,Education,17198.0,"17,198",155,ZENITHBANK|2025|group|gross,True,pass,value follows its row label in the second-engine text
+ZENITHBANK,2025,group,gross,General Commerce,3252163.0,"3,252,163",155,ZENITHBANK|2025|group|gross,True,pass,value follows its row label in the second-engine text

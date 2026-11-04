@@ -39,7 +39,7 @@ UNIT_PATTERNS = [
 ]
 
 OUT_COLUMNS = ["bank", "year", "level", "basis", "units_as_printed", "printed_category", "amount_printed",
-               "amount_naira", "source_file", "pdf_page", "extraction_method", "main_spec", "note"]
+               "amount_naira", "source_file", "pdf_page", "extraction_method", "main_spec", "note", "printed_cells"]
 
 
 def source_files() -> dict[tuple[str, int], Path]:
@@ -173,6 +173,7 @@ def parse_spec_on_page(spec: dict, year: int, lines: list[tables.Line],
     notes = check_headings(spec, year, lines, prev_lines or [])
     layout = spec["layout"]
     cats: dict[str, dict] = {}
+    cells: dict[str, dict] = {}  # label -> key -> printed cells added into the value
     totals: dict = {}
     n_cells: dict = {}
     if layout == "rows":
@@ -187,6 +188,7 @@ def parse_spec_on_page(spec: dict, year: int, lines: list[tables.Line],
                 if v is None:
                     continue
                 cats.setdefault(r.label, {})[key] = cats.get(r.label, {}).get(key, 0.0) + v
+                cells.setdefault(r.label, {}).setdefault(key, []).append(v)
                 n_cells[key] += 1
             totals[key] = t.total[idx]
         notes += t.notes
@@ -199,6 +201,7 @@ def parse_spec_on_page(spec: dict, year: int, lines: list[tables.Line],
         n_cells[key] = sum(1 for r in t.rows for v in r.values[:-1] if v)
         for j, sec in enumerate(spec["sectors"]):
             cats[sec] = {key: sums[j]}
+            cells[sec] = {key: [r.values[j] for r in t.rows if r.values[j] is not None]}
         totals[key] = sums[-1]
         notes.append("loans rows summed: " + "; ".join(r.label for r in t.rows))
         notes.append("printed total = sum of the Total column over those rows")
@@ -215,6 +218,7 @@ def parse_spec_on_page(spec: dict, year: int, lines: list[tables.Line],
             for r in t.rows:
                 v = r.values[b["value_col"]] or 0.0
                 cats.setdefault(r.label, {})[key] = cats.get(r.label, {}).get(key, 0.0) + v
+                cells.setdefault(r.label, {}).setdefault(key, []).append(v)
                 n_cells[key] += 1
             totals[key] += t.total[b["value_col"]] or 0.0
             # position of this block's total line, so the next block starts after it
@@ -228,7 +232,7 @@ def parse_spec_on_page(spec: dict, year: int, lines: list[tables.Line],
     units_txt, mult = detect_units(lines, start)
     if mult is None:
         raise LookupError("units not found on page")
-    return dict(categories=cats, totals=totals, n_cells=n_cells, notes=notes, units=units_txt, mult=mult)
+    return dict(categories=cats, cells=cells, totals=totals, n_cells=n_cells, notes=notes, units=units_txt, mult=mult)
 
 
 def run(banks: list[str] | None = None) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
@@ -289,7 +293,9 @@ def run(banks: list[str] | None = None) -> tuple[pd.DataFrame, pd.DataFrame, pd.
                                          units_as_printed=result["units"], printed_category=label,
                                          amount_printed=v, amount_naira=v * result["mult"],
                                          source_file=entry["source_file"], pdf_page=result["page"],
-                                         extraction_method=method, main_spec="", note=spec.get("note", "")))
+                                         extraction_method=method, main_spec="", note=spec.get("note", ""),
+                                         printed_cells=" + ".join(f"{c:,.0f}" for c in
+                                                                  result["cells"].get(label, {}).get((level, basis), []))))
                     tot_rows.append(dict(bank=bank, year=year, level=level, basis=basis,
                                          units_as_printed=result["units"],
                                          total_printed=total, total_naira=(total or 0) * result["mult"],
