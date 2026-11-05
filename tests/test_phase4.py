@@ -171,3 +171,39 @@ def test_earlier_outputs_unchanged(manifest):
     _need(man)
     for f, h in json.loads(man.read_text())["sha256"].items():
         assert hashlib.sha256((ROOT / f).read_bytes()).hexdigest() == h, f
+
+
+def test_bank_intensity_2022():
+    _need(PROC / "bank_intensity_2022.csv")
+    b = pd.read_csv(PROC / "bank_intensity_2022.csv")
+    assert len(b) == 12 and (b.year == 2022).all() and b.bank.is_unique
+    by = pd.read_csv(PROC / "financed_emissions_bank_year.csv")
+    m = b.merge(by[by.year == 2022], on=["bank", "year"], suffixes=("", "_p3"))
+    assert np.allclose(m.loans_naira, m.exposure_naira) and np.allclose(m.tco2e, m.tco2e_p3)
+    assert np.allclose(b.tco2e_per_million_naira, b.tco2e / b.loans_naira * 1e6)
+    bs = pd.read_csv(PROC / "financed_emissions_bank_sector.csv")
+    bs = bs[bs.year == 2022]
+    top = bs.loc[bs.groupby("bank").tco2e.idxmax()].set_index("bank")
+    t = b.set_index("bank")
+    assert (t.largest_sector == top.reporting_sector.reindex(t.index)).all()
+    assert np.allclose(t.largest_sector_share_of_bank_tco2e, top.share_of_bank_year_tco2e.reindex(t.index))
+
+
+def test_three_sector_share_by_sensitivity():
+    _need(PROC / "three_sector_share_by_sensitivity.csv")
+    t = pd.read_csv(PROC / "three_sector_share_by_sensitivity.csv").set_index("specification")
+    from bank_emissions.phase3_estimate import SENSITIVITIES
+    assert set(t.index) == {"main", "S7", *SENSITIVITIES} and len(t) == 19
+    assert np.allclose(t.three_sector_share, t.transport_share + t.power_share + t.upstream_share)
+    # main and S7 agree with the shares written earlier
+    sh = pd.read_csv(PROC / "postresults_s7_sector_shares.csv")
+    c = sh[sh.row_type == "combined"].iloc[0]
+    assert np.isclose(t.loc["main", "three_sector_share"], c.share_main)
+    assert np.isclose(t.loc["S7", "three_sector_share"], c.share_s7)
+    # totals equal the Phase 3 balanced-panel 2020-2024 totals per specification
+    s = pd.read_csv(PROC / "financed_emissions_sensitivities.csv")
+    tot = s[(s.row_type == "total: balanced panel") & (s.year == "2020-2024")].iloc[0]
+    for spec in ["main", "S3g", "S3h", "S3j", "S5"]:
+        assert np.isclose(t.loc[spec, "total_tco2e"], tot[spec])
+    others = t.drop(index="S3j")
+    assert (others.three_sector_share > 0.7).all() and t.loc["S3j", "three_sector_share"] < 0.5
