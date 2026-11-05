@@ -1,0 +1,15 @@
+{
+ "recorded": "2026-11-05, after the Phase 2a sign-off and before Phase 2b",
+ "sha256": {
+  "data/processed/sector_crosswalk.csv": "fcd91b6d64be4ca2f3d87519ad3764df16ec5092f542f85fb5e28337cb60d982",
+  "data/processed/sector_crosswalk_splits.csv": "11de0be5805b44f31655ad7757d858a211e6e64579454e96b8459ef1d5529090",
+  "data/processed/btr1_nbs_sector_map.csv": "adae622fcde3822941140ad9a145600b6f931d978c79e0b9624aba3c5569adef",
+  "data/processed/btr1_emissions_by_category.csv": "99d468ef84a330eb92a1448cb9cd2370da788ff46b45fc9185e94d2d3ad0c623",
+  "data/processed/nbs_gdp_by_activity.csv": "43dd6470d07ef641176ce4c0d0c043558256436f05119d3721e29ea2d2ea3e84",
+  "data/interim/oil_gas_split_shares.csv": "fbb037c823fb3330cef278bcb80437845dd9fb657cef2f858ca69be0dfd00ffc",
+  "data/interim/btr1_checks.csv": "461eb2b789571846c7826e0f4ea29dfc5300836d45c3e7d7e431925f934c3280",
+  "data/interim/nbs_gdp_checks.csv": "dc161be6c5fe8e0308791f95ca6984d341d5699fc605f3407aed72ca0d1705ff",
+  "data/interim/sector_map_checks.csv": "c1e9122c6abc8ffa594fe84b5c89cf870dfbf09460fec171092e9221ffd6bbe6",
+  "data/interim/phase0_sources.csv": "675b4befd4b6dde7288738f8ef9d1218db5321c2d973a4f99da4e53ec7ceed67"
+ }
+}

@@ -1,0 +1,86 @@
+check,spec,year,result,detail
+recompute_main,main,,pass,54 intensities recomputed by a separate function; 54 identical within 1e-12 relative (zero values compared exactly); largest absolute difference 0.0e+00 t per naira
+assigned_plus_residential_equals_national,main,2020,pass,"assigned 258,663.64 + residential 52,082.00 = 310,745.64 kt vs national 310,745.69 kt (diff -0.05; tolerance 4.51 kt, NID whole-kt rounding)"
+groups_gdp_equals_total,main,2020,pass,"group GDP 211,708,123,810,000 vs total 211,708,123,810,000"
+gdp_weighted_average_vs_economy_wide,main,2020,info,GDP-weighted average of group intensities 1.2218 vs economy-wide 1.4678 t per million naira; difference 0.2460 = unattributed residential combustion / total GDP (0.2460)
+weighted_average_plus_residential_equals_economy_wide,main,2020,pass,1.467802 vs 1.467802 t per million naira (relative difference 1.6e-07; NID whole-kt rounding)
+assigned_plus_residential_equals_national,main,2021,pass,"assigned 267,099.78 + residential 54,485.00 = 321,584.78 kt vs national 321,584.88 kt (diff -0.10; tolerance 4.51 kt, NID whole-kt rounding)"
+groups_gdp_equals_total,main,2021,pass,"group GDP 240,754,806,320,000 vs total 240,754,806,320,000"
+gdp_weighted_average_vs_economy_wide,main,2021,info,GDP-weighted average of group intensities 1.1094 vs economy-wide 1.3357 t per million naira; difference 0.2263 = unattributed residential combustion / total GDP (0.2263)
+weighted_average_plus_residential_equals_economy_wide,main,2021,pass,1.335736 vs 1.335736 t per million naira (relative difference 3.1e-07; NID whole-kt rounding)
+assigned_plus_residential_equals_national,main,2022,pass,"assigned 270,945.51 + residential 57,550.00 = 328,495.51 kt vs national 328,496.23 kt (diff -0.72; tolerance 4.51 kt, NID whole-kt rounding)"
+groups_gdp_equals_total,main,2022,pass,"group GDP 271,204,728,310,000 vs total 271,204,728,310,000"
+gdp_weighted_average_vs_economy_wide,main,2022,info,GDP-weighted average of group intensities 0.9990 vs economy-wide 1.2112 t per million naira; difference 0.2122 = unattributed residential combustion / total GDP (0.2122)
+weighted_average_plus_residential_equals_economy_wide,main,2022,pass,1.211246 vs 1.211248 t per million naira (relative difference 2.2e-06; NID whole-kt rounding)
+assigned_plus_residential_equals_national,main,2023,pass,"assigned 270,945.51 + residential 57,550.00 = 328,495.51 kt vs national 328,496.23 kt (diff -0.72; tolerance 4.51 kt, NID whole-kt rounding)"
+groups_gdp_equals_total,main,2023,pass,"group GDP 309,510,611,320,000 vs total 309,510,611,320,000"
+gdp_weighted_average_vs_economy_wide,main,2023,info,GDP-weighted average of group intensities 0.8754 vs economy-wide 1.0613 t per million naira; difference 0.1859 = unattributed residential combustion / total GDP (0.1859)
+weighted_average_plus_residential_equals_economy_wide,main,2023,pass,1.061338 vs 1.061341 t per million naira (relative difference 2.2e-06; NID whole-kt rounding)
+assigned_plus_residential_equals_national,main,2024,pass,"assigned 270,945.51 + residential 57,550.00 = 328,495.51 kt vs national 328,496.23 kt (diff -0.72; tolerance 4.51 kt, NID whole-kt rounding)"
+groups_gdp_equals_total,main,2024,pass,"group GDP 364,619,398,990,000 vs total 364,619,398,990,000"
+gdp_weighted_average_vs_economy_wide,main,2024,info,GDP-weighted average of group intensities 0.7431 vs economy-wide 0.9009 t per million naira; difference 0.1578 = unattributed residential combustion / total GDP (0.1578)
+weighted_average_plus_residential_equals_economy_wide,main,2024,pass,0.900927 vs 0.900929 t per million naira (relative difference 2.2e-06; NID whole-kt rounding)
+assigned_plus_residential_equals_national,main,2025,pass,"assigned 270,945.51 + residential 57,550.00 = 328,495.51 kt vs national 328,496.23 kt (diff -0.72; tolerance 4.51 kt, NID whole-kt rounding)"
+groups_gdp_equals_total,main,2025,pass,"group GDP 364,619,398,990,000 vs total 364,619,398,990,000"
+gdp_weighted_average_vs_economy_wide,main,2025,info,GDP-weighted average of group intensities 0.7431 vs economy-wide 0.9009 t per million naira; difference 0.1578 = unattributed residential combustion / total GDP (0.1578)
+weighted_average_plus_residential_equals_economy_wide,main,2025,pass,0.900927 vs 0.900929 t per million naira (relative difference 2.2e-06; NID whole-kt rounding)
+assigned_plus_residential_equals_national,S4_PIK,2020,pass,"assigned 258,663.64 + residential 52,082.00 = 310,745.64 kt vs national 310,745.69 kt (diff -0.05; tolerance 4.51 kt, NID whole-kt rounding)"
+groups_gdp_equals_total,S4_PIK,2020,pass,"group GDP 211,708,123,810,000 vs total 211,708,123,810,000"
+gdp_weighted_average_vs_economy_wide,S4_PIK,2020,info,GDP-weighted average of group intensities 1.2218 vs economy-wide 1.4678 t per million naira; difference 0.2460 = unattributed residential combustion / total GDP (0.2460)
+weighted_average_plus_residential_equals_economy_wide,S4_PIK,2020,pass,1.467802 vs 1.467802 t per million naira (relative difference 1.6e-07; NID whole-kt rounding)
+assigned_plus_residential_equals_national,S4_PIK,2021,pass,"assigned 267,099.78 + residential 54,485.00 = 321,584.78 kt vs national 321,584.88 kt (diff -0.10; tolerance 4.51 kt, NID whole-kt rounding)"
+groups_gdp_equals_total,S4_PIK,2021,pass,"group GDP 240,754,806,320,000 vs total 240,754,806,320,000"
+gdp_weighted_average_vs_economy_wide,S4_PIK,2021,info,GDP-weighted average of group intensities 1.1094 vs economy-wide 1.3357 t per million naira; difference 0.2263 = unattributed residential combustion / total GDP (0.2263)
+weighted_average_plus_residential_equals_economy_wide,S4_PIK,2021,pass,1.335736 vs 1.335736 t per million naira (relative difference 3.1e-07; NID whole-kt rounding)
+assigned_plus_residential_equals_national,S4_PIK,2022,pass,"assigned 270,945.51 + residential 57,550.00 = 328,495.51 kt vs national 328,496.23 kt (diff -0.72; tolerance 4.51 kt, NID whole-kt rounding)"
+groups_gdp_equals_total,S4_PIK,2022,pass,"group GDP 271,204,728,310,000 vs total 271,204,728,310,000"
+gdp_weighted_average_vs_economy_wide,S4_PIK,2022,info,GDP-weighted average of group intensities 0.9990 vs economy-wide 1.2112 t per million naira; difference 0.2122 = unattributed residential combustion / total GDP (0.2122)
+weighted_average_plus_residential_equals_economy_wide,S4_PIK,2022,pass,1.211246 vs 1.211248 t per million naira (relative difference 2.2e-06; NID whole-kt rounding)
+assigned_plus_residential_equals_national,S4_PIK,2023,pass,"assigned 272,932.20 + residential 57,262.25 = 330,194.45 kt vs national 330,195.16 kt (diff -0.71; tolerance 4.51 kt, NID whole-kt rounding)"
+groups_gdp_equals_total,S4_PIK,2023,pass,"group GDP 309,510,611,320,000 vs total 309,510,611,320,000"
+gdp_weighted_average_vs_economy_wide,S4_PIK,2023,info,GDP-weighted average of group intensities 0.8818 vs economy-wide 1.0668 t per million naira; difference 0.1850 = unattributed residential combustion / total GDP (0.1850)
+weighted_average_plus_residential_equals_economy_wide,S4_PIK,2023,pass,1.066828 vs 1.066830 t per million naira (relative difference 2.1e-06; NID whole-kt rounding)
+assigned_plus_residential_equals_national,S4_PIK,2024,pass,"assigned 277,990.48 + residential 58,413.25 = 336,403.73 kt vs national 336,404.45 kt (diff -0.72; tolerance 4.51 kt, NID whole-kt rounding)"
+groups_gdp_equals_total,S4_PIK,2024,pass,"group GDP 364,619,398,990,000 vs total 364,619,398,990,000"
+gdp_weighted_average_vs_economy_wide,S4_PIK,2024,info,GDP-weighted average of group intensities 0.7624 vs economy-wide 0.9226 t per million naira; difference 0.1602 = unattributed residential combustion / total GDP (0.1602)
+weighted_average_plus_residential_equals_economy_wide,S4_PIK,2024,pass,0.922616 vs 0.922618 t per million naira (relative difference 2.1e-06; NID whole-kt rounding)
+assigned_plus_residential_equals_national,S4_PIK,2025,pass,"assigned 277,990.48 + residential 58,413.25 = 336,403.73 kt vs national 336,404.45 kt (diff -0.72; tolerance 4.51 kt, NID whole-kt rounding)"
+groups_gdp_equals_total,S4_PIK,2025,pass,"group GDP 364,619,398,990,000 vs total 364,619,398,990,000"
+gdp_weighted_average_vs_economy_wide,S4_PIK,2025,info,GDP-weighted average of group intensities 0.7624 vs economy-wide 0.9226 t per million naira; difference 0.1602 = unattributed residential combustion / total GDP (0.1602)
+weighted_average_plus_residential_equals_economy_wide,S4_PIK,2025,pass,0.922616 vs 0.922618 t per million naira (relative difference 2.1e-06; NID whole-kt rounding)
+assigned_plus_residential_equals_national,S5_LULUCF,2020,pass,"assigned 468,313.41 + residential 52,082.00 = 520,395.41 kt vs national 520,395.46 kt (diff -0.05; tolerance 4.51 kt, NID whole-kt rounding)"
+groups_gdp_equals_total,S5_LULUCF,2020,pass,"group GDP 211,708,123,810,000 vs total 211,708,123,810,000"
+gdp_weighted_average_vs_economy_wide,S5_LULUCF,2020,info,GDP-weighted average of group intensities 2.2121 vs economy-wide 2.4581 t per million naira; difference 0.2460 = unattributed residential combustion / total GDP (0.2460)
+weighted_average_plus_residential_equals_economy_wide,S5_LULUCF,2020,pass,2.458080 vs 2.458080 t per million naira (relative difference 9.6e-08; NID whole-kt rounding)
+assigned_plus_residential_equals_national,S5_LULUCF,2021,pass,"assigned 478,088.60 + residential 54,485.00 = 532,573.60 kt vs national 532,573.70 kt (diff -0.10; tolerance 4.51 kt, NID whole-kt rounding)"
+groups_gdp_equals_total,S5_LULUCF,2021,pass,"group GDP 240,754,806,320,000 vs total 240,754,806,320,000"
+gdp_weighted_average_vs_economy_wide,S5_LULUCF,2021,info,GDP-weighted average of group intensities 1.9858 vs economy-wide 2.2121 t per million naira; difference 0.2263 = unattributed residential combustion / total GDP (0.2263)
+weighted_average_plus_residential_equals_economy_wide,S5_LULUCF,2021,pass,2.212100 vs 2.212100 t per million naira (relative difference 1.9e-07; NID whole-kt rounding)
+assigned_plus_residential_equals_national,S5_LULUCF,2022,pass,"assigned 496,544.42 + residential 57,550.00 = 554,094.42 kt vs national 554,095.14 kt (diff -0.72; tolerance 4.51 kt, NID whole-kt rounding)"
+groups_gdp_equals_total,S5_LULUCF,2022,pass,"group GDP 271,204,728,310,000 vs total 271,204,728,310,000"
+gdp_weighted_average_vs_economy_wide,S5_LULUCF,2022,info,GDP-weighted average of group intensities 1.8309 vs economy-wide 2.0431 t per million naira; difference 0.2122 = unattributed residential combustion / total GDP (0.2122)
+weighted_average_plus_residential_equals_economy_wide,S5_LULUCF,2022,pass,2.043085 vs 2.043088 t per million naira (relative difference 1.3e-06; NID whole-kt rounding)
+assigned_plus_residential_equals_national,S5_LULUCF,2023,pass,"assigned 496,544.42 + residential 57,550.00 = 554,094.42 kt vs national 554,095.14 kt (diff -0.72; tolerance 4.51 kt, NID whole-kt rounding)"
+groups_gdp_equals_total,S5_LULUCF,2023,pass,"group GDP 309,510,611,320,000 vs total 309,510,611,320,000"
+gdp_weighted_average_vs_economy_wide,S5_LULUCF,2023,info,GDP-weighted average of group intensities 1.6043 vs economy-wide 1.7902 t per million naira; difference 0.1859 = unattributed residential combustion / total GDP (0.1859)
+weighted_average_plus_residential_equals_economy_wide,S5_LULUCF,2023,pass,1.790228 vs 1.790230 t per million naira (relative difference 1.3e-06; NID whole-kt rounding)
+assigned_plus_residential_equals_national,S5_LULUCF,2024,pass,"assigned 496,544.42 + residential 57,550.00 = 554,094.42 kt vs national 554,095.14 kt (diff -0.72; tolerance 4.51 kt, NID whole-kt rounding)"
+groups_gdp_equals_total,S5_LULUCF,2024,pass,"group GDP 364,619,398,990,000 vs total 364,619,398,990,000"
+gdp_weighted_average_vs_economy_wide,S5_LULUCF,2024,info,GDP-weighted average of group intensities 1.3618 vs economy-wide 1.5197 t per million naira; difference 0.1578 = unattributed residential combustion / total GDP (0.1578)
+weighted_average_plus_residential_equals_economy_wide,S5_LULUCF,2024,pass,1.519652 vs 1.519653 t per million naira (relative difference 1.3e-06; NID whole-kt rounding)
+assigned_plus_residential_equals_national,S5_LULUCF,2025,pass,"assigned 496,544.42 + residential 57,550.00 = 554,094.42 kt vs national 554,095.14 kt (diff -0.72; tolerance 4.51 kt, NID whole-kt rounding)"
+groups_gdp_equals_total,S5_LULUCF,2025,pass,"group GDP 364,619,398,990,000 vs total 364,619,398,990,000"
+gdp_weighted_average_vs_economy_wide,S5_LULUCF,2025,info,GDP-weighted average of group intensities 1.3618 vs economy-wide 1.5197 t per million naira; difference 0.1578 = unattributed residential combustion / total GDP (0.1578)
+weighted_average_plus_residential_equals_economy_wide,S5_LULUCF,2025,pass,1.519652 vs 1.519653 t per million naira (relative difference 1.3e-06; NID whole-kt rounding)
+assigned_plus_residential_equals_national,S6_ClimateWatch,2020,pass,values not committed (Climate Watch licence not confirmed); see data/raw/derived/
+groups_gdp_equals_total,S6_ClimateWatch,2020,pass,values not committed (Climate Watch licence not confirmed); see data/raw/derived/
+assigned_plus_residential_equals_national,S6_ClimateWatch,2021,pass,values not committed (Climate Watch licence not confirmed); see data/raw/derived/
+groups_gdp_equals_total,S6_ClimateWatch,2021,pass,values not committed (Climate Watch licence not confirmed); see data/raw/derived/
+assigned_plus_residential_equals_national,S6_ClimateWatch,2022,pass,values not committed (Climate Watch licence not confirmed); see data/raw/derived/
+groups_gdp_equals_total,S6_ClimateWatch,2022,pass,values not committed (Climate Watch licence not confirmed); see data/raw/derived/
+assigned_plus_residential_equals_national,S6_ClimateWatch,2023,pass,values not committed (Climate Watch licence not confirmed); see data/raw/derived/
+groups_gdp_equals_total,S6_ClimateWatch,2023,pass,values not committed (Climate Watch licence not confirmed); see data/raw/derived/
+assigned_plus_residential_equals_national,S6_ClimateWatch,2024,pass,values not committed (Climate Watch licence not confirmed); see data/raw/derived/
+groups_gdp_equals_total,S6_ClimateWatch,2024,pass,values not committed (Climate Watch licence not confirmed); see data/raw/derived/
+assigned_plus_residential_equals_national,S6_ClimateWatch,2025,pass,values not committed (Climate Watch licence not confirmed); see data/raw/derived/
+groups_gdp_equals_total,S6_ClimateWatch,2025,pass,values not committed (Climate Watch licence not confirmed); see data/raw/derived/
