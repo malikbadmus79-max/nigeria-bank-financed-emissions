@@ -1,0 +1,7 @@
+check,item,result,detail
+recompute_bank_year,all,pass,70/70 bank-years identical within 1e-12 (separate function)
+exposure_equals_phase1b_total,all,pass,70/70 bank-years: expanded exposure equals the Phase 1b main-specification total (sample.csv); largest relative difference 1.6e-16
+every_included_bank_year_estimated,all,pass,70 bank-years estimated; missing: []
+bank_year_sector_shares_sum_to_1,all,pass,70 bank-years; largest deviation 3.3e-16
+year_sector_shares_sum_to_1,all,pass,12 total-type years; largest deviation 2.2e-16
+no_negative_line_values,all,pass,0 negative lines

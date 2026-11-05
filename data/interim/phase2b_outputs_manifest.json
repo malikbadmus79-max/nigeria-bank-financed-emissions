@@ -1,0 +1,8 @@
+{
+ "recorded": "2026-11-05, after the Phase 2b sign-off and before Phase 3",
+ "sha256": {
+  "data/processed/sector_intensity.csv": "07a34f2b98bbf689809f635e7924a96767dba6296ae857f2f22df75bb7624991",
+  "data/interim/pik_growth_ratios.csv": "dad46f6483c066fe78fb6412cb6b33d8733cc4b935cf0fdf56ca694bc1415304",
+  "data/interim/intensity_checks.csv": "f46edba47e8d9c288d4e10a2bc11ba2430a5789578f63588edf65e74cd6d1847"
+ }
+}
