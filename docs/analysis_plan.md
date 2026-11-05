@@ -202,9 +202,12 @@ Each sensitivity changes one element of the main specification, holds the rest f
 | S3c | Individuals and retail | zero | economy-wide average |
 | S3d | Government | services intensity | zero |
 | S3e | Finance and insurance | services intensity | zero |
+| S3f | Access 2025 printed-total residual (added 2026-11-04, see below) | economy-wide average ("Other" rule) | the common sector to which Access's "Oil And Gas - downstream" label is mapped in the crosswalk |
 | S4 | 2023-2025 intensity | Option A (emissions held at 2022, later-year GDP) | Option B (emissions extended with PIK top-level growth to 2024; 2025 as in section 5) |
 | S5 | LULUCF | excluded from agriculture | BTR1 category 4 LULUCF added to agriculture emissions |
 | S6 | Emissions source | BTR1 sector emissions | Climate Watch source sector emissions (Climate Watch API, 1990-2023) mapped to the common sectors, same GDP denominators |
+
+Recorded addition, 2026-11-04 (S3f). The Access Holdings FY2025 sector table omits its "Oil And Gas - downstream" row, so the printed total exceeds the printed rows by 249,219 million naira. By author decision this difference is carried as one row, "unallocated (printed total residual)" (`docs/phase1b_results.md`, deviation 8). In the main specification it takes the "Other" rule (economy-wide average intensity); S3f assigns it instead to the common sector of Access's "Oil And Gas - downstream" label in other years. S3f was added after Phase 1b extraction and before any intensity or estimate was computed. No other rule or sensitivity is changed by this addition.
 
 Reasons for the main choices not argued above. S5: LULUCF emissions and removals arise from land-use change across many land users and cannot be tied to the agricultural borrowers of commercial banks; excluding them is the conservative main case, and the printed BTR1 totals with and without LULUCF show that the choice is material at national level. S6: Climate Watch sectors (electricity/heat, manufacturing/construction, transportation, building, fugitive emissions, industrial processes, agriculture, waste, LULUCF) map to the common sectors at a similar level of detail, so the sensitivity tests dependence on the inventory source. The Climate Watch licence was not confirmed on an opened page (Phase 0); the sensitivity is computed, but raw Climate Watch values are redistributed in the repository only if the licence is confirmed.
 

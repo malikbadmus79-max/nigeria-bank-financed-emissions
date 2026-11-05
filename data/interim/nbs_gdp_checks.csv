@@ -1,0 +1,8 @@
+check,year,result,detail
+activity_count,,pass,46 activities read (46 printed lines)
+activities_sum_to_total,2019,pass,"sum 204,343,987.49 vs printed GDP at current basic prices 204,343,987.47 (diff 0.02)"
+activities_sum_to_total,2020,pass,"sum 211,708,123.81 vs printed GDP at current basic prices 211,708,123.83 (diff -0.02)"
+activities_sum_to_total,2021,pass,"sum 240,754,806.32 vs printed GDP at current basic prices 240,754,806.30 (diff 0.02)"
+activities_sum_to_total,2022,pass,"sum 271,204,728.31 vs printed GDP at current basic prices 271,204,728.31 (diff 0.00)"
+activities_sum_to_total,2023,pass,"sum 309,510,611.32 vs printed GDP at current basic prices 309,510,611.29 (diff 0.03)"
+activities_sum_to_total,2024,pass,"sum 364,619,398.99 vs printed GDP at current basic prices 364,619,399.00 (diff -0.01)"

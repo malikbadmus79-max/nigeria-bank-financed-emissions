@@ -1,0 +1,72 @@
+check,item,result,detail
+btr1_leaf_accounted_once,1.A.1.a,pass,"assigned 1, listed as not assigned 0"
+btr1_leaf_accounted_once,1.A.1.b,pass,"assigned 1, listed as not assigned 0"
+btr1_leaf_accounted_once,1.A.1.c,pass,"assigned 1, listed as not assigned 0"
+btr1_leaf_accounted_once,1.A.2,pass,"assigned 1, listed as not assigned 0"
+btr1_leaf_accounted_once,1.A.3,pass,"assigned 1, listed as not assigned 0"
+btr1_leaf_accounted_once,1.A.4.a,pass,"assigned 1, listed as not assigned 0"
+btr1_leaf_accounted_once,1.A.4.b,pass,"assigned 0, listed as not assigned 1"
+btr1_leaf_accounted_once,1.A.4.c,pass,"assigned 0, listed as not assigned 1"
+btr1_leaf_accounted_once,1.A.5,pass,"assigned 0, listed as not assigned 1"
+btr1_leaf_accounted_once,1.B.1.a,pass,"assigned 0, listed as not assigned 1"
+btr1_leaf_accounted_once,1.B.1.b,pass,"assigned 0, listed as not assigned 1"
+btr1_leaf_accounted_once,1.B.2,pass,"assigned 1, listed as not assigned 0"
+btr1_leaf_accounted_once,1.C,pass,"assigned 0, listed as not assigned 1"
+btr1_leaf_accounted_once,2.A,pass,"assigned 1, listed as not assigned 0"
+btr1_leaf_accounted_once,2.B,pass,"assigned 1, listed as not assigned 0"
+btr1_leaf_accounted_once,2.C,pass,"assigned 1, listed as not assigned 0"
+btr1_leaf_accounted_once,2.D,pass,"assigned 0, listed as not assigned 1"
+btr1_leaf_accounted_once,2.E,pass,"assigned 0, listed as not assigned 1"
+btr1_leaf_accounted_once,2.F,pass,"assigned 0, listed as not assigned 1"
+btr1_leaf_accounted_once,2.G,pass,"assigned 0, listed as not assigned 1"
+btr1_leaf_accounted_once,2.H,pass,"assigned 0, listed as not assigned 1"
+btr1_leaf_accounted_once,3,pass,"assigned 1, listed as not assigned 0"
+btr1_leaf_accounted_once,4,pass,"assigned 0, listed as not assigned 1"
+btr1_leaf_accounted_once,5,pass,"assigned 1, listed as not assigned 0"
+btr1_leaf_accounted_once,6,pass,"assigned 0, listed as not assigned 1"
+nbs_activity_in_one_group,1,pass,Crop Production: in 1 intensity group(s)
+nbs_activity_in_one_group,2,pass,Livestock: in 1 intensity group(s)
+nbs_activity_in_one_group,3,pass,Forestry: in 1 intensity group(s)
+nbs_activity_in_one_group,4,pass,Fishing: in 1 intensity group(s)
+nbs_activity_in_one_group,5,pass,Crude Petroleum and Natural Gas: in 1 intensity group(s)
+nbs_activity_in_one_group,6,pass,Coal Mining: in 1 intensity group(s)
+nbs_activity_in_one_group,7,pass,Metal Ores: in 1 intensity group(s)
+nbs_activity_in_one_group,8,pass,Quarrying and Other Minerals: in 1 intensity group(s)
+nbs_activity_in_one_group,9,pass,Oil Refining: in 1 intensity group(s)
+nbs_activity_in_one_group,10,pass,Cement: in 1 intensity group(s)
+nbs_activity_in_one_group,11,pass,"Food, Beverage and Tobacco: in 1 intensity group(s)"
+nbs_activity_in_one_group,12,pass,"Textile, Apparel and Footwear: in 1 intensity group(s)"
+nbs_activity_in_one_group,13,pass,Wood and Wood Products: in 1 intensity group(s)
+nbs_activity_in_one_group,14,pass,"Pulp, Paper and Paper Products: in 1 intensity group(s)"
+nbs_activity_in_one_group,15,pass,Chemical and Pharmaceutical Products: in 1 intensity group(s)
+nbs_activity_in_one_group,16,pass,Non-Metallic Products: in 1 intensity group(s)
+nbs_activity_in_one_group,17,pass,Plastic and Rubber products: in 1 intensity group(s)
+nbs_activity_in_one_group,18,pass,Electrical and Electronics: in 1 intensity group(s)
+nbs_activity_in_one_group,19,pass,"Basic metal , Iron and Steel: in 1 intensity group(s)"
+nbs_activity_in_one_group,20,pass,Motor vehicles & assembly: in 1 intensity group(s)
+nbs_activity_in_one_group,21,pass,Other Manufacturing: in 1 intensity group(s)
+nbs_activity_in_one_group,22,pass,"ELECTRICITY, GAS , STEAM AND AIR CONDITIONING SUPPLY: in 1 intensity group(s)"
+nbs_activity_in_one_group,23,pass,"WATER SUPPLY,SEWERAGE, WASTE MANAGEMENT AND REMEDIATION: in 1 intensity group(s)"
+nbs_activity_in_one_group,24,pass,CONSTRUCTION: in 1 intensity group(s)
+nbs_activity_in_one_group,25,pass,TRADE: in 1 intensity group(s)
+nbs_activity_in_one_group,26,pass,ACCOMMODATION AND FOOD SERVICES: in 1 intensity group(s)
+nbs_activity_in_one_group,27,pass,Road Transport: in 1 intensity group(s)
+nbs_activity_in_one_group,28,pass,Rail Transport & Pipelines: in 1 intensity group(s)
+nbs_activity_in_one_group,29,pass,Water Transport: in 1 intensity group(s)
+nbs_activity_in_one_group,30,pass,Air Transport: in 1 intensity group(s)
+nbs_activity_in_one_group,31,pass,Transport Services: in 1 intensity group(s)
+nbs_activity_in_one_group,32,pass,Post and Courier Services: in 1 intensity group(s)
+nbs_activity_in_one_group,33,pass,Telecommunications: in 1 intensity group(s)
+nbs_activity_in_one_group,34,pass,Publishing: in 1 intensity group(s)
+nbs_activity_in_one_group,35,pass,"Motion Pictures, Sound recording and Music production: in 1 intensity group(s)"
+nbs_activity_in_one_group,36,pass,Broadcasting: in 1 intensity group(s)
+nbs_activity_in_one_group,37,pass,"ARTS, ENTERTAINMENT AND RECREATION: in 1 intensity group(s)"
+nbs_activity_in_one_group,38,pass,Financial Institutions: in 1 intensity group(s)
+nbs_activity_in_one_group,39,pass,Insurance: in 1 intensity group(s)
+nbs_activity_in_one_group,40,pass,REAL ESTATE: in 1 intensity group(s)
+nbs_activity_in_one_group,41,pass,"PROFESSIONAL, SCIENTIFIC AND TECHNICAL SERVICES: in 1 intensity group(s)"
+nbs_activity_in_one_group,42,pass,ADMINISTRATIVE & SUPPORT SERVICES: in 1 intensity group(s)
+nbs_activity_in_one_group,43,pass,PUBLIC ADMINISTRATION: in 1 intensity group(s)
+nbs_activity_in_one_group,44,pass,EDUCATION: in 1 intensity group(s)
+nbs_activity_in_one_group,45,pass,HUMAN HEALTH AND SOCIAL SERVICES: in 1 intensity group(s)
+nbs_activity_in_one_group,46,pass,OTHER SERVICES: in 1 intensity group(s)

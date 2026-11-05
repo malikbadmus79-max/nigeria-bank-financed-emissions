@@ -1,0 +1,14 @@
+{
+ "recorded": "2026-11-04, after the Phase 1b author decisions and before Phase 2a",
+ "sha256": {
+  "data/processed/exposures_by_sector.csv": "a7779cce738810001b59ef56c0f8a0465042d947419052a20a38b9b7015a6bc2",
+  "data/processed/sample.csv": "735cb272e092806ebc7e0d1f07fc468ef48cd24b1665b38ca1120021be0d3dd2",
+  "data/processed/loans_by_sector.csv": "751390dec9b0377b175105b13c7fd708184c91684e8f5cb7955e20fcde65e31c",
+  "data/processed/loans_totals.csv": "8b1e4ee212f1ce6f4d006a0289e910604712cf0271ee04cf84eea13a63e6767b",
+  "data/interim/extraction_validation.csv": "2df5ffe8ce6e9faf7f2ef84629d69c3cc21cde76c0cc19521c7b4cc2ed35a2fb",
+  "data/interim/extraction_reread_sample.csv": "96f107445dd9b1a7a738c90466eae54fe0834871e25d60cacbbc2bdf6fa43ec3",
+  "data/interim/phase1b_extract_log.csv": "22e982f23289a9d93ce35ecf266b8f91e51538b50d826a38b74d3f269ef2ec90",
+  "data/interim/phase1b_total_matches.csv": "7d2ea43702dcc8ab57c3c2d14e2ae0fca5997920ed868ec9f2e0336b8c633fc1",
+  "data/interim/jaiz2024_ocr_check.csv": "a1df8232faac2836b03b72073656a73eab89d7294e3ae4cf13f7ea63d800a38f"
+ }
+}

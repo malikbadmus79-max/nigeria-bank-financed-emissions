@@ -1,0 +1,293 @@
+category_code,category,year,value_as_printed,kt_co2e,pdf_page,extraction_method,source,source_file,units,level
+,Total (net emissions),2019,"625,288.19",625288.19,60,"OCR of embedded image (Tesseract, cell by cell)","Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+,Total (net emissions),2020,"520,395.46",520395.46,60,"OCR of embedded image (Tesseract, cell by cell)","Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+,Total (net emissions),2021,"532,573.70",532573.7,60,"OCR of embedded image (Tesseract, cell by cell)","Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+,Total (net emissions),2022,"554,095.14",554095.14,60,"OCR of embedded image (Tesseract, cell by cell)","Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1,Energy,2019,"199,402.44",199402.44,60,"OCR of embedded image (Tesseract, cell by cell)","Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1,Energy,2020,"187,324.51",187324.51,60,"OCR of embedded image (Tesseract, cell by cell)","Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1,Energy,2021,"195,685.35",195685.35,60,"OCR of embedded image (Tesseract, cell by cell)","Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1,Energy,2022,"200,422.03",200422.03,60,"OCR of embedded image (Tesseract, cell by cell)","Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.A,Fuel combustion,2019,"161,859.14",161859.14,60,"OCR of embedded image (Tesseract, cell by cell)","Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.A,Fuel combustion,2020,"151,360.28",151360.28,60,"OCR of embedded image (Tesseract, cell by cell)","Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.A,Fuel combustion,2021,"162,122.12",162122.12,60,"OCR of embedded image (Tesseract, cell by cell)","Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.A,Fuel combustion,2022,"169,326.47",169326.47,60,"OCR of embedded image (Tesseract, cell by cell)","Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.A.1,Energy industries,2019,"29,362.54",29362.54,60,"OCR of embedded image (Tesseract, cell by cell)","Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.A.1,Energy industries,2020,"29,988.77",29988.77,60,"OCR of embedded image (Tesseract, cell by cell)","Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.A.1,Energy industries,2021,"29,497.75",29497.75,60,"OCR of embedded image (Tesseract, cell by cell)","Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.A.1,Energy industries,2022,"33,791.96",33791.96,60,"OCR of embedded image (Tesseract, cell by cell)","Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.A.2,Manufacturing industries and construction,2019,"15,432.10",15432.1,60,"OCR of embedded image (Tesseract, cell by cell)","Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.A.2,Manufacturing industries and construction,2020,"14,518.65",14518.65,60,"OCR of embedded image (Tesseract, cell by cell)","Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.A.2,Manufacturing industries and construction,2021,"16,075.63",16075.63,60,"OCR of embedded image (Tesseract, cell by cell)","Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.A.2,Manufacturing industries and construction,2022,"15,066.46",15066.46,60,"OCR of embedded image (Tesseract, cell by cell)","Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.A.3,Transport,2019,"60,761.42",60761.42,60,"OCR of embedded image (Tesseract, cell by cell)","Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.A.3,Transport,2020,"52,009.44",52009.44,60,"OCR of embedded image (Tesseract, cell by cell)","Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.A.3,Transport,2021,"58,947.99",58947.99,60,"OCR of embedded image (Tesseract, cell by cell)","Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.A.3,Transport,2022,"59,044.83",59044.83,60,"OCR of embedded image (Tesseract, cell by cell)","Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.A.4,Other sectors,2019,"56,303.09",56303.09,60,"OCR of embedded image (Tesseract, cell by cell)","Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.A.4,Other sectors,2020,"54,843.40",54843.4,60,"OCR of embedded image (Tesseract, cell by cell)","Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.A.4,Other sectors,2021,"57,600.74",57600.74,60,"OCR of embedded image (Tesseract, cell by cell)","Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.A.4,Other sectors,2022,"61,423.22",61423.22,60,"OCR of embedded image (Tesseract, cell by cell)","Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.A.5,Other,2019,"NE,NO",,60,"OCR of embedded image (Tesseract, cell by cell)","Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.A.5,Other,2020,"NE,NO",,60,"OCR of embedded image (Tesseract, cell by cell)","Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.A.5,Other,2021,"NE,NO",,60,"OCR of embedded image (Tesseract, cell by cell)","Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.A.5,Other,2022,"NE,NO",,60,"OCR of embedded image (Tesseract, cell by cell)","Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.B,Fugitive emissions from fuels,2019,"37,543.29",37543.29,60,"OCR of embedded image (Tesseract, cell by cell)","Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.B,Fugitive emissions from fuels,2020,"35,964.23",35964.23,60,"OCR of embedded image (Tesseract, cell by cell)","Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.B,Fugitive emissions from fuels,2021,"33,563.24",33563.24,60,"OCR of embedded image (Tesseract, cell by cell)","Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.B,Fugitive emissions from fuels,2022,"31,095.57",31095.57,60,"OCR of embedded image (Tesseract, cell by cell)","Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.B.1,Solid fuels,2019,"4,976.62",4976.62,60,"OCR of embedded image (Tesseract, cell by cell)","Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.B.1,Solid fuels,2020,"5,054.86",5054.86,60,"OCR of embedded image (Tesseract, cell by cell)","Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.B.1,Solid fuels,2021,"5,077.60",5077.6,60,"OCR of embedded image (Tesseract, cell by cell)","Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.B.1,Solid fuels,2022,"5,744.54",5744.54,60,"OCR of embedded image (Tesseract, cell by cell)","Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.B.2,Oil and natural gas and other emissions from energy production,2019,"32,566.67",32566.67,60,"OCR of embedded image (Tesseract, cell by cell)","Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.B.2,Oil and natural gas and other emissions from energy production,2020,"30,909.37",30909.37,60,"OCR of embedded image (Tesseract, cell by cell)","Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.B.2,Oil and natural gas and other emissions from energy production,2021,"28,485.64",28485.64,60,"OCR of embedded image (Tesseract, cell by cell)","Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.B.2,Oil and natural gas and other emissions from energy production,2022,"25,351.03",25351.03,60,"OCR of embedded image (Tesseract, cell by cell)","Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.C,CO2 Transport and storage,2019,"NE,NO",,60,"OCR of embedded image (Tesseract, cell by cell)","Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.C,CO2 Transport and storage,2020,"NE,NO",,60,"OCR of embedded image (Tesseract, cell by cell)","Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.C,CO2 Transport and storage,2021,"NE,NO",,60,"OCR of embedded image (Tesseract, cell by cell)","Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.C,CO2 Transport and storage,2022,"NE,NO",,60,"OCR of embedded image (Tesseract, cell by cell)","Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+2,Industrial processes and product use,2019,"10,183.12",10183.12,60,"OCR of embedded image (Tesseract, cell by cell)","Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+2,Industrial processes and product use,2020,"11,410.44",11410.44,60,"OCR of embedded image (Tesseract, cell by cell)","Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+2,Industrial processes and product use,2021,"12,619.49",12619.49,60,"OCR of embedded image (Tesseract, cell by cell)","Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+2,Industrial processes and product use,2022,"12,043.72",12043.72,60,"OCR of embedded image (Tesseract, cell by cell)","Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+2.A,Mineral industry,2019,"8,895.42",8895.42,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+2.A,Mineral industry,2020,"10,228.62",10228.62,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+2.A,Mineral industry,2021,"11,321.42",11321.42,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+2.A,Mineral industry,2022,"10,931.27",10931.27,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+2.B,Chemical industry,2019,481.30,481.3,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+2.B,Chemical industry,2020,512.22,512.22,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+2.B,Chemical industry,2021,765.27,765.27,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+2.B,Chemical industry,2022,716.45,716.45,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+2.C,Metal industry,2019,806.40,806.4,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+2.C,Metal industry,2020,669.60,669.6,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+2.C,Metal industry,2021,532.80,532.8,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+2.C,Metal industry,2022,396.00,396.0,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+2.D,Non-energy products from fuels and solvent use,2019,"NA,NE",,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+2.D,Non-energy products from fuels and solvent use,2020,"NA,NE",,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+2.D,Non-energy products from fuels and solvent use,2021,"NA,NE",,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+2.D,Non-energy products from fuels and solvent use,2022,"NA,NE",,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+2.E,Electronic industry,2019,"FX,NA,NE",,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+2.E,Electronic industry,2020,"FX,NA,NE",,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+2.E,Electronic industry,2021,"FX,NA,NE",,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+2.E,Electronic industry,2022,"FX,NA,NE",,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+2.F,Product uses as substitutes for ODS,2019,"FX,NE,NO",,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+2.F,Product uses as substitutes for ODS,2020,"FX,NE,NO",,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+2.F,Product uses as substitutes for ODS,2021,"FX,NE,NO",,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+2.F,Product uses as substitutes for ODS,2022,"FX,NE,NO",,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+2.G,Other product manufacture and use,2019,"FX,NE,NO",,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+2.G,Other product manufacture and use,2020,"FX,NE,NO",,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+2.G,Other product manufacture and use,2021,"FX,NE,NO",,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+2.G,Other product manufacture and use,2022,"FX,NE,NO",,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+2.H,Other,2019,"FX,NE,NO",,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+2.H,Other,2020,"FX,NE,NO",,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+2.H,Other,2021,"FX,NE,NO",,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+2.H,Other,2022,"FX,NE,NO",,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+3,Agriculture,2019,"73,539.97",73539.97,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+3,Agriculture,2020,"75,886.58",75886.58,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+3,Agriculture,2021,"76,205.15",76205.15,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+3,Agriculture,2022,"77,980.58",77980.58,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+3.A,Enteric fermentation,2019,"36,666.02",36666.02,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+3.A,Enteric fermentation,2020,"37,294.80",37294.8,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+3.A,Enteric fermentation,2021,"37,910.68",37910.68,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+3.A,Enteric fermentation,2022,"38,369.32",38369.32,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+3.B,Manure management,2019,"4,020.20",4020.2,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+3.B,Manure management,2020,"4,012.28",4012.28,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+3.B,Manure management,2021,"4,119.75",4119.75,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+3.B,Manure management,2022,"4,194.66",4194.66,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+3.C,Rice cultivation,2019,"10,794.30",10794.3,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+3.C,Rice cultivation,2020,"10,973.29",10973.29,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+3.C,Rice cultivation,2021,"11,300.26",11300.26,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+3.C,Rice cultivation,2022,"12,017.24",12017.24,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+3.D,Agricultural soils,2019,"21,538.93",21538.93,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+3.D,Agricultural soils,2020,"22,847.50",22847.5,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+3.D,Agricultural soils,2021,"22,326.03",22326.03,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+3.D,Agricultural soils,2022,"22,804.41",22804.41,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+3.E,Prescribed burning of savannahs,2019,NO,,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+3.E,Prescribed burning of savannahs,2020,NO,,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+3.E,Prescribed burning of savannahs,2021,NO,,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+3.E,Prescribed burning of savannahs,2022,NO,,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+3.F,Field burning of agricultural residues,2019,4.18,4.18,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+3.F,Field burning of agricultural residues,2020,4.16,4.16,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+3.F,Field burning of agricultural residues,2021,4.17,4.17,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+3.F,Field burning of agricultural residues,2022,4.17,4.17,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+3.G,Liming,2019,NE,,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+3.G,Liming,2020,NE,,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+3.G,Liming,2021,NE,,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+3.G,Liming,2022,NE,,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+3.H,Urea application,2019,516.35,516.35,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+3.H,Urea application,2020,754.54,754.54,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+3.H,Urea application,2021,544.25,544.25,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+3.H,Urea application,2022,590.78,590.78,60,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+3.I,Other carbon-containing fertilizers,2019,NE,,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+3.I,Other carbon-containing fertilizers,2020,NE,,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+3.I,Other carbon-containing fertilizers,2021,NE,,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+3.I,Other carbon-containing fertilizers,2022,NE,,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+3.J,Other,2019,"NE,NO",,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+3.J,Other,2020,"NE,NO",,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+3.J,Other,2021,"NE,NO",,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+3.J,Other,2022,"NE,NO",,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+4,"Land use, land-use change and forestry",2019,"306,996.12",306996.12,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+4,"Land use, land-use change and forestry",2020,"209,649.77",209649.77,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+4,"Land use, land-use change and forestry",2021,"210,988.82",210988.82,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+4,"Land use, land-use change and forestry",2022,"225,598.91",225598.91,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+4.A,Forest land,2019,"311,166.92",311166.92,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+4.A,Forest land,2020,"333,955.48",333955.48,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+4.A,Forest land,2021,"335,669.44",335669.44,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+4.A,Forest land,2022,"349,773.77",349773.77,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+4.B,Cropland,2019,"IE,NA,NE",,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+4.B,Cropland,2020,"-111,178.86",-111178.86,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+4.B,Cropland,2021,"-111,178.87",-111178.87,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+4.B,Cropland,2022,"-111,178.86",-111178.86,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+4.C,Grassland,2019,"IE,NA,NE",,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+4.C,Grassland,2020,"IE,NA,NE",,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+4.C,Grassland,2021,"IE,NA,NE",,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+4.C,Grassland,2022,"IE,NA,NE",,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+4.D,Wetlands,2019,"NA,NE",,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+4.D,Wetlands,2020,"NA,NE",,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+4.D,Wetlands,2021,"NA,NE",,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+4.D,Wetlands,2022,"NA,NE",,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+4.E,Settlements,2019,"NA,NE",,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+4.E,Settlements,2020,"-8,876.49",-8876.49,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+4.E,Settlements,2021,"-8,876.49",-8876.49,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+4.E,Settlements,2022,"-8,876.49",-8876.49,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+4.F,Other land,2019,"NE,NO",,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+4.F,Other land,2020,"NE,NO",,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+4.F,Other land,2021,"NE,NO",,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+4.F,Other land,2022,"NE,NO",,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+4.G,Harvested wood products,2019,"-4,170.80",-4170.8,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+4.G,Harvested wood products,2020,"-4,250.36",-4250.36,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+4.G,Harvested wood products,2021,"-4,625.25",-4625.25,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+4.G,Harvested wood products,2022,"-4,119.51",-4119.51,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+4.H,Other,2019,"NA,NO",,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+4.H,Other,2020,"NA,NO",,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+4.H,Other,2021,"NA,NO",,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+4.H,Other,2022,"NA,NO",,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+5,Waste,2019,"35,166.53",35166.53,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+5,Waste,2020,"36,124.16",36124.16,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+5,Waste,2021,"37,074.88",37074.88,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+5,Waste,2022,"38,049.89",38049.89,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+5.A,Solid waste disposal,2019,"10,142.64",10142.64,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+5.A,Solid waste disposal,2020,"10,473.59",10473.59,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+5.A,Solid waste disposal,2021,"10,794.78",10794.78,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+5.A,Solid waste disposal,2022,"11,127.99",11127.99,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+5.B,Biological treatment of solid waste,2019,"NE,NO",,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+5.B,Biological treatment of solid waste,2020,"NE,NO",,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+5.B,Biological treatment of solid waste,2021,"NE,NO",,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+5.B,Biological treatment of solid waste,2022,"NE,NO",,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+5.C,Incineration and open burning of waste,2019,"2,779.18",2779.18,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+5.C,Incineration and open burning of waste,2020,"2,843.14",2843.14,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+5.C,Incineration and open burning of waste,2021,"2,908.88",2908.88,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+5.C,Incineration and open burning of waste,2022,"2,975.42",2975.42,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+5.D,Wastewater treatment and discharge,2019,"22,244.71",22244.71,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+5.D,Wastewater treatment and discharge,2020,"22,807.43",22807.43,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+5.D,Wastewater treatment and discharge,2021,"23,371.22",23371.22,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+5.D,Wastewater treatment and discharge,2022,"23,946.47",23946.47,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+5.E,Other,2019,"NA,NO",,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+5.E,Other,2020,"NA,NO",,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+5.E,Other,2021,"NA,NO",,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+5.E,Other,2022,"NA,NO",,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+6,Other (as specified in summary 1),2019,FX,,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+6,Other (as specified in summary 1),2020,FX,,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+6,Other (as specified in summary 1),2021,FX,,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+6,Other (as specified in summary 1),2022,FX,,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.D.1,International bunkers,2019,"3,161.99",3161.99,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.D.1,International bunkers,2020,"1,780.86",1780.86,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.D.1,International bunkers,2021,"2,128.18",2128.18,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.D.1,International bunkers,2022,"2,802.67",2802.67,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.D.1.a,Aviation,2019,"2,072.80",2072.8,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.D.1.a,Aviation,2020,964.09,964.09,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.D.1.a,Aviation,2021,"1,450.24",1450.24,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.D.1.a,Aviation,2022,"1,863.16",1863.16,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.D.1.b,Navigation,2019,"1,089.20",1089.2,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.D.1.b,Navigation,2020,816.77,816.77,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.D.1.b,Navigation,2021,677.93,677.93,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.D.1.b,Navigation,2022,939.51,939.51,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.D.2,Multilateral operations,2019,NE,,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.D.2,Multilateral operations,2020,NE,,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.D.2,Multilateral operations,2021,NE,,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.D.2,Multilateral operations,2022,NE,,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.D.3,CO2 emissions from biomass,2019,"487,570.67",487570.67,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.D.3,CO2 emissions from biomass,2020,"495,351.45",495351.45,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.D.3,CO2 emissions from biomass,2021,"503,239.67",503239.67,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.D.3,CO2 emissions from biomass,2022,"520,067.33",520067.33,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.D.4,CO2 captured,2019,NE,,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.D.4,CO2 captured,2020,NE,,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.D.4,CO2 captured,2021,NE,,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.D.4,CO2 captured,2022,NE,,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+5.F.1,Long-term storage of C in waste disposal sites,2019,"30,972.27",30972.27,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+5.F.1,Long-term storage of C in waste disposal sites,2020,"32,700.79",32700.79,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+5.F.1,Long-term storage of C in waste disposal sites,2021,"34,483.01",34483.01,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+5.F.1,Long-term storage of C in waste disposal sites,2022,"36,318.97",36318.97,61,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+,Total CO2 equivalent emissions without LULUCF,2019,"318,292.06",318292.06,62,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+,Total CO2 equivalent emissions without LULUCF,2020,"310,745.69",310745.69,62,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+,Total CO2 equivalent emissions without LULUCF,2021,"321,584.88",321584.88,62,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+,Total CO2 equivalent emissions without LULUCF,2022,"328,496.23",328496.23,62,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+,Total CO2 equivalent emissions with LULUCF,2019,"625,288.19",625288.19,62,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+,Total CO2 equivalent emissions with LULUCF,2020,"520,395.46",520395.46,62,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+,Total CO2 equivalent emissions with LULUCF,2021,"532,573.70",532573.7,62,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+,Total CO2 equivalent emissions with LULUCF,2022,"554,095.14",554095.14,62,text layer (pypdfium2),"Nigeria BTR1 (26 Dec 2024), Table 2.10",data/raw/intensity/Nigeria_BTR1.pdf,kt CO2 equivalent,Table 2.10
+1.A.1,Energy industries,2019,"29,363",29363.0,64,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.9",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.A.1,Energy industries,2020,"29,989",29989.0,64,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.9",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.A.1,Energy industries,2021,"29,498",29498.0,64,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.9",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.A.1,Energy industries,2022,"33,792",33792.0,64,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.9",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.A.1.a,Public electricity and heat production,2019,"15,459",15459.0,64,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.9",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.A.1.a,Public electricity and heat production,2020,"17,025",17025.0,64,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.9",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.A.1.a,Public electricity and heat production,2021,"17,441",17441.0,64,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.9",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.A.1.a,Public electricity and heat production,2022,"18,231",18231.0,64,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.9",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.A.1.b,Petroleum refining,2019,385,385.0,64,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.9",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.A.1.b,Petroleum refining,2020,0,0.0,64,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.9",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.A.1.b,Petroleum refining,2021,513,513.0,64,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.9",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.A.1.b,Petroleum refining,2022,979,979.0,64,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.9",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.A.1.c,Manufacture of solid fuels and other energy industries,2019,"13,519",13519.0,64,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.9",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.A.1.c,Manufacture of solid fuels and other energy industries,2020,"12,963",12963.0,64,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.9",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.A.1.c,Manufacture of solid fuels and other energy industries,2021,"11,543",11543.0,64,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.9",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.A.1.c,Manufacture of solid fuels and other energy industries,2022,"14,581",14581.0,64,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.9",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.A.2,Manufacturing industries and construction,2019,"15,432",15432.0,70,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.18",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.A.2,Manufacturing industries and construction,2020,"14,519",14519.0,70,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.18",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.A.2,Manufacturing industries and construction,2021,"16,076",16076.0,70,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.18",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.A.2,Manufacturing industries and construction,2022,"15,066",15066.0,70,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.18",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.A.2.a,Iron and steel,2019,665,665.0,70,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.18",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.A.2.a,Iron and steel,2020,669,669.0,70,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.18",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.A.2.a,Iron and steel,2021,784,784.0,70,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.18",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.A.2.a,Iron and steel,2022,677,677.0,70,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.18",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.A.2.c,Chemicals,2019,"1,098",1098.0,70,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.18",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.A.2.c,Chemicals,2020,"1,104",1104.0,70,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.18",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.A.2.c,Chemicals,2021,"1,294",1294.0,70,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.18",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.A.2.c,Chemicals,2022,"1,117",1117.0,70,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.18",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.A.2.f,Non-metallic minerals,2019,"6,693",6693.0,70,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.18",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.A.2.f,Non-metallic minerals,2020,"5,780",5780.0,70,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.18",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.A.2.f,Non-metallic minerals,2021,"6,160",6160.0,70,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.18",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.A.2.f,Non-metallic minerals,2022,"6,180",6180.0,70,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.18",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.A.2.g.viii,Other - non specified,2019,"6,976",6976.0,70,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.18",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.A.2.g.viii,Other - non specified,2020,"6,966",6966.0,70,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.18",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.A.2.g.viii,Other - non specified,2021,"7,837",7837.0,70,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.18",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.A.2.g.viii,Other - non specified,2022,"7,093",7093.0,70,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.18",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.A.4,Other sectors,2019,"56,303",56303.0,90,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.41",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.A.4,Other sectors,2020,"54,843",54843.0,90,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.41",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.A.4,Other sectors,2021,"57,601",57601.0,90,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.41",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.A.4,Other sectors,2022,"61,423",61423.0,90,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.41",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.A.4.a,Commercial / institutional,2019,"3,278",3278.0,90,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.41",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.A.4.a,Commercial / institutional,2020,"2,705",2705.0,90,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.41",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.A.4.a,Commercial / institutional,2021,"3,052",3052.0,90,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.41",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.A.4.a,Commercial / institutional,2022,"3,794",3794.0,90,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.41",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.A.4.b,Residential,2019,"52,951",52951.0,90,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.41",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.A.4.b,Residential,2020,"52,082",52082.0,90,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.41",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.A.4.b,Residential,2021,"54,485",54485.0,90,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.41",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.A.4.b,Residential,2022,"57,550",57550.0,90,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.41",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.A.4.c,Agriculture / forestry / fishing,2019,73,73.0,90,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.41",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.A.4.c,Agriculture / forestry / fishing,2020,57,57.0,90,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.41",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.A.4.c,Agriculture / forestry / fishing,2021,64,64.0,90,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.41",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.A.4.c,Agriculture / forestry / fishing,2022,79,79.0,90,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.41",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.B.1,Solid fuels,2019,"4,977",4977.0,102,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.59",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.B.1,Solid fuels,2020,"5,055",5055.0,102,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.59",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.B.1,Solid fuels,2021,"5,078",5078.0,102,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.59",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.B.1,Solid fuels,2022,"5,745",5745.0,102,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.59",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.B.1.a,Coal mining and handling,2019,82,82.0,102,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.59",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.B.1.a,Coal mining and handling,2020,71,71.0,102,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.59",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.B.1.a,Coal mining and handling,2021,76,76.0,102,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.59",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.B.1.a,Coal mining and handling,2022,92,92.0,102,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.59",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.B.1.b,Fuel transformation,2019,"4,894",4894.0,102,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.59",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.B.1.b,Fuel transformation,2020,"4,984",4984.0,102,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.59",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.B.1.b,Fuel transformation,2021,"5,002",5002.0,102,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.59",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
+1.B.1.b,Fuel transformation,2022,"5,653",5653.0,102,text layer (pdfplumber word positions),"Nigeria BTR1 NID (24 Dec 2024), Table 3.59",data/raw/intensity/Nigeria_BTR1_NID_2024.pdf,kt CO2 equivalent,NID sub-category
