@@ -63,24 +63,24 @@ The share compares financed emissions, which apply national sector intensities t
 
 The rise in estimated financed emissions from 2023 onwards reflects the growth of loan values in naira, including the naira value of foreign-currency loans and of loans booked by subsidiaries outside Nigeria, set against each year's nominal GDP. It does not reflect measured physical emissions: sector emissions after 2022 are held at their 2022 level (Option A), so the intensity of every sector falls as nominal value added rises, and every change after 2022 comes from loan values and GDP.
 
-Decomposition (additive LMDI-I over intensity groups; exposure effect = change in total loans (volume) plus change in sector mix; intensity effect = change in sector intensity, which under Option A is the change in nominal value added). Mt CO2e:
+Decomposition, Mt CO2e. Method: a counterfactual 2024 is formed in which undivided "Oil and gas" loans are split into upstream, downstream and services with the 2022 split shares (Access/FCMB averages) instead of the 2024 shares. The change from 2022 to that counterfactual is decomposed by additive LMDI-I over intensity groups into loan volume (change in total loans), printed sector mix (change in the shares of the banks' printed categories) and intensity (change in sector intensity, which under Option A is the change in nominal value added). The oil-and-gas split-share effect is actual 2024 minus the counterfactual, i.e. the effect of the year-varying split shares at 2024 loans and intensities. The four effects sum to the change; the residual is zero to rounding in every row.
 
-| Bank | 2022 (Mt) | 2024 (Mt) | Change (Mt) | Exposure effect | of which volume | of which mix | Intensity effect | Loans 2022 (naira tn) | Loans 2024 (naira tn) |
-|---|---|---|---|---|---|---|---|---|---|
-| ACCESSCORP | 9.95 | 19.81 | 9.87 | 12.36 | 11.52 | 0.84 | -2.49 | 5.20 | 11.77 |
-| FCMB | 1.39 | 2.27 | 0.88 | 1.42 | 1.16 | 0.26 | -0.54 | 1.25 | 2.49 |
-| FIDELITYBK | 8.34 | 14.37 | 6.03 | 10.20 | 8.00 | 2.20 | -4.17 | 2.20 | 4.58 |
-| FIRSTHOLDCO | 4.75 | 11.41 | 6.66 | 9.17 | 6.38 | 2.79 | -2.51 | 3.93 | 9.26 |
-| GTCO | 1.32 | 2.23 | 0.91 | 1.34 | 0.66 | 0.68 | -0.43 | 1.89 | 2.79 |
-| JAIZBANK | 0.16 | 0.35 | 0.19 | 0.27 | 0.16 | 0.11 | -0.08 | 0.15 | 0.29 |
-| STANBIC | 1.84 | 3.40 | 1.56 | 2.25 | 1.74 | 0.51 | -0.70 | 1.24 | 2.47 |
-| STERLINGNG | 1.62 | 2.04 | 0.42 | 1.06 | 0.73 | 0.33 | -0.64 | 0.76 | 1.14 |
-| UBA | 3.55 | 7.39 | 3.84 | 5.62 | 4.30 | 1.32 | -1.78 | 3.14 | 7.25 |
-| WEMABANK | 1.10 | 2.82 | 1.73 | 2.38 | 1.48 | 0.91 | -0.66 | 0.54 | 1.24 |
-| ZENITHBANK | 5.31 | 12.25 | 6.94 | 9.50 | 7.75 | 1.75 | -2.56 | 4.12 | 10.99 |
-| (balanced panel total) | 39.33 | 78.34 | 39.01 | 55.80 | 44.61 | 11.19 | -16.79 | 24.41 | 54.27 |
+| Bank | 2022 (Mt) | 2024 (Mt) | Change (Mt) | Loan volume | Printed sector mix | Oil and gas split shares | Intensity | (info) O&G split shares at 2022 values | Loans 2022 (naira tn) | Loans 2024 (naira tn) |
+|---|---|---|---|---|---|---|---|---|---|---|
+| ACCESSCORP | 9.95 | 19.81 | 9.87 | 11.52 | 0.84 | 0.00 | -2.49 | 0.00 | 5.20 | 11.77 |
+| FCMB | 1.39 | 2.27 | 0.88 | 1.16 | 0.26 | 0.00 | -0.54 | 0.00 | 1.25 | 2.49 |
+| FIDELITYBK | 8.34 | 14.37 | 6.03 | 7.64 | 0.96 | 1.50 | -4.08 | 0.52 | 2.20 | 4.58 |
+| FIRSTHOLDCO | 4.75 | 11.41 | 6.66 | 5.64 | 0.84 | 2.51 | -2.34 | 1.12 | 3.93 | 9.26 |
+| GTCO | 1.32 | 2.23 | 0.91 | 0.54 | -0.04 | 0.78 | -0.37 | 0.64 | 1.89 | 2.79 |
+| JAIZBANK | 0.16 | 0.35 | 0.19 | 0.15 | 0.09 | 0.03 | -0.08 | 0.02 | 0.15 | 0.29 |
+| STANBIC | 1.84 | 3.40 | 1.56 | 1.74 | 0.51 | 0.00 | -0.70 | 0.00 | 1.24 | 2.47 |
+| STERLINGNG | 1.62 | 2.04 | 0.42 | 0.69 | 0.08 | 0.28 | -0.62 | 0.15 | 0.76 | 1.14 |
+| UBA | 3.55 | 7.39 | 3.84 | 4.01 | 0.54 | 1.00 | -1.71 | 0.47 | 3.14 | 7.25 |
+| WEMABANK | 1.10 | 2.82 | 1.73 | 1.43 | 0.76 | 0.18 | -0.64 | 0.07 | 0.54 | 1.24 |
+| ZENITHBANK | 5.31 | 12.25 | 6.94 | 6.84 | -0.61 | 3.09 | -2.38 | 0.85 | 4.12 | 10.99 |
+| (balanced panel total) | 39.33 | 78.34 | 39.01 | 42.05 | 3.75 | 9.37 | -16.16 | 3.83 | 24.41 | 54.27 |
 
-For the balanced panel the change of 39.01 Mt combines an exposure effect of 55.80 Mt (44.61 Mt from total loan volume and 11.19 Mt from sector mix) and an intensity effect of -16.79 Mt. The residual is zero to rounding in every row.
+For the balanced panel the change of 39.01 Mt combines 42.05 Mt from loan volume, 3.75 Mt from printed sector mix, 9.37 Mt from the oil-and-gas split shares and -16.16 Mt from intensity. The split shares move from 21.2% upstream, 26.0% downstream and 52.8% services in 2022 to 48.9%, 23.0% and 28.1% in 2024 (`data/interim/oil_gas_split_shares.csv`), shifting undivided oil-and-gas loans from the services intensity to the upstream intensity; the effect is zero for Access and FCMB (which print the split themselves) and Stanbic (no undivided oil-and-gas label). The size of this effect depends on where it is evaluated: at 2022 loans and intensities it is 3.83 Mt (last column, for information; that ordering does not enter the sum). The combined categories (construction and real estate; information, telecoms and transport) are also split with year-varying NBS GDP shares; their effect, 0.03 Mt for the balanced panel, is left inside the printed-mix effect.
 
 Loans and financed emissions in constant 2022 naira (implicit GDP deflator at basic prices, NBS rebasing annex pp. 7-8; recorded addition to the plan, descriptive):
 

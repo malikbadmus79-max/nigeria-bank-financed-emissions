@@ -55,13 +55,41 @@ def test_decomposition_closes_and_matches_totals():
     _need(PROC / "change_decomposition_2022_2024.csv")
     d = pd.read_csv(PROC / "change_decomposition_2022_2024.csv")
     assert (d.residual.abs() < 1e-3).all()
-    assert np.allclose(d.exposure_effect, d.exposure_volume_effect + d.exposure_mix_effect)
+    assert np.allclose(d.exposure_effect, d.exposure_volume_effect + d.printed_mix_effect)
     assert np.allclose(d.total_change, d.tco2e_to - d.tco2e_from)
+    parts = d.exposure_volume_effect + d.printed_mix_effect + d.oil_gas_split_share_effect + d.intensity_effect
+    assert np.allclose(parts, d.total_change, atol=1e-3)
     t = pd.read_csv(PROC / "financed_emissions_totals.csv")
     bal = t[t.total_type == "balanced panel"].set_index("year").tco2e
     tot = d[d.bank == "(balanced panel total)"].iloc[0]
     assert np.isclose(tot.tco2e_from, bal["2022"]) and np.isclose(tot.tco2e_to, bal["2024"])
     assert np.isclose(d[d.bank != "(balanced panel total)"].total_change.sum(), tot.total_change)
+
+
+def test_oil_gas_split_share_effect():
+    _need(PROC / "change_decomposition_2022_2024.csv")
+    d = pd.read_csv(PROC / "change_decomposition_2022_2024.csv").set_index("bank")
+    # banks that print the split themselves, or have no undivided oil-and-gas label: no effect
+    for b in ("ACCESSCORP", "FCMB", "STANBIC"):
+        assert abs(d.loc[b, "oil_gas_split_share_effect"]) < 1e-6
+        assert abs(d.loc[b, "info_oil_gas_split_share_effect_at_2022_values"]) < 1e-6
+    banks = d.drop(index="(balanced panel total)")
+    assert np.isclose(banks.oil_gas_split_share_effect.sum(), d.loc["(balanced panel total)", "oil_gas_split_share_effect"])
+    assert (banks.oil_gas_split_share_effect >= 0).all()  # shares moved from services to upstream
+
+
+def test_split_share_counterfactual_by_hand():
+    pytest.importorskip("pypdfium2")
+    from bank_emissions import phase4_compare as c
+    m = c.main_lines_with_keys()
+    cf = c.resplit(m, 2024, 2022, c.OIL_GAS_KEYS)
+    sp = pd.read_csv(PROC / "sector_crosswalk_splits.csv")
+    z = cf[(cf.bank == "ZENITHBANK") & (cf.label_key == "oilandgas")].set_index("component")
+    s22 = sp[(sp.bank == "ZENITHBANK") & (sp.printed_category == "Oil and gas") & (sp.year == 2022)].set_index("component").share
+    assert np.allclose(z.exposure_naira, z.exposure_row_naira * s22.reindex(z.index))
+    other = cf[cf.label_key != "oilandgas"]
+    orig = m[(m.year == 2024) & (m.label_key != "oilandgas")]
+    assert np.allclose(other.tco2e.values, orig.tco2e.values)
 
 
 def test_constant_naira():

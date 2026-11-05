@@ -178,24 +178,82 @@ def lmdi(e0: pd.Series, f0: pd.Series, e1: pd.Series, f1: pd.Series) -> dict:
                 intensity_effect=inten, total_change=f1.sum() - f0.sum(), residual=f1.sum() - f0.sum() - vol - mix - inten)
 
 
+def main_lines_with_keys() -> pd.DataFrame:
+    m = pd.read_csv(PROCESSED / "financed_emissions_main.csv", keep_default_na=False,
+                    na_values={"exposure_naira": [""], "tco2e": [""]})
+    cw = pd.read_csv(PROCESSED / "sector_crosswalk.csv", keep_default_na=False)
+    return m.merge(cw[["bank", "printed_category", "label_key"]], on=["bank", "printed_category"], how="left")
+
+
+def resplit(m: pd.DataFrame, year: int, share_year: int, keys: set[str]) -> pd.DataFrame:
+    """Lines of `year` with the split labels in `keys` re-split with the same
+    bank and label's component shares of `share_year` (exposures of the row and
+    intensities of `year` unchanged)."""
+    sp = pd.read_csv(PROCESSED / "sector_crosswalk_splits.csv", keep_default_na=False)
+    cw = pd.read_csv(PROCESSED / "sector_crosswalk.csv", keep_default_na=False)
+    sp = sp.merge(cw[["bank", "printed_category", "label_key"]], on=["bank", "printed_category"])
+    # shares depend only on label type, year and component (Access/FCMB averages; NBS GDP shares)
+    g = sp[sp.year == share_year].groupby(["label_key", "component"]).share
+    assert (g.max() - g.min()).abs().max() < 1e-12, "split shares differ within a label type and year"
+    share = g.first()
+    out = m[m.year == year].copy()
+    hit = out.label_key.isin(keys)
+    s = [share[(k, c)] for k, c in zip(out.loc[hit, "label_key"], out.loc[hit, "component"])]
+    out.loc[hit, "exposure_naira"] = out.loc[hit, "exposure_row_naira"] * np.array(s)
+    out.loc[hit, "tco2e"] = out.loc[hit, "exposure_naira"] * out.loc[hit, "intensity_t_per_naira"]
+    return out
+
+
+OIL_GAS_KEYS = {"oilandgas"}
+COMBINED_KEYS = {"constructionandrealestate", "constructionrealestate", "realestateandconstruction",
+                 "realestateconstruction", "infotelecomsandtransport"}
+
+
 def decomposition(y0: int = 2022, y1: int = 2024) -> pd.DataFrame:
-    m = pd.read_csv(PROCESSED / "financed_emissions_main.csv")
+    """2022 -> 2024 change = exposure volume + printed sector mix + intensity
+    (additive LMDI-I over intensity groups, from 2022 to a counterfactual 2024
+    in which undivided 'Oil and gas' is split with each label's 2022 shares)
+    + oil-and-gas split-share effect (actual 2024 minus that counterfactual,
+    i.e. evaluated at 2024 loans and intensities). The four terms sum to the
+    change. For information: the split-share effect evaluated at 2022 loans and
+    intensities, and the effect of the year-varying shares of the combined
+    categories (left inside the printed-mix effect)."""
+    m = main_lines_with_keys()
     bank_year = pd.read_csv(PROCESSED / "financed_emissions_bank_year.csv")
     panel = sorted(bank_year[bank_year.in_balanced_panel].bank.unique())
-    agg = m.groupby(["bank", "year", "intensity_group"]).agg(e=("exposure_naira", "sum"), f=("tco2e", "sum"))
+    a0, a1 = m[m.year == y0], m[m.year == y1]
+    cf1 = resplit(m, y1, y0, OIL_GAS_KEYS)            # 2024 with 2022 oil-and-gas shares
+    alt0 = resplit(m, y0, y1, OIL_GAS_KEYS)           # 2022 with 2024 oil-and-gas shares (information)
+    comb1 = resplit(m, y1, y0, COMBINED_KEYS)         # 2024 with 2022 combined-category shares (information)
     rows = []
     for unit in panel + ["(balanced panel total)"]:
-        sub = agg if unit.startswith("(") else agg.loc[[unit]]
-        if unit.startswith("("):
-            sub = sub.loc[[b for b in panel]]
-        g = sub.groupby(["year", "intensity_group"]).sum()
-        r = lmdi(g.loc[y0].e, g.loc[y0].f, g.loc[y1].e, g.loc[y1].f)
-        r.update(bank=unit, year_from=y0, year_to=y1, exposure_from=g.loc[y0].e.sum(), exposure_to=g.loc[y1].e.sum(),
-                 tco2e_from=g.loc[y0].f.sum(), tco2e_to=g.loc[y1].f.sum())
+        banks = panel if unit.startswith("(") else [unit]
+
+        def grp(df):
+            d = df[df.bank.isin(banks)]
+            return d.groupby("intensity_group").exposure_naira.sum(), d.groupby("intensity_group").tco2e.sum()
+
+        e0, f0 = grp(a0)
+        ec, fc = grp(cf1)
+        _, f1 = grp(a1)
+        r = lmdi(e0, f0, ec, fc)
+        split = f1.sum() - fc.sum()
+        total = f1.sum() - f0.sum()
+        r.update(bank=unit, year_from=y0, year_to=y1, exposure_from=e0.sum(), exposure_to=grp(a1)[0].sum(),
+                 tco2e_from=f0.sum(), tco2e_to=f1.sum(), total_change=total,
+                 oil_gas_split_share_effect=split,
+                 residual=total - r["exposure_volume_effect"] - r["exposure_mix_effect"] - r["intensity_effect"] - split,
+                 info_oil_gas_split_share_effect_at_2022_values=grp(alt0)[1].sum() - f0.sum(),
+                 info_combined_category_share_effect_in_mix=f1.sum() - grp(comb1)[1].sum())
         rows.append(r)
     cols = ["bank", "year_from", "year_to", "exposure_from", "exposure_to", "tco2e_from", "tco2e_to", "total_change",
-            "exposure_effect", "exposure_volume_effect", "exposure_mix_effect", "intensity_effect", "residual"]
-    return pd.DataFrame(rows)[cols]
+            "exposure_effect", "exposure_volume_effect", "exposure_mix_effect", "oil_gas_split_share_effect",
+            "intensity_effect", "residual", "info_oil_gas_split_share_effect_at_2022_values",
+            "info_combined_category_share_effect_in_mix"]
+    out = pd.DataFrame(rows)[cols]
+    out = out.rename(columns={"exposure_mix_effect": "printed_mix_effect"})
+    out["exposure_effect"] = out.exposure_volume_effect + out.printed_mix_effect
+    return out
 
 
 # ---------------------------------------------------------------------------

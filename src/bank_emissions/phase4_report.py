@@ -73,9 +73,11 @@ def tables() -> dict:
     dec = pd.read_csv(PROCESSED / "change_decomposition_2022_2024.csv")
     T["decomp"] = md(pd.DataFrame({
         "Bank": dec.bank, "2022 (Mt)": dec.tco2e_from.map(mt), "2024 (Mt)": dec.tco2e_to.map(mt),
-        "Change (Mt)": dec.total_change.map(mt), "Exposure effect": dec.exposure_effect.map(mt),
-        "of which volume": dec.exposure_volume_effect.map(mt), "of which mix": dec.exposure_mix_effect.map(mt),
-        "Intensity effect": dec.intensity_effect.map(mt),
+        "Change (Mt)": dec.total_change.map(mt), "Loan volume": dec.exposure_volume_effect.map(mt),
+        "Printed sector mix": dec.printed_mix_effect.map(mt),
+        "Oil and gas split shares": dec.oil_gas_split_share_effect.map(mt),
+        "Intensity": dec.intensity_effect.map(mt),
+        "(info) O&G split shares at 2022 values": dec.info_oil_gas_split_share_effect_at_2022_values.map(mt),
         "Loans 2022 (naira tn)": (dec.exposure_from / 1e12).map("{:,.2f}".format),
         "Loans 2024 (naira tn)": (dec.exposure_to / 1e12).map("{:,.2f}".format)}))
     cn = pd.read_csv(PROCESSED / "constant_2022_naira.csv")
@@ -118,6 +120,8 @@ def write():
     dec = pd.read_csv(PROCESSED / "change_decomposition_2022_2024.csv").set_index("bank").loc["(balanced panel total)"]
     cn = pd.read_csv(PROCESSED / "constant_2022_naira.csv")
     cnb = cn[cn.total_type == "balanced panel"].set_index("year")
+    ogs = pd.read_csv(ROOT / "data" / "interim" / "oil_gas_split_shares.csv")
+    sh = ogs[ogs.used].groupby("year")[["share_upstream", "share_downstream", "share_services"]].mean().to_dict("index")
     doc = f"""# Results: financed emissions of NGX-listed banks, 2020-2025
 
 Date: 2026-11-05. This document reports the results for research questions RQ1-RQ4 of `docs/analysis_plan.md`. Method details, checks and deviations by phase are in `docs/phase1b_results.md`, `docs/phase2a_results.md`, `docs/phase2b_results.md` and `docs/phase3_results.md`. All tables below are generated from the processed CSV files by `python -m bank_emissions.phase4_report`.
@@ -148,11 +152,11 @@ The share compares financed emissions, which apply national sector intensities t
 
 The rise in estimated financed emissions from 2023 onwards reflects the growth of loan values in naira, including the naira value of foreign-currency loans and of loans booked by subsidiaries outside Nigeria, set against each year's nominal GDP. It does not reflect measured physical emissions: sector emissions after 2022 are held at their 2022 level (Option A), so the intensity of every sector falls as nominal value added rises, and every change after 2022 comes from loan values and GDP.
 
-Decomposition (additive LMDI-I over intensity groups; exposure effect = change in total loans (volume) plus change in sector mix; intensity effect = change in sector intensity, which under Option A is the change in nominal value added). Mt CO2e:
+Decomposition, Mt CO2e. Method: a counterfactual 2024 is formed in which undivided "Oil and gas" loans are split into upstream, downstream and services with the 2022 split shares (Access/FCMB averages) instead of the 2024 shares. The change from 2022 to that counterfactual is decomposed by additive LMDI-I over intensity groups into loan volume (change in total loans), printed sector mix (change in the shares of the banks' printed categories) and intensity (change in sector intensity, which under Option A is the change in nominal value added). The oil-and-gas split-share effect is actual 2024 minus the counterfactual, i.e. the effect of the year-varying split shares at 2024 loans and intensities. The four effects sum to the change; the residual is zero to rounding in every row.
 
 {T["decomp"]}
 
-For the balanced panel the change of {mt(dec.total_change)} Mt combines an exposure effect of {mt(dec.exposure_effect)} Mt ({mt(dec.exposure_volume_effect)} Mt from total loan volume and {mt(dec.exposure_mix_effect)} Mt from sector mix) and an intensity effect of {mt(dec.intensity_effect)} Mt. The residual is zero to rounding in every row.
+For the balanced panel the change of {mt(dec.total_change)} Mt combines {mt(dec.exposure_volume_effect)} Mt from loan volume, {mt(dec.printed_mix_effect)} Mt from printed sector mix, {mt(dec.oil_gas_split_share_effect)} Mt from the oil-and-gas split shares and {mt(dec.intensity_effect)} Mt from intensity. The split shares move from {sh[2022]['share_upstream']:.1%} upstream, {sh[2022]['share_downstream']:.1%} downstream and {sh[2022]['share_services']:.1%} services in 2022 to {sh[2024]['share_upstream']:.1%}, {sh[2024]['share_downstream']:.1%} and {sh[2024]['share_services']:.1%} in 2024 (`data/interim/oil_gas_split_shares.csv`), shifting undivided oil-and-gas loans from the services intensity to the upstream intensity; the effect is zero for Access and FCMB (which print the split themselves) and Stanbic (no undivided oil-and-gas label). The size of this effect depends on where it is evaluated: at 2022 loans and intensities it is {mt(dec.info_oil_gas_split_share_effect_at_2022_values)} Mt (last column, for information; that ordering does not enter the sum). The combined categories (construction and real estate; information, telecoms and transport) are also split with year-varying NBS GDP shares; their effect, {mt(dec.info_combined_category_share_effect_in_mix)} Mt for the balanced panel, is left inside the printed-mix effect.
 
 Loans and financed emissions in constant 2022 naira (implicit GDP deflator at basic prices, NBS rebasing annex pp. 7-8; recorded addition to the plan, descriptive):
 
