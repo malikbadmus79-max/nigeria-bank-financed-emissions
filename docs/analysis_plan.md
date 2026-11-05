@@ -251,6 +251,12 @@ Phase numbering after 1a is provisional.
 
 Each phase's code goes in `src/bank_emissions/` with tests in `tests/`, and each results document lists failures and deviations from this plan.
 
+Recorded additions, 2026-11-05 (Phase 3 and Phase 4). These add reporting without changing any estimation rule:
+
+1. Sensitivity flag (reporting rule). A sensitivity is flagged for a bank-year as driven by oil refining, or by water, waste and sewerage, when the change in financed emissions from lines targeted at that intensity group is at least half of the net change against the main specification, in absolute terms.
+2. Change over time (descriptive). The change in financed emissions from 2022 to 2024, for each balanced-panel bank and the balanced-panel total, is decomposed by additive LMDI-I over intensity groups into an exposure effect (total exposure and sector mix) and an intensity effect.
+3. Constant 2022 naira (descriptive). Total loans are restated in constant 2022 naira with the implicit GDP deflator at basic prices (NBS rebasing annex, current and constant 2019 basic prices, PDF pp. 7-8), and financed emissions are restated with those exposures and the 2022 intensities. 2025 is not restated (no deflator).
+
 ### What the study cannot claim
 
 - That the estimates are any bank's actual financed emissions. They are sector-average approximations of the emissions associated with each bank's loan mix, not attributions of identified borrowers' emissions.

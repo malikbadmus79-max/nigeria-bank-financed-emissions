@@ -1,0 +1,13 @@
+{
+ "recorded": "2026-11-05, after the Phase 3 sign-off and before Phase 4",
+ "sha256": {
+  "data/processed/financed_emissions_main.csv": "4a19b7d294eef91e07952b44a2f5b9fd2cb8e4c941cf11313f53833862ed8ac8",
+  "data/processed/financed_emissions_bank_year.csv": "b48171a83dbff22a1fec8d35a59af3cfbcc2420574d1dcbdc68742ea0fdef4b3",
+  "data/processed/financed_emissions_totals.csv": "9ac0ac2367ba0257692328950a8156e0885d8a78445a24f6cc08d0693c0277a0",
+  "data/processed/financed_emissions_sector_year.csv": "096e88a88eb7676cc23beac62b3bf3c518ff476ae8be968ec912eaf125c39e9a",
+  "data/processed/financed_emissions_bank_sector.csv": "5e492208f31038cc117b601b331cbe502d49bd7b740521f6d76e79f01f1ec2d8",
+  "data/processed/financed_emissions_sensitivities.csv": "8ab4d98fb09409d07cdce21a1c23ad6aff6669d80e7da591eb4d3e3f6d1eb347",
+  "data/interim/sensitivity_flags.csv": "ec2aceb5d985476520f516b373436a8d1670d3a0941af568b93e9d2f18d81331",
+  "data/interim/estimation_checks.csv": "9094c76124c88998be610e6708df39c35f5624c139da97d19eb0ca2ac028de96"
+ }
+}
