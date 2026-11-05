@@ -33,14 +33,17 @@ MCM = "Manufacturing, construction and non-oil mining (merged)"
 
 MAP = [
     dict(common_sector=AGRI, intensity_group=AGRI,
-         btr1_codes="3 (3.A-3.J)", nid_tables="", nbs_activities="1;2;3;4",
+         btr1_codes="3 (3.A-3.J);1.A.4.c;1.B.1.b", nid_tables="Table 3.41 (p. 90); Table 3.59 (p. 102)",
+         nbs_activities="1;2;3;4",
          sensitivity="S5 adds 4 (LULUCF)", status="ok",
          reason="plan section 4 table: 3.A-3.H (3.I and 3.J are not estimated); NBS crop production, livestock, "
-                "forestry, fishing"),
+                "forestry, fishing. Signed off 2026-11-05: farm fuel use (1.A.4.c) and charcoal production "
+                "(1.B.1.b, fuel transformation) are added to agriculture and forestry"),
     dict(common_sector=OIL_UP, intensity_group=OIL_UP,
          btr1_codes="1.B.2;1.A.1.c", nid_tables="Table 3.9 (p. 64)", nbs_activities="5",
-         sensitivity="", status="review",
-         reason="plan: 1.B.2 plus energy-industry combustion in fuel extraction if separable. NID Table 3.9 prints "
+         sensitivity="", status="ok",
+         reason="Signed off 2026-11-05: 1.A.1.c accepted. Plan: 1.B.2 plus energy-industry combustion in fuel "
+                "extraction if separable. NID Table 3.9 prints "
                 "1.A.1.c 'Manufacture of solid fuels and other energy industries' every year; its activity data "
                 "(Table 3.12) are natural gas only, consistent with field use in oil and gas extraction, but the "
                 "NID description also names charcoal production"),
@@ -65,10 +68,12 @@ MAP = [
          reason="plan: construction sub-category of 1.A.2 if separable in the NID. Not separable (Table 3.18), so "
                 "merged into the manufacturing group as the plan requires"),
     dict(common_sector=MINING, intensity_group=MCM,
-         btr1_codes="(in 1.A.2)", nid_tables="Table 3.18 (p. 70)", nbs_activities="6;7;8",
-         sensitivity="", status="ok",
+         btr1_codes="(in 1.A.2);1.B.1.a", nid_tables="Table 3.18 (p. 70); Table 3.59 (p. 102)",
+         nbs_activities="6;7;8",
+         sensitivity="S3l moves Stanbic 'Mining' here", status="ok",
          reason="plan: share of 1.A.2 as separable in the NID. Not separable (Table 3.18), so merged into the "
-                "manufacturing group as the plan requires; NBS coal mining, metal ores, quarrying"),
+                "manufacturing group as the plan requires; NBS coal mining, metal ores, quarrying. Signed off "
+                "2026-11-05: coal mining and handling (1.B.1.a) is added to the non-oil mining (merged) group"),
     dict(common_sector=TRANSPORT, intensity_group=TRANSPORT,
          btr1_codes="1.A.3", nid_tables="", nbs_activities="27-32",
          sensitivity="", status="ok",
@@ -96,15 +101,6 @@ MAP = [
 NOT_ASSIGNED = [
     dict(btr1_codes="1.A.4.b", status="ok",
          reason="residential combustion: not attributed (plan section 4, individuals rule)"),
-    dict(btr1_codes="1.A.4.c", status="review",
-         reason="fuel combustion in agriculture, forestry and fishing (NID Table 3.41, 57-79 kt a year): the plan "
-                "section 4 table gives agriculture 3.A-3.H only; candidate for agriculture"),
-    dict(btr1_codes="1.B.1.a", status="review",
-         reason="coal mining and handling (NID Table 3.59, 71-92 kt a year): not named in the plan section 4 "
-                "table; candidate for the non-oil mining (merged) group"),
-    dict(btr1_codes="1.B.1.b", status="review",
-         reason="fuel transformation, i.e. charcoal production (NID Table 3.59, 4.9-5.7 Mt a year): not named in "
-                "the plan section 4 table; candidates are forestry (agriculture) or manufacturing of wood products"),
     dict(btr1_codes="4", status="ok", reason="LULUCF: excluded in the main specification, added to agriculture "
                                               "in sensitivity S5 (plan section 7)"),
     dict(btr1_codes="1.A.5;1.C;2.D;2.E;2.F;2.G;2.H;6", status="ok",
@@ -118,8 +114,14 @@ LEAVES = ["1.A.1.a", "1.A.1.b", "1.A.1.c", "1.A.2", "1.A.3", "1.A.4.a", "1.A.4.b
 
 
 def _codes(s: str) -> list[str]:
-    s = s.split(" (")[0]
-    return [c.strip() for c in s.split(";") if c.strip() and not c.startswith("(")]
+    """'3 (3.A-3.J);1.A.4.c' -> ['3', '1.A.4.c']; '(in 1.A.2);1.B.1.a' -> ['1.B.1.a']."""
+    out = []
+    for item in s.split(";"):
+        item = item.strip()
+        if not item or item.startswith("("):
+            continue
+        out.append(item.split(" (")[0].strip())
+    return out
 
 
 def _nbs(s: str) -> list[int]:

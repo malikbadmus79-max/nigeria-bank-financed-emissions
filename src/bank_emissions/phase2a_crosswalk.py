@@ -188,7 +188,8 @@ GENERIC = {
     "unallocatedprintedtotalresidual": dict(
         common_sector=ECONOMY_WIDE, rule="economy-wide", sensitivity_group="S3b;S3f", status="ok",
         reason="computed residual of the omitted 'Oil And Gas - downstream' row (Access FY2025); author decision "
-               "2026-11-04: plan 'Other' rule; S3f assigns it to the common sector of Access 'Oil And Gas - downstream'",
+               "2026-11-04: plan 'Other' rule; S3f assigns it to the common sector of Access 'Oil And Gas - downstream', "
+               "which the 2026-11-05 sign-off keeps as services (trade, commerce rule)",
         services_activity=""),
     # not loans to customers
     "centralbankbalancerestricted": _r(NOT_LOAN, ("not a loan", ""), "ok",
@@ -211,6 +212,143 @@ OVERRIDES = {
 }
 
 
+# ---------------------------------------------------------------------------
+# Author sign-off, 2026-11-05 (recorded in docs/analysis_plan.md section 4).
+# Applied on top of the proposed mappings above; every row that was 'review'
+# becomes 'ok' with the decision as its reason.
+
+SIGNOFF_DATE = "2026-11-05"
+SPLIT = "(split by shares; see sector_crosswalk_splits.csv)"
+OIL_KEYS = {"upstream": "oilandgasupstream", "downstream": "oilandgasdownstream", "services": "oilandgasservices"}
+OIL_SPLIT_BANKS = ["ACCESSCORP", "FCMB"]  # the banks that print the upstream/downstream/services split
+COMBINED = {
+    # label key -> (component, common sector, services activity, NBS activity numbers)
+    "constructionandrealestate": [("construction", CONSTR, "", [24]), ("real estate", SERVICES, "real estate", [40])],
+    "constructionrealestate": [("construction", CONSTR, "", [24]), ("real estate", SERVICES, "real estate", [40])],
+    "realestateandconstruction": [("construction", CONSTR, "", [24]), ("real estate", SERVICES, "real estate", [40])],
+    "realestateconstruction": [("construction", CONSTR, "", [24]), ("real estate", SERVICES, "real estate", [40])],
+    "infotelecomsandtransport": [("transport", TRANSPORT, "", list(range(27, 33))),
+                                 ("information and telecommunications", SERVICES, "information and communication",
+                                  list(range(33, 37)))],
+}
+OIL_COMPONENTS = [  # component, common sector, rule, sensitivity group, services activity
+    ("upstream", OIL_UP, "mapped", "", ""),
+    ("downstream", SERVICES, "services", "S3a;S3j", "trade"),
+    ("services", SERVICES, "mapped", "S3i", "oilfield services"),
+]
+
+
+def _signed(base: dict, reason: str, sensitivity: str = "", **change) -> dict:
+    m = dict(base, **change)
+    m["status"] = "ok"
+    m["reason"] = f"Signed off {SIGNOFF_DATE}: {reason}. Proposal: {base['reason']}"
+    if sensitivity:
+        m["sensitivity_group"] = ";".join(x for x in (m.get("sensitivity_group", ""), sensitivity) if x)
+    return m
+
+
+def signoff(bank: str, k: str, m: dict) -> dict:
+    if m["status"] != "review":
+        return m
+    if k == "oilandgas":
+        return _signed(m, "undivided oil and gas is split into upstream, downstream and services by the year's "
+                          "average shares of the banks that print the split (Access, FCMB); S3g all upstream, "
+                          "S3h all downstream", "S3g;S3h", common_sector=SPLIT, rule="split")
+    if k == "oilandgasservices":
+        return _signed(m, "oil and gas services mapped to services; S3i maps them to oil and gas upstream", "S3i",
+                       common_sector=SERVICES, rule="mapped", services_activity="oilfield services")
+    if k == "oilandgasdownstream":
+        return _signed(m, "downstream kept as services (trade, commerce rule); S3j maps it to oil refining", "S3j")
+    if k in COMBINED:
+        alt = "construction" if k != "infotelecomsandtransport" else "transport"
+        return _signed(m, f"combined category split by the NBS GDP shares of its two activities in the year "
+                          f"(2025: 2024 shares, NBS 2025 not located); S3k maps it wholly to {alt}", "S3k",
+                       common_sector=SPLIT, rule="split")
+    if k == "general":
+        return _signed(m, "kept as proposed: economy-wide average; sensitivity zero (S3b, the 'Other' rule)")
+    if (bank, k) == ("STANBIC", "mining"):
+        return _signed(m, "kept as proposed: oil and gas upstream; S3l maps it to non-oil mining", "S3l")
+    if k == "utilities":
+        return _signed(m, "kept as proposed (" + ("water, waste and sewerage" if bank == "UNITYBNK" else "power") + ")")
+    if k == "otherpublicutilities":
+        return _signed(m, "kept as proposed (water, waste and sewerage)")
+    if k in ("retailservices", "conglomerate", "mortgage"):
+        return _signed(m, "kept as proposed")
+    raise KeyError(f"review row without a sign-off decision: {bank} {k}")
+
+
+def oil_gas_shares(e: pd.DataFrame) -> pd.DataFrame:
+    """Per year: each split bank's upstream/downstream/services shares (main
+    specification) and their simple average. A bank-year is used only if it
+    prints all three rows (Access FY2025 omits the downstream row, so 2025
+    uses FCMB alone)."""
+    m = e[e.main_spec & e.bank.isin(OIL_SPLIT_BANKS)].copy()
+    m["k"] = m.printed_category.map(key)
+    m = m[m.k.isin(OIL_KEYS.values())]
+    rows = []
+    for (bank, year), g in m.groupby(["bank", "year"]):
+        amt = {c: g[g.k == k].amount_naira.sum() for c, k in OIL_KEYS.items()}
+        printed = {c: (g.k == k).any() for c, k in OIL_KEYS.items()}
+        tot = sum(amt.values())
+        rows.append(dict(bank=bank, year=int(year), used=all(printed.values()),
+                         pages=";".join(str(int(p)) for p in sorted(g.pdf_page.unique())),
+                         source_file=g.source_file.iloc[0], basis=g.basis.iloc[0], level=g.level.iloc[0],
+                         **{f"share_{c}": amt[c] / tot for c in OIL_KEYS},
+                         note="" if all(printed.values()) else
+                         "not used: " + ", ".join(c for c, p in printed.items() if not p) + " row not printed"))
+    per_bank = pd.DataFrame(rows)
+    avg = (per_bank[per_bank.used].groupby("year")[[f"share_{c}" for c in OIL_KEYS]].mean().reset_index())
+    avg["banks_used"] = [";".join(per_bank[(per_bank.year == y) & per_bank.used].bank) for y in avg.year]
+    return per_bank, avg
+
+
+def combined_shares(years: list[int]) -> pd.DataFrame:
+    """NBS GDP shares of the two activities of each combined category; 2025
+    uses 2024 (NBS 2025 GDP by activity not located)."""
+    nbs = pd.read_csv(PROCESSED / "nbs_gdp_by_activity.csv")
+    rows = []
+    for k, comps in COMBINED.items():
+        for y in years:
+            ny = min(y, int(nbs.year.max()))
+            vals = {c: nbs[(nbs.year == ny) & nbs.activity_no.isin(acts)].gdp_current_basic_naira_million.sum()
+                    for c, _, _, acts in comps}
+            tot = sum(vals.values())
+            for c, sec, act, acts in comps:
+                rows.append(dict(label_key=k, year=y, component=c, common_sector=sec, services_activity=act,
+                                 share=vals[c] / tot, nbs_year=ny, nbs_activities=";".join(map(str, acts))))
+    return pd.DataFrame(rows)
+
+
+def build_splits(cw: pd.DataFrame, e: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame]:
+    per_bank, avg = oil_gas_shares(e)
+    years = sorted(int(y) for y in e.year.unique())
+    comb = combined_shares(years)
+    rows = []
+    for r in cw[cw.rule == "split"].itertuples():
+        for y in (int(x) for x in r.years.split(";")):
+            if r.label_key == "oilandgas":
+                a = avg[avg.year == y].iloc[0]
+                src = per_bank[(per_bank.year == y) & per_bank.used]
+                source = "; ".join(f"{b.bank} {b.source_file} p. {b.pages}" for b in src.itertuples())
+                for c, sec, rule, sens, act in OIL_COMPONENTS:
+                    rows.append(dict(bank=r.bank, printed_category=r.printed_category, year=y, component=c,
+                                     common_sector=sec, rule=rule, sensitivity_group=sens, services_activity=act,
+                                     share=a[f"share_{c}"],
+                                     share_basis=f"simple average of {a.banks_used.replace(';', ' and ')} "
+                                                 f"shares (main specification)",
+                                     share_source=source))
+            else:
+                for c in comb[(comb.label_key == r.label_key) & (comb.year == y)].itertuples():
+                    rows.append(dict(bank=r.bank, printed_category=r.printed_category, year=y, component=c.component,
+                                     common_sector=c.common_sector, rule="mapped", sensitivity_group="",
+                                     services_activity=c.services_activity, share=c.share,
+                                     share_basis=f"NBS GDP at current basic prices, {c.nbs_year}"
+                                                 + (" (2025: 2024 shares)" if c.nbs_year != y else ""),
+                                     share_source=f"data/processed/nbs_gdp_by_activity.csv, activities "
+                                                  f"{c.nbs_activities} (NBS rebasing annex, PDF p. 7)"))
+    return pd.DataFrame(rows), per_bank
+
+
 def build() -> pd.DataFrame:
     e = pd.read_csv(PROCESSED / "exposures_by_sector.csv")
     main = e[e.main_spec]
@@ -221,20 +359,29 @@ def build() -> pd.DataFrame:
         m = OVERRIDES.get((bank, k)) or GENERIC.get(k)
         if m is None:
             m = _r("", ("", ""), "review", "no mapping rule for this label")
+        proposed = dict(m)
+        m = signoff(bank, k, m)
         gm = main[(main.bank == bank) & (main.printed_category == label)]
         rows.append(dict(bank=bank, printed_category=label, label_key=k,
                          years=";".join(str(y) for y in sorted(g.year.unique())),
-                         **m, main_spec_naira=gm.amount_naira.sum(),
+                         **m, proposed_sector=proposed["common_sector"], proposed_status=proposed["status"],
+                         main_spec_naira=gm.amount_naira.sum(),
                          main_spec_share=gm.amount_naira.sum() / total_main))
     cw = pd.DataFrame(rows)
     return cw[["bank", "printed_category", "label_key", "years", "common_sector", "rule", "sensitivity_group",
-               "services_activity", "status", "reason", "main_spec_naira", "main_spec_share"]]
+               "services_activity", "status", "reason", "proposed_sector", "proposed_status",
+               "main_spec_naira", "main_spec_share"]]
 
 
 def main() -> int:
+    e = pd.read_csv(PROCESSED / "exposures_by_sector.csv")
     cw = build()
+    splits, per_bank = build_splits(cw, e)
     cw.to_csv(PROCESSED / "sector_crosswalk.csv", index=False)
-    print(f"{len(cw)} rows; status: {cw.status.value_counts().to_dict()}; unmapped: {(cw.common_sector == '').sum()}")
+    splits.to_csv(PROCESSED / "sector_crosswalk_splits.csv", index=False)
+    per_bank.to_csv(PROCESSED.parent / "interim" / "oil_gas_split_shares.csv", index=False)
+    print(f"{len(cw)} rows; status: {cw.status.value_counts().to_dict()}; split rows: {(cw.rule == 'split').sum()}; "
+          f"split lines: {len(splits)}")
     return 0
 
 

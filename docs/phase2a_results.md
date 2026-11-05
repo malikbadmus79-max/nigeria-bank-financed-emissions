@@ -11,6 +11,7 @@ Date: 2026-11-05. Plan: `docs/analysis_plan.md` sections 4 and 5. No intensity o
 | `data/processed/btr1_emissions_by_category.csv` | BTR1 Table 2.10, all categories, 2019-2022 (kt CO2e), plus NID sub-categories of 1.A.1, 1.A.2, 1.A.4 and 1.B.1 |
 | `data/processed/nbs_gdp_by_activity.csv` | NBS GDP at current basic prices, 46 activities, 2019-2024 (=N= million and naira) |
 | `data/interim/btr1_checks.csv`, `nbs_gdp_checks.csv`, `sector_map_checks.csv` | 99, 7 and 71 checks, all pass |
+| `data/processed/sector_crosswalk_splits.csv`, `data/interim/oil_gas_split_shares.csv` | shares for split labels (added at sign-off, 2026-11-05) |
 | `data/interim/phase0_sources.csv` | 7 rows added (IFRS S2, its 2025 amendments, a copy of IFRS S2 used only as a cross-check, the FRC roadmap, the 2025 GDP search and two NBS files it returned); columns `pages_used` and `licence_note` added; the 97 existing rows are unchanged |
 
 Code: `phase2a_crosswalk.py`, `phase2a_sector_map.py`, `phase2a_btr1.py`, `phase2a_nbs.py`, `phase2a_sources.py`.
@@ -90,6 +91,29 @@ These are logged for RQ4; the disclosure table is Phase 4 work.
 4. The BTR1 2017-2022 energy rows were read by OCR from an image in the PDF (all values sum-checked and compared with the image).
 5. The crosswalk and sector map need author sign-off before section 6 is run (plan section 4).
 
-## Review list
+## Sign-off (2026-11-05)
 
-The 37 crosswalk rows marked `review` are in `sector_crosswalk.csv` (status column); the sector map has 4 review rows (1.A.1.c in the upstream group, and 1.A.4.c, 1.B.1.a and 1.B.1.b not assigned).
+The author signed off the 37 crosswalk review rows and the 4 sector-map review rows. The decisions are recorded as dated additions in `docs/analysis_plan.md` (section 4; sensitivities S3g-S3l in section 7). Every crosswalk row is now `ok`; reviewed rows carry "Signed off 2026-11-05: <decision>. Proposal: <original reasoning>" as their reason, and the columns `proposed_sector` and `proposed_status` keep the proposal.
+
+New files: `data/processed/sector_crosswalk_splits.csv` (228 lines: one per bank, label, year and component for the 18 split labels, with the share, its basis and its source) and `data/interim/oil_gas_split_shares.csv` (each split bank's shares by year).
+
+Undivided "Oil and gas" (12 labels): split by the simple average of Access's and FCMB's printed shares in the same year (main specification; Access PDF pp. 230, 219, 224, 233, 209; FCMB PDF pp. 77, 76, 63, 70, 79, 83). Access FY2025 omits its downstream row, so 2025 uses FCMB alone. Shares used:
+
+| Year | Upstream | Downstream | Services | Banks |
+|---|---|---|---|---|
+| 2020 | 21.3% | 19.3% | 59.4% | Access, FCMB |
+| 2021 | 19.1% | 22.3% | 58.6% | Access, FCMB |
+| 2022 | 21.2% | 26.0% | 52.8% | Access, FCMB |
+| 2023 | 30.1% | 21.0% | 48.9% | Access, FCMB |
+| 2024 | 48.9% | 23.0% | 28.1% | Access, FCMB |
+| 2025 | 45.6% | 30.4% | 24.0% | FCMB |
+
+Components: upstream to oil and gas upstream; downstream to services (general commerce rule; S3j oil refining); services to services (S3i upstream). Sensitivities S3g (all upstream) and S3h (all downstream).
+
+Combined categories (construction and real estate at five banks; GTCO information, telecoms and transport): split by same-year NBS GDP shares, construction 28-31% against real estate; transport 9-11% against information and communication. 2025 uses the 2024 shares. S3k restores the single mapping (construction; transport).
+
+Kept as proposed: "General" (economy-wide; zero under S3b), Stanbic "Mining" (oil and gas upstream; S3l non-oil mining), First HoldCo "Utilities" (power), "Retail services" (services), "Conglomerate" (manufacturing), "Mortgage" (zero), Unity "Utilities" and Fidelity "Other public utilities" (water). S3f's target is services.
+
+Sector map: 1.A.1.c in oil and gas upstream accepted; 1.A.4.c and 1.B.1.b added to agriculture, forestry and fishing; 1.B.1.a added to the non-oil mining (merged) group. Assigned inventory categories now cover 82.5-83.4% of national emissions without LULUCF in 2019-2022; the remainder is residential combustion (1.A.4.b), not attributed under the plan. All 14 sector-map rows are `ok`; the 71 coverage checks pass.
+
+No intensity or financed-emissions figure has been computed.

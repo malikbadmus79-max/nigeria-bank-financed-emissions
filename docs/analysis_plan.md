@@ -141,6 +141,17 @@ The economy-wide average and the services intensity are computed for each year o
 
 The crosswalk is written to `data/processed/sector_crosswalk.csv` before any intensity is applied, with one row per distinct printed label per bank: symbol, label as printed, years in which the label appears, common sector, rule applied (mapped, services, economy-wide, zero), and a note on ambiguous labels. A second file, `data/processed/btr1_nbs_sector_map.csv`, maps each common sector to its BTR1 categories and NBS activities. Both are reviewed and signed off by the author before section 6 is run; changes after sign-off are logged as deviations.
 
+Recorded addition, 2026-11-05 (author sign-off of the crosswalk and sector map). The rows proposed for review in Phase 2a (`docs/phase2a_results.md`) are settled as follows; no other rule in this plan changes.
+
+1. Undivided "Oil and gas" (any bank that prints oil and gas as one category) is split into upstream, downstream and services using, for each year, the simple average of the shares printed by the banks that print that split (Access and FCMB, main specification). A bank-year is used only if all three rows are printed; Access FY2025 omits its downstream row, so 2025 uses FCMB alone. The shares and their source pages are recorded in `data/processed/sector_crosswalk_splits.csv` and `data/interim/oil_gas_split_shares.csv`. Components: upstream to oil and gas upstream; downstream and services as in items 2 and 3.
+2. "Oil and gas - services" is mapped to services.
+3. "Oil and gas - downstream" stays in services (trade, under the general commerce rule). The target of S3f is therefore services.
+4. Combined categories (construction and real estate; information, telecommunications and transport) are split by the NBS GDP shares (current basic prices) of their two activities in the same year: construction (NBS 24) and real estate (NBS 40); transport (NBS 27-32) and information and communication (NBS 33-36). 2025 uses the 2024 shares, because NBS 2025 GDP by activity was not located (section 5).
+5. Kept as proposed: "General" (economy-wide average; zero under S3b); Stanbic "Mining" (oil and gas upstream, because Stanbic prints no oil and gas row); First HoldCo "Utilities" (power); First HoldCo "Retail services" (services, general commerce rule); Access "Conglomerate" (manufacturing); "Mortgage" (zero, individuals rule); Unity "Utilities" and Fidelity "Other public utilities" (water, waste and sewerage).
+6. Sector map: other energy industries (1.A.1.c) are assigned to oil and gas upstream; fuel combustion in agriculture, forestry and fishing (1.A.4.c) and fuel transformation (charcoal production, 1.B.1.b) to agriculture, forestry and fishing; coal mining and handling (1.B.1.a) to the non-oil mining group, which is merged with manufacturing and construction because the NID does not split 1.A.2 (this section, "where a split is not printed ... the sectors are merged").
+
+The sensitivities that go with these decisions are S3g-S3l (section 7).
+
 ## 5. Emission intensity
 
 ### Definition
@@ -202,12 +213,20 @@ Each sensitivity changes one element of the main specification, holds the rest f
 | S3c | Individuals and retail | zero | economy-wide average |
 | S3d | Government | services intensity | zero |
 | S3e | Finance and insurance | services intensity | zero |
-| S3f | Access 2025 printed-total residual (added 2026-11-04, see below) | economy-wide average ("Other" rule) | the common sector to which Access's "Oil And Gas - downstream" label is mapped in the crosswalk |
+| S3f | Access 2025 printed-total residual (added 2026-11-04, see below) | economy-wide average ("Other" rule) | the common sector to which Access's "Oil And Gas - downstream" label is mapped in the crosswalk (services, per the 2026-11-05 sign-off) |
+| S3g | Undivided oil and gas (added 2026-11-05) | split by Access/FCMB average shares (section 4) | all to oil and gas upstream |
+| S3h | Undivided oil and gas (added 2026-11-05) | split by Access/FCMB average shares | all to downstream (services, general commerce rule) |
+| S3i | "Oil and gas - services" and the services share of split oil and gas (added 2026-11-05) | services | oil and gas upstream |
+| S3j | "Oil and gas - downstream" and the downstream share of split oil and gas (added 2026-11-05) | services (general commerce rule) | oil refining |
+| S3k | Combined categories: construction and real estate; information, telecommunications and transport (added 2026-11-05) | split by same-year NBS GDP shares | construction; transport (single mapping) |
+| S3l | Stanbic "Mining" (added 2026-11-05) | oil and gas upstream | mining and quarrying (non-oil) |
 | S4 | 2023-2025 intensity | Option A (emissions held at 2022, later-year GDP) | Option B (emissions extended with PIK top-level growth to 2024; 2025 as in section 5) |
 | S5 | LULUCF | excluded from agriculture | BTR1 category 4 LULUCF added to agriculture emissions |
 | S6 | Emissions source | BTR1 sector emissions | Climate Watch source sector emissions (Climate Watch API, 1990-2023) mapped to the common sectors, same GDP denominators |
 
 Recorded addition, 2026-11-04 (S3f). The Access Holdings FY2025 sector table omits its "Oil And Gas - downstream" row, so the printed total exceeds the printed rows by 249,219 million naira. By author decision this difference is carried as one row, "unallocated (printed total residual)" (`docs/phase1b_results.md`, deviation 8). In the main specification it takes the "Other" rule (economy-wide average intensity); S3f assigns it instead to the common sector of Access's "Oil And Gas - downstream" label in other years. S3f was added after Phase 1b extraction and before any intensity or estimate was computed. No other rule or sensitivity is changed by this addition.
+
+Recorded addition, 2026-11-05 (S3g-S3l). These sensitivities accompany the author's sign-off of the crosswalk and sector map (section 4, recorded addition of the same date). They were fixed before any intensity or estimate was computed. "General" takes the "Other" rule, so its zero sensitivity is S3b and needs no new entry. No other rule or sensitivity is changed by this addition.
 
 Reasons for the main choices not argued above. S5: LULUCF emissions and removals arise from land-use change across many land users and cannot be tied to the agricultural borrowers of commercial banks; excluding them is the conservative main case, and the printed BTR1 totals with and without LULUCF show that the choice is material at national level. S6: Climate Watch sectors (electricity/heat, manufacturing/construction, transportation, building, fugitive emissions, industrial processes, agriculture, waste, LULUCF) map to the common sectors at a similar level of detail, so the sensitivity tests dependence on the inventory source. The Climate Watch licence was not confirmed on an opened page (Phase 0); the sensitivity is computed, but raw Climate Watch values are redistributed in the repository only if the licence is confirmed.
 
