@@ -1,0 +1,4 @@
+check,result,detail
+fuel_factor_fit,pass,"CO2 per kt fuel fitted to the 8 printed vehicle-type CO2 values (2000, 2022): gasoline 3.0699, diesel 3.1864; largest relative misfit 0.12%"
+method_reproduces_printed_2022_shares,pass,largest gap between rebuilt and printed 2022 vehicle shares 0.00 percentage points (car share printed 59.27%)
+printed_vehicle_sum_equals_table_3_27_2022,pass,"Table AII.1 2022 sum 56,999.8 kt vs Table 3.27 57,000 kt"

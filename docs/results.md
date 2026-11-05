@@ -173,6 +173,76 @@ Flags (reporting rule: the change from oil-refining, or water-and-waste, lines i
 
 S3j (downstream lending treated as oil refining) is driven entirely by the oil-refining intensity, which rises to 82.9 t CO2e per million naira in 2024 as refining value added falls to N11.8 billion; S3j sets the maximum of the totals from 2021. Figure: `figures/fig3_estimate_ranges.png`.
 
+
+### Post-results check: S7, transport intensity excluding passenger cars
+
+**Added after the results (2026-11-05); not part of the fixed analysis plan.** The main transport intensity uses all of BTR1 category 1.A.3, which includes road transport (1.A.3.b) and, within it, passenger cars (1.A.3.b.i). S7 removes passenger-car emissions from the transport sector's emissions (they are then not attributed, like residential combustion); the transport value added and every other element are as in the main specification.
+
+Does the National Inventory Document split road transport by vehicle type? Yes, in two places: Annex II, Table AII.1 (PDF pp. 202-203) prints emissions by vehicle type and gas (cars, light-duty trucks, heavy-duty trucks and buses, motorcycles) for the base year 2000 and for 2022 only; Table 3.32 (PDF pp. 82-84) prints fuel use by vehicle type for every year 2000-2022. The road-transport time series itself (Table 3.27, PDF p. 80) is not split.
+
+Car emissions used: 2022 as printed in Table AII.1 (CO2 + CH4 + N2O), also applied to 2023-2024 under Option A; 2020 and 2021 rebuilt as the car share of road emissions from the Table 3.32 fuel use (CO2 per kt of gasoline and diesel fitted to the printed vehicle-type CO2 of 2000 and 2022) applied to the Table 3.27 road total. Car share of road emissions: 60.3% (2020), 59.8% (2021), 59.3% (2022, printed). IPCC category 1.A.3.b.i covers all passenger cars, privately and commercially used (including taxis).
+
+| Year | 1.A.3 (kt) | Cars 1.A.3.b.i (kt) | Transport excl. cars (kt) | Intensity main (t per million naira) | Intensity S7 |
+|---|---|---|---|---|---|
+| 2020 | 52,009 | 30,583 | 21,427 | 23.978 | 9.879 |
+| 2021 | 58,948 | 34,349 | 24,599 | 25.968 | 10.836 |
+| 2022 | 59,045 | 33,784 | 25,261 | 23.673 | 10.128 |
+| 2023 | 59,045 | 33,784 | 25,261 | 20.647 | 8.833 |
+| 2024 | 59,045 | 33,784 | 25,261 | 15.616 | 6.681 |
+| 2025 (prov.) | 59,045 | 33,784 | 25,261 | 15.616 | 6.681 |
+
+| Total | Year | Main (Mt) | S7 (Mt) | Transport share, main | Transport share, S7 |
+|---|---|---|---|---|---|
+| all available banks | 2020 | 35.24 | 27.72 | 36.3% | 19.0% |
+| all available banks | 2021 | 37.74 | 26.91 | 49.2% | 28.8% |
+| all available banks | 2022 | 39.61 | 30.15 | 41.7% | 23.5% |
+| all available banks | 2023 | 59.17 | 44.85 | 42.3% | 23.9% |
+| all available banks | 2024 | 78.34 | 62.89 | 34.5% | 18.4% |
+| all available banks | 2020-2024 | 250.10 | 192.53 | 40.0% | 22.0% |
+| all available banks | 2025 (prov.) | 77.39 | 61.00 | 37.0% | 20.1% |
+| balanced panel | 2020 | 34.98 | 27.46 | 36.6% | 19.2% |
+| balanced panel | 2021 | 37.42 | 26.60 | 49.7% | 29.2% |
+| balanced panel | 2022 | 39.33 | 29.87 | 42.0% | 23.7% |
+| balanced panel | 2023 | 58.84 | 44.52 | 42.5% | 24.0% |
+| balanced panel | 2024 | 78.34 | 62.89 | 34.5% | 18.4% |
+| balanced panel | 2020-2024 | 248.91 | 191.33 | 40.1% | 22.1% |
+| balanced panel | 2025 (prov.) | 77.39 | 61.00 | 37.0% | 20.1% |
+
+Balanced panel, 2020-2024: 248.91 Mt in the main specification and 191.33 Mt under S7; the transport share of financed emissions is 40.1% and 22.1%.
+
+Shares of financed emissions by reporting sector under S7, balanced panel, 2020-2024 pooled (`data/processed/postresults_s7_sector_shares.csv`):
+
+| Reporting sector | Loan share | Emissions share, main | Emissions share, S7 |
+|---|---|---|---|
+| Power (electricity and gas supply) | 3.9% | 20.0% | 26.0% |
+| Oil and gas, upstream | 10.0% | 19.1% | 24.9% |
+| Transport and storage | 3.2% | 40.1% | 22.1% |
+| Manufacturing | 16.7% | 7.1% | 9.3% |
+| Other (economy-wide average rule) | 7.3% | 5.0% | 6.4% |
+| Oil refining | 0.1% | 3.6% | 4.6% |
+| Agriculture, forestry and fishing | 4.1% | 2.5% | 3.3% |
+| Construction | 3.2% | 1.4% | 1.8% |
+| Services | 47.5% | 0.7% | 0.9% |
+| Water, waste and sewerage | 0.0% | 0.4% | 0.6% |
+| Mining and quarrying (non-oil) | 0.3% | 0.1% | 0.1% |
+| Individuals and other zero-rule | 3.8% | 0.0% | 0.0% |
+| Not a loan exposure | 0.0% | 0.0% | 0.0% |
+
+Transport, power and oil and gas upstream combined (balanced panel, 2020-2024 pooled; row "combined" in the file): 17.1% of loans; 79.2% of financed emissions under the main specification and 73.0% under S7.
+
+S7 financed emissions as a share of national emissions without LULUCF (BTR1), 2020-2022 (`data/processed/postresults_s7_national_share.csv`):
+
+| Total | Year | Main (Mt) | S7 (Mt) | National total without LULUCF (Mt) | Share, main | Share, S7 |
+|---|---|---|---|---|---|---|
+| all available banks | 2020 | 35.24 | 27.72 | 310.75 | 11.3% | 8.9% |
+| all available banks | 2021 | 37.74 | 26.91 | 321.58 | 11.7% | 8.4% |
+| all available banks | 2022 | 39.61 | 30.15 | 328.50 | 12.1% | 9.2% |
+| balanced panel | 2020 | 34.98 | 27.46 | 310.75 | 11.3% | 8.8% |
+| balanced panel | 2021 | 37.42 | 26.60 | 321.58 | 11.6% | 8.3% |
+| balanced panel | 2022 | 39.33 | 29.87 | 328.50 | 12.0% | 9.1% |
+
+Checks (`data/interim/postresults_s7_checks.csv`): fuel_factor_fit: pass; method_reproduces_printed_2022_shares: pass; printed_vehicle_sum_equals_table_3_27_2022: pass. Files: `data/processed/postresults_s7_road_split.csv`, `postresults_s7_intensity.csv`, `postresults_s7_results.csv`; code `src/bank_emissions/postresults_s7.py`. Earlier outputs are unchanged.
+
 ## RQ3: comparison with published financed emissions
 
 Published figures as printed, with the estimate for the same bank and year. Ratios are estimate / published; nothing is adjusted to close the gaps. "Main x coverage" applies UBA's printed share of gross exposure included (90% in 2023, 52% in 2024).

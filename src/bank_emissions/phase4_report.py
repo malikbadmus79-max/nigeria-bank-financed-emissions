@@ -115,6 +115,73 @@ def tables() -> dict:
     return T
 
 
+def post_results_s7() -> str:
+    """Section for the post-results S7 check, if it has been run."""
+    f = PROCESSED / "postresults_s7_results.csv"
+    if not f.exists():
+        return ""
+    res = pd.read_csv(f)
+    sp = pd.read_csv(PROCESSED / "postresults_s7_road_split.csv")
+    it = pd.read_csv(PROCESSED / "postresults_s7_intensity.csv")
+    ch = pd.read_csv(ROOT / "data" / "interim" / "postresults_s7_checks.csv")
+    t1 = md(pd.DataFrame({
+        "Total": res.total_type, "Year": res.year + res.provisional.map({True: " (prov.)", False: ""}),
+        "Main (Mt)": res.tco2e_main.map(mt), "S7 (Mt)": res.tco2e_s7.map(mt),
+        "Transport share, main": (res.transport_share_main * 100).map("{:.1f}%".format),
+        "Transport share, S7": (res.transport_share_s7 * 100).map("{:.1f}%".format)}))
+    cars = sp[sp.vehicle == "1.A.3.b.i"]
+    t2 = md(pd.DataFrame({
+        "Year": it.year.astype(str) + it.provisional.map({True: " (prov.)", False: ""}),
+        "1.A.3 (kt)": it.transport_kt_main.map("{:,.0f}".format), "Cars 1.A.3.b.i (kt)": it.cars_kt.map("{:,.0f}".format),
+        "Transport excl. cars (kt)": it.transport_kt_s7.map("{:,.0f}".format),
+        "Intensity main (t per million naira)": it.intensity_main_t_per_million.map("{:.3f}".format),
+        "Intensity S7": it.intensity_s7_t_per_million.map("{:.3f}".format)}))
+    bal = res[(res.total_type == "balanced panel") & (res.year == "2020-2024")].iloc[0]
+    car_share = {int(r.year): r.share_of_road_from_activity_data for r in cars.itertuples()}
+    sh_all = pd.read_csv(PROCESSED / "postresults_s7_sector_shares.csv")
+    comb = sh_all[sh_all.row_type == "combined"].iloc[0]
+    sh = sh_all[sh_all.row_type == "sector"]
+    t3 = md(pd.DataFrame({"Reporting sector": sh.reporting_sector,
+                          "Loan share": (sh.loan_share * 100).map("{:.1f}%".format),
+                          "Emissions share, main": (sh.share_main * 100).map("{:.1f}%".format),
+                          "Emissions share, S7": (sh.share_s7 * 100).map("{:.1f}%".format)}))
+    top = sh.set_index("reporting_sector").share_s7
+    top3 = top[["Transport and storage", "Power (electricity and gas supply)", "Oil and gas, upstream"]].sum()
+    ns = pd.read_csv(PROCESSED / "postresults_s7_national_share.csv")
+    t4 = md(pd.DataFrame({"Total": ns.total_type, "Year": ns.year,
+                          "Main (Mt)": ns.tco2e_main.map(mt), "S7 (Mt)": ns.tco2e_s7.map(mt),
+                          "National total without LULUCF (Mt)": ns.national_without_lulucf_tco2e.map(mt),
+                          "Share, main": (ns.share_main * 100).map("{:.1f}%".format),
+                          "Share, S7": (ns.share_s7 * 100).map("{:.1f}%".format)}))
+    return f"""
+### Post-results check: S7, transport intensity excluding passenger cars
+
+**Added after the results (2026-11-05); not part of the fixed analysis plan.** The main transport intensity uses all of BTR1 category 1.A.3, which includes road transport (1.A.3.b) and, within it, passenger cars (1.A.3.b.i). S7 removes passenger-car emissions from the transport sector's emissions (they are then not attributed, like residential combustion); the transport value added and every other element are as in the main specification.
+
+Does the National Inventory Document split road transport by vehicle type? Yes, in two places: Annex II, Table AII.1 (PDF pp. 202-203) prints emissions by vehicle type and gas (cars, light-duty trucks, heavy-duty trucks and buses, motorcycles) for the base year 2000 and for 2022 only; Table 3.32 (PDF pp. 82-84) prints fuel use by vehicle type for every year 2000-2022. The road-transport time series itself (Table 3.27, PDF p. 80) is not split.
+
+Car emissions used: 2022 as printed in Table AII.1 (CO2 + CH4 + N2O), also applied to 2023-2024 under Option A; 2020 and 2021 rebuilt as the car share of road emissions from the Table 3.32 fuel use (CO2 per kt of gasoline and diesel fitted to the printed vehicle-type CO2 of 2000 and 2022) applied to the Table 3.27 road total. Car share of road emissions: {car_share[2020]:.1%} (2020), {car_share[2021]:.1%} (2021), {car_share[2022]:.1%} (2022, printed). IPCC category 1.A.3.b.i covers all passenger cars, privately and commercially used (including taxis).
+
+{t2}
+
+{t1}
+
+Balanced panel, 2020-2024: {mt(bal.tco2e_main)} Mt in the main specification and {mt(bal.tco2e_s7)} Mt under S7; the transport share of financed emissions is {bal.transport_share_main:.1%} and {bal.transport_share_s7:.1%}.
+
+Shares of financed emissions by reporting sector under S7, balanced panel, 2020-2024 pooled (`data/processed/postresults_s7_sector_shares.csv`):
+
+{t3}
+
+Transport, power and oil and gas upstream combined (balanced panel, 2020-2024 pooled; row "combined" in the file): {comb.loan_share:.1%} of loans; {comb.share_main:.1%} of financed emissions under the main specification and {top3:.1%} under S7.
+
+S7 financed emissions as a share of national emissions without LULUCF (BTR1), 2020-2022 (`data/processed/postresults_s7_national_share.csv`):
+
+{t4}
+
+Checks (`data/interim/postresults_s7_checks.csv`): {"; ".join(f"{r.check}: {r.result}" for r in ch.itertuples())}. Files: `data/processed/postresults_s7_road_split.csv`, `postresults_s7_intensity.csv`, `postresults_s7_results.csv`; code `src/bank_emissions/postresults_s7.py`. Earlier outputs are unchanged.
+"""
+
+
 def write():
     T = tables()
     dec = pd.read_csv(PROCESSED / "change_decomposition_2022_2024.csv").set_index("bank").loc["(balanced panel total)"]
@@ -188,6 +255,7 @@ Flags (reporting rule: the change from oil-refining, or water-and-waste, lines i
 
 S3j (downstream lending treated as oil refining) is driven entirely by the oil-refining intensity, which rises to 82.9 t CO2e per million naira in 2024 as refining value added falls to N11.8 billion; S3j sets the maximum of the totals from 2021. Figure: `figures/fig3_estimate_ranges.png`.
 
+{post_results_s7()}
 ## RQ3: comparison with published financed emissions
 
 Published figures as printed, with the estimate for the same bank and year. Ratios are estimate / published; nothing is adjusted to close the gaps. "Main x coverage" applies UBA's printed share of gross exposure included (90% in 2023, 52% in 2024).

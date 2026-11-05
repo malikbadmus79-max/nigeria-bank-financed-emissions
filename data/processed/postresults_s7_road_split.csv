@@ -1,0 +1,13 @@
+year,vehicle,vehicle_name,share_of_road_from_activity_data,road_total_table_3_27_kt,kt_co2e_used,basis
+2020,1.A.3.b.i,Cars,0.6033972125508296,50684.0,30582.584320926246,car share from NID Table 3.32 fuel use (PDF pp. 82-84) x Table 3.27 road total (PDF p. 80)
+2020,1.A.3.b.ii,Light-duty trucks,0.18945480157567243,50684.0,9602.327163061382,car share from NID Table 3.32 fuel use (PDF pp. 82-84) x Table 3.27 road total (PDF p. 80)
+2020,1.A.3.b.iii,Heavy-duty trucks and buses,0.14447247099983884,50684.0,7322.442720155832,car share from NID Table 3.32 fuel use (PDF pp. 82-84) x Table 3.27 road total (PDF p. 80)
+2020,1.A.3.b.iv,Motorcycles,0.06267551487365915,50684.0,3176.64579585654,car share from NID Table 3.32 fuel use (PDF pp. 82-84) x Table 3.27 road total (PDF p. 80)
+2021,1.A.3.b.i,Cars,0.5982696204357781,57414.0,34349.051987699764,car share from NID Table 3.32 fuel use (PDF pp. 82-84) x Table 3.27 road total (PDF p. 80)
+2021,1.A.3.b.ii,Light-duty trucks,0.19032623433929693,57414.0,10927.390418356394,car share from NID Table 3.32 fuel use (PDF pp. 82-84) x Table 3.27 road total (PDF p. 80)
+2021,1.A.3.b.iii,Heavy-duty trucks and buses,0.14924260819062615,57414.0,8568.61510665661,car share from NID Table 3.32 fuel use (PDF pp. 82-84) x Table 3.27 road total (PDF p. 80)
+2021,1.A.3.b.iv,Motorcycles,0.06216153703429884,57414.0,3568.9424872872332,car share from NID Table 3.32 fuel use (PDF pp. 82-84) x Table 3.27 road total (PDF p. 80)
+2022,1.A.3.b.i,Cars,0.5926975930457525,57000.0,33783.617000000006,"printed, NID Annex II Table AII.1 (PDF p. 203), CO2 + CH4 + N2O"
+2022,1.A.3.b.ii,Light-duty trucks,0.1913775803313116,57000.0,10908.475,"printed, NID Annex II Table AII.1 (PDF p. 203), CO2 + CH4 + N2O"
+2022,1.A.3.b.iii,Heavy-duty trucks and buses,0.15440761375917517,57000.0,8801.196,"printed, NID Annex II Table AII.1 (PDF p. 203), CO2 + CH4 + N2O"
+2022,1.A.3.b.iv,Motorcycles,0.06151721286376078,57000.0,3506.466,"printed, NID Annex II Table AII.1 (PDF p. 203), CO2 + CH4 + N2O"
